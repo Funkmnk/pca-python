@@ -74,6 +74,25 @@ plt.tight_layout()
 plt.show()
 print("-" * 150)
 
+# Clustermap (variáveis agrupadas)
+plt.figure(figsize=(14, 10))
+
+sns.clustermap(
+    matriz_correlacao,
+    annot=True,
+    fmt='.2f',
+    cmap='coolwarm',
+    center=0,
+    linewidths=0.5,
+    figsize=(14, 10),
+    cbar_kws={"shrink": 0.8}
+)
+
+plt.suptitle('Clustermap - Agrupamento de Variáveis', 
+             fontsize=16, y=0.995)
+# plt.savefig('../plot/correlacao_clustermap.png', dpi=300, bbox_inches='tight')
+plt.show()
+
 # Análise de correlação
 def encontrar_corerlacoes_fortes(matriz_corr, limiar=0.7):
     
