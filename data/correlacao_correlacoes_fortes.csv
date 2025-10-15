@@ -1,2 +1,4 @@
-Variável 1,Variável 2,Correlação
-Daily_Usage_Hours,Addiction_Level,0.6007705858449478
+Variável 1          , Variável 2     , Correlação
+Daily_Usage_Hours   , Addiction_Level, 0.6007705858449478
+Apps_Used_Daily     , Addiction_Level, 0.31928702615077115
+Time_on_Social_Media, Addiction_Level, 0.3065781914244708

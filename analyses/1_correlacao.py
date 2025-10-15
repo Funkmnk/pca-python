@@ -1,3 +1,7 @@
+# Análise de Correlação - Pearson
+# Autor: Igor Chagas
+# Data: 14/10/2025
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -12,9 +16,9 @@ df = pd.read_csv('../data/teen_phone_addiction_dataset.csv')
 df.columns = df.columns.str.strip()
 
 # Visualização inicial
-print("=" * 50)
+print("=" * 70)
 print("INFORMAÇÕES GERAIS DO DATASET")
-print("=" * 50)
+print("=" * 70)
 print(f"\nDimensões: {df.shape[0]} linhas × {df.shape[1]} colunas")
 print(f"\nPrimeiras linhas:")
 print(df.head())
@@ -25,9 +29,9 @@ print("\n DICA: Fique atento a tipos de dados 'object'")
 print("-" * 150)
 
 # Análise de consistência
-print("\n" + "=" * 50)
+print("\n" + "=" * 70)
 print("ANÁLISE DE AUSENTES")
-print("=" * 50)
+print("=" * 70)
 percentual_ausentes = (df.isnull().sum() / len(df)) * 100
 print("\nPor coluna (%):")
 print(f"{percentual_ausentes.sort_values(ascending=False)}\n")
@@ -41,18 +45,18 @@ else:
     print(linhas_ausentes)
     
 # Selecionando as colunas numéricas para PCA
-print("\n" + "=" * 50)
+print("\n" + "=" * 70)
 print("SELEÇÃO DE COLUNAS NUMÉRICAS")
-print("=" * 50)
+print("=" * 70)
 df_numericas = df.select_dtypes(include=[np.number])
 print(f"\nTotal de variáveis numéricas: {df_numericas.shape[1]}")
 print(f"Variáveis: {list(df_numericas.columns)}\n")
 print("-" * 150)
 
 # Matriz de correlação
-print("\n" + "=" * 50)
+print("\n" + "=" * 70)
 print("MATRIZ DE CORRELAÇÃO")
-print("=" * 50)
+print("=" * 70)
 matriz_correlacao = df_numericas.corr(method='pearson')
 print(f"\nDimensão da matriz: {matriz_correlacao.shape}")
 
@@ -110,20 +114,20 @@ def encontrar_corerlacoes_fortes(matriz_corr, limiar=0.7):
    
     return correlacoes_fortes
 
-correlacoes_fortes = encontrar_corerlacoes_fortes(matriz_correlacao, limiar=0.6) # Definição do limiar de correlação
+correlacoes_fortes = encontrar_corerlacoes_fortes(matriz_correlacao, limiar=0.3) # Definição do limiar de correlação
 
-print("\n" + "=" * 50)
+print("\n" + "=" * 70)
 print("CORRELAÇÕES FORTES (|r|)")
-print("=" * 50)
+print("=" * 70)
 print(correlacoes_fortes)
 print("-" * 150)
 
 # Análise de correlação (multicolinearidade)
 correlacoes_muito_fortes = encontrar_corerlacoes_fortes(matriz_correlacao, limiar=0.9)
 
-print("\n" + "=" * 50)
+print("\n" + "=" * 70)
 print("ANÁLISE DE MULTICOLINEARIDADE (|r| >= 0.9)")
-print("=" * 50)
+print("=" * 70)
 if len(correlacoes_muito_fortes) > 0:
     print(correlacoes_muito_fortes)
     print("\nDICA: Considere remover uma das variáveis de cada par antes do PCA")
@@ -131,5 +135,5 @@ else:
     print("\nNenhuma multicolinearidade severa detectada!")
     
 # Salvando as correlações
-matriz_correlacao.to_csv('../data/correlacao_matriz_correlacao.csv')
-correlacoes_fortes.to_csv('../data/correlacao_correlacoes_fortes.csv', index=False)
+# matriz_correlacao.to_csv('../data/correlacao_matriz_correlacao.csv')
+# correlacoes_fortes.to_csv('../data/correlacao_correlacoes_fortes.csv', index=False)
