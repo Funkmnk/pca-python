@@ -1,4 +1,4 @@
-# Análise de Discretização do Addiction_Level
+# Discretização do Addiction_Level
 # Autor: Igor Chagas
 # Data: 14/10/2025
 
@@ -43,7 +43,7 @@ df['Addiction_Category'] = df['Addiction_Category'].cat.codes + 1
 print("\nDistribuição por categorias:")
 print(df.groupby('Addiction_Category')['Addiction_Level'].describe())
 
-df['Addiction_Category'].value_counts().sort_index().plot(kind='bar')
+df['Addiction_Category'].value_counts().sort_index().plot(kind='bar', color=['#2ecc71', '#f39c12', '#e74c3c'])
 plt.title('Distribuição das Categorias de Vício')
 plt.show()
 print("=" * 70)
