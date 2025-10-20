@@ -8,14 +8,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.preprocessing import StandardScaler
+from utils import montar_cabecalho
 
 # Config visual
 sns.set_style('whitegrid')
 plt.rcParams['figure.figsize'] = (12, 8)
-def montar_cabecalho(texto):
-	print("\n" + "=" * 70)
-	print(" " * ((70 - len(texto)) // 2) + texto)
-	print("=" * 70 + "\n")
 
 montar_cabecalho("APLICAÇÃO DO LDA")
 
@@ -168,7 +165,7 @@ df_loadings = pd.DataFrame(
 	index=features
 )
 
-print("\nLoadings (Pesos das Features):")
+print("Loadings (Pesos das Features):")
 print(df_loadings)
 
 # Salvando loadings
