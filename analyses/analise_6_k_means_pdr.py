@@ -11,7 +11,9 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score, silhouette_samples
 from sklearn.metrics import adjusted_rand_score, normalized_mutual_info_score
 from sklearn.metrics import homogeneity_score, completeness_score
-from utils import montar_cabecalho
+from utils import montar_cabecalho, visualizar_padronizacao, montar_divisor
+from utils import (plotar_boxplots_clusters, plotar_barras_medias_clusters, plotar_heatmap_clusters, plotar_radar_chart_clusters)
+from scipy.stats import f_oneway
 
 # Config visual
 sns.set_style('whitegrid')
@@ -33,119 +35,24 @@ print(f"Clustering em 1D (LD1):")
 print(f"  Shape: {X_clustering_1D.shape}")
 print(f"  Motivo: LD1 explica 99.7% da separação")
 
-X_clustering = X_clustering_1D
-n_dims = 1
-print(f"Usando clustering em {n_dims}D")
-
-# Normalização
-montar_cabecalho("NORMALIZAÇÃO DOS COMPONENTES LDA")
-
-print("Estatísticas ANTES da normalização:")
-print(f"  LD1 - Média: {X_clustering[:, 0].mean():.4f}")
-print(f"  LD1 - Desvio Padrão: {X_clustering[:, 0].std():.4f}")
-print(f"  LD1 - Min: {X_clustering[:, 0].min():.4f}")
-print(f"  LD1 - Max: {X_clustering[:, 0].max():.4f}")
-
-# Normalizando
+# Padronizando com StandarScaller
 scaler = StandardScaler()
-X_clustering_scaled = scaler.fit_transform(X_clustering)
+X_clustering_1D_scaled = scaler.fit_transform(X_clustering_1D)
 
-if X_clustering_scaled.ndim == 1:
-    X_clustering_scaled = X_clustering_scaled.reshape(-1, 1)
+print(f"\nEstatísticas antes da padronização:")
+print(f"  Média de LD1: {X_clustering_1D.mean():.4f}")
+print(f"  Desvio padrão de LD1: {X_clustering_1D.std():.4f}")
 
-print("\nEstatísticas DEPOIS da normalização:")
-print(f"  LD1 - Média: {X_clustering_scaled[:, 0].mean():.4f}")
-print(f"  LD1 - Desvio Padrão: {X_clustering_scaled[:, 0].std():.4f}")
-print(f"  LD1 - Min: {X_clustering_scaled[:, 0].min():.4f}")
-print(f"  LD1 - Max: {X_clustering_scaled[:, 0].max():.4f}")
+print(f"\nEstatísticas depois da padronização:")
+print(f"  Média de LD1_scaled: {X_clustering_1D_scaled.mean():.4f}")
+print(f"  Desvio padrão de LD1_scaled: {X_clustering_1D_scaled.std():.4f}")
 
-print("\nDados normalizados: Média = 0, Desvio = 1")
+# visualizar_padronizacao(X_clustering_1D, X_clustering_1D_scaled, 'LD1', '../plot/comparacao/standardscaler_comparacao.png')
 
-# plotando a visualização
-print("\nPlotando a normalização...")
-
-fig, axes = plt.subplots(2, 2, figsize=(14, 10))
-
-dados_antes = X_clustering.flatten()
-dados_depois = X_clustering_scaled.flatten()
-
-# Histogramas
-# Antes da normalização
-axes[0, 0].hist(dados_antes, bins=40, color='steelblue', 
-                alpha=0.7, edgecolor='black')
-axes[0, 0].axvline(dados_antes.mean(), color='red', 
-                   linestyle='--', linewidth=2, label=f'Média = {dados_antes.mean():.2f}')
-axes[0, 0].axvline(np.median(dados_antes), color='orange', 
-                   linestyle='--', linewidth=2, label=f'Mediana = {np.median(dados_antes):.2f}')
-axes[0, 0].set_xlabel('LD1 (escala original)', fontsize=11)
-axes[0, 0].set_ylabel('Frequência', fontsize=11)
-axes[0, 0].set_title('Antes da normalização - Histograma', fontsize=12, fontweight='bold')
-axes[0, 0].legend(loc='best')
-axes[0, 0].grid(alpha=0.3)
-
-# Depois da normalização
-axes[0, 1].hist(dados_depois, bins=40, color='darkgreen', 
-                alpha=0.7, edgecolor='black')
-axes[0, 1].axvline(dados_depois.mean(), color='red', 
-                   linestyle='--', linewidth=2, label=f'Média = {dados_depois.mean():.2f}')
-axes[0, 1].axvline(np.median(dados_depois), color='orange', 
-                   linestyle='--', linewidth=2, label=f'Mediana = {np.median(dados_depois):.2f}')
-axes[0, 1].set_xlabel('LD1 (Normalizado)', fontsize=11)
-axes[0, 1].set_ylabel('Frequência', fontsize=11)
-axes[0, 1].set_title('Depois da normalização - Histograma', fontsize=12, fontweight='bold')
-axes[0, 1].legend(loc='best')
-axes[0, 1].grid(alpha=0.3)
-
-# Boxplots
-# Antes da normalização
-bp1 = axes[1, 0].boxplot(dados_antes, vert=True, patch_artist=True,
-                          widths=0.5, showmeans=True,
-                          meanprops=dict(marker='D', markerfacecolor='red', markersize=8),
-                          medianprops=dict(color='orange', linewidth=2),
-                          boxprops=dict(facecolor='steelblue', alpha=0.7),
-                          whiskerprops=dict(color='black', linewidth=1.5),
-                          capprops=dict(color='black', linewidth=1.5))
-axes[1, 0].set_ylabel('LD1 (Escala Original)', fontsize=11)
-axes[1, 0].set_title('Aantes da Normalização - Boxplot', fontsize=12, fontweight='bold')
-axes[1, 0].set_xticks([1])
-axes[1, 0].set_xticklabels(['LD1'])
-axes[1, 0].grid(axis='y', alpha=0.3)
-
-# Estatísticas
-q1, median, q3 = np.percentile(dados_antes, [25, 50, 75])
-axes[1, 0].text(1.3, q1, f'Q1 = {q1:.2f}', fontsize=9, va='center')
-axes[1, 0].text(1.3, median, f'Mediana = {median:.2f}', fontsize=9, va='center')
-axes[1, 0].text(1.3, q3, f'Q3 = {q3:.2f}', fontsize=9, va='center')
-
-# Depois da normalização
-bp2 = axes[1, 1].boxplot(dados_depois, vert=True, patch_artist=True,
-                          widths=0.5, showmeans=True,
-                          meanprops=dict(marker='D', markerfacecolor='red', markersize=8),
-                          medianprops=dict(color='orange', linewidth=2),
-                          boxprops=dict(facecolor='darkgreen', alpha=0.7),
-                          whiskerprops=dict(color='black', linewidth=1.5),
-                          capprops=dict(color='black', linewidth=1.5))
-axes[1, 1].set_ylabel('LD1 (Normalizado)', fontsize=11)
-axes[1, 1].set_title('Depois da normalização - Boxplot', fontsize=12, fontweight='bold')
-axes[1, 1].set_xticks([1])
-axes[1, 1].set_xticklabels(['LD1'])
-axes[1, 1].grid(axis='y', alpha=0.3)
-
-# Estatísticas
-q1_norm, median_norm, q3_norm = np.percentile(dados_depois, [25, 50, 75])
-axes[1, 1].text(1.3, q1_norm, f'Q1 = {q1_norm:.2f}', fontsize=9, va='center')
-axes[1, 1].text(1.3, median_norm, f'Mediana = {median_norm:.2f}', fontsize=9, va='center')
-axes[1, 1].text(1.3, q3_norm, f'Q3 = {q3_norm:.2f}', fontsize=9, va='center')
-
-# Linha de referência
-axes[1, 1].axhline(y=0, color='red', linestyle=':', linewidth=2, alpha=0.5, label='Zero')
-axes[1, 1].legend(loc='best')
-
-plt.suptitle('Impacto da normalização (StandardScaler) nos componentes LDA', 
-             fontsize=14, fontweight='bold', y=0.995)
-plt.tight_layout()
-plt.savefig('../plot/comparacao/normalizacao_distribuicao.png', dpi=300, bbox_inches='tight')
-plt.show()
+# Dados para clusterização 
+X_clustering = X_clustering_1D_scaled
+n_dims = 1
+print(f"\nUsando clustering em {n_dims}D")
 
 # Var de comparação
 y_true = df_lda['Addiction_Category'].values
@@ -164,10 +71,10 @@ print("-" * 40)
 for k in k_range:
     # K-Means
     kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
-    clusters = kmeans.fit_predict(X_clustering_scaled)
+    clusters = kmeans.fit_predict(X_clustering)
     
     inercia = kmeans.inertia_
-    silhouette = silhouette_score(X_clustering_scaled, clusters)
+    silhouette = silhouette_score(X_clustering, clusters)
     
     inercias.append(inercia)
     silhouette_scores.append(silhouette)
@@ -205,14 +112,14 @@ ax2.plot(k_ideal, silhouette_scores[idx_ideal], 'ro', markersize=15, label=f'k={
 ax2.legend()
 
 plt.tight_layout()
-plt.savefig('../plot/comparacao/kmeans_01_elbow_method.png', dpi=300, bbox_inches='tight')
+plt.savefig('../plot/kmeans_01_elbow_method.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 # Aplicando K-Means
 montar_cabecalho(f"APLICANDO K-MEANS COM k={k_ideal}")
 
 kmeans_final = KMeans(n_clusters=k_ideal, random_state=42, n_init=10)
-clusters = kmeans_final.fit_predict(X_clustering_scaled)
+clusters = kmeans_final.fit_predict(X_clustering)
 
 # Clusters no DF
 df_lda['Cluster'] = clusters
@@ -222,15 +129,16 @@ print("\nDistribuição dos clusters:")
 print(df_lda['Cluster'].value_counts().sort_index())
 
 # Centróides
-centroides_scaled = kmeans_final.cluster_centers_
-centroides = scaler.inverse_transform(centroides_scaled)
+centroides = kmeans_final.cluster_centers_
 
-print(f"\nCentróides dos clusters (LD1 - escala original):")
+print(f"\nCentróides dos clusters (LD1):")
 for i, centro in enumerate(centroides):
-    print(f"  Cluster {i}: LD1 = {centro[0]:.3f}")
+    print(f"  Cluster {i+1}: LD1 = {centro[0]:.3f}")
     
 # Visualizando os clusters
 montar_cabecalho("VISUALIZAÇÃO DOS CLUSTERS")
+
+print("Exibindo gráficos...")
 
 if n_dims == 1:
     # Histograma
@@ -281,7 +189,7 @@ if n_dims == 1:
     ax2.set_ylim(-1, 1)
     
     plt.tight_layout()
-    plt.savefig('../plot/comparacao/kmeans_02_clusters_1d.png', dpi=300, bbox_inches='tight')
+    plt.savefig('../plot/kmeans_02_clusters_1d.png', dpi=300, bbox_inches='tight')
     plt.show()
 
 else:
@@ -309,14 +217,14 @@ else:
     plt.axhline(y=0, color='gray', linestyle='--', linewidth=0.8, alpha=0.5)
     plt.axvline(x=0, color='gray', linestyle='--', linewidth=0.8, alpha=0.5)
     plt.tight_layout()
-    plt.savefig('../plot/comparacao/kmeans_02_clusters_2d.png', dpi=300, bbox_inches='tight')
+    plt.savefig('../plot/kmeans_02_clusters_2d.png', dpi=300, bbox_inches='tight')
     plt.show()
     
 # Silhouette pós clusterização
 montar_cabecalho("ANÁLISE DE SILHOUETTE POR CLUSTER")
 
 # Score geral
-silhouette_avg = silhouette_score(X_clustering_scaled, clusters)
+silhouette_avg = silhouette_score(X_clustering, clusters)
 print(f"Silhouette Score (geral): {silhouette_avg:.4f}")
 
 if silhouette_avg > 0.7:
@@ -331,7 +239,7 @@ else:
 print(f"  Qualidade dos clusters: {qualidade}")
 
 # Silhouette nas amostras
-silhouette_vals = silhouette_samples(X_clustering_scaled, clusters)
+silhouette_vals = silhouette_samples(X_clustering, clusters)
 
 print(f"\nSilhouette Score por cluster:")
 for cluster in sorted(np.unique(clusters)):
@@ -377,7 +285,7 @@ ax.legend(loc='best')
 ax.grid(alpha=0.3)
 
 plt.tight_layout()
-plt.savefig('../plot/comparacao/kmeans_03_silhouette_analysis.png', dpi=300, bbox_inches='tight')
+plt.savefig('../plot/kmeans_03_silhouette_analysis.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 # Comparando com as categorias originais
@@ -397,7 +305,7 @@ plt.title('Matriz de confusão: categorias vs clusters', fontsize=14, fontweight
 plt.ylabel('Addiction_Category (original)', fontsize=12)
 plt.xlabel('Cluster (K-means)', fontsize=12)
 plt.tight_layout()
-plt.savefig('../plot/comparacao/kmeans_04_confusion_matrix.png', dpi=300, bbox_inches='tight')
+plt.savefig('../plot/kmeans_04_confusion_matrix.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 # Métricas
@@ -422,3 +330,228 @@ elif ari > 0.4:
     print("  Concordância MODERADA. Clusters mostram novos padrões")
 else:
     print("  BAIXA concordância. Clusters muito diferentes das categorias")
+    
+#==========================================================================================
+#                             CARACTERIZAÇÃO DOS CLUSTERS
+#==========================================================================================
+montar_cabecalho("CARACTERIZAÇÃO DOS CLUSTERS")
+
+# Carregando df original (descritiva)
+df_original = pd.read_csv('../data/teen_phone_addiction_dataset.csv')
+df_original.columns = df_original.columns.str.strip()
+
+print("Carregando dataset original...")
+print(f"  Shape do dataset (original): {df_original.shape}")
+print(f"  Colunas do dataset ({df_original.shape[1]}):")
+for col in df_original.columns:
+    print(f"  - {col}")
+
+# Juntando os clusters ao dataset
+df_original = df_original.reset_index(drop=True)
+df_lda = df_lda.reset_index(drop=True)
+
+df_original['Cluster'] = df_lda['Cluster'].values
+
+print("\nDistribuição dos clusters:")
+print(df_original['Cluster'].value_counts().sort_index())
+
+# Escolhendo as variáveis de descrição
+montar_cabecalho("SELEÇÃO DAS VARIÁVEIS IMPORTANTES")
+
+variaveis_numericas = [
+    'Age',
+    'Daily_Usage_Hours',
+    'Sleep_Hours',
+    'Academic_Performance',
+    'Social_Interactions',
+    'Anxiety_Level',
+    'Depression_Level',
+    'Self_Esteem',
+    'Parental_Control',
+    'Phone_Checks_Per_Day',
+    'Time_on_Social_Media'
+]
+
+variaveis_categoricas = [
+    'Gender',
+    'Phone_Usage_Purpose',
+    'Family_Communication'
+]
+
+print(f"\nNuméricas ({len(variaveis_numericas)}):")
+for var in variaveis_numericas:
+    print(f"  - {var}")
+
+print(f"\nCategóricas ({len(variaveis_categoricas)}):")
+for var in variaveis_categoricas:
+    print(f"  - {var}")
+
+# Descritia por cluster
+montar_cabecalho("ESTATÍSTICAS DESCRITIVAS POR CLUSTER")
+
+estatisticas_numericas = df_original.groupby('Cluster')[variaveis_numericas].agg([
+    'count',
+    'mean',
+    'std',
+    'min',
+    'median',
+    'max'
+]).round(2)
+
+print("Estatísticas numércias por cluster:")
+for cluster in sorted(df_original['Cluster'].unique()):
+    print(f"{montar_divisor(f"Cluster {cluster}", 70)}")
+    print(estatisticas_numericas.loc[cluster].to_string())
+    
+# Média dos clusters
+medias_por_cluster = df_original.groupby('Cluster')[variaveis_numericas].mean().round(2)
+
+montar_divisor("MÉDIAS POR CLUSTER", 70)
+print(medias_por_cluster.T.to_string())
+
+# Distribuição das variáveis categóricas
+montar_divisor("DISTRIBUIÇÃO DE VARIÁVEIS CATEGÓRICAS", 70)
+
+print("-"*70)  
+for var in variaveis_categoricas:
+    crosstab = pd.crosstab(
+        df_original['Cluster'], 
+        df_original[var], 
+        normalize='index'
+    ) * 100
+    print(crosstab.round(1).to_string())
+    print("-"*70)
+    
+# Visualização (assim vai)
+montar_cabecalho("Visualização gráfica")
+
+# Box plots
+print("Plotando boxplots...")
+plotar_boxplots_clusters(df_original, variaveis_numericas)
+
+# Medias
+print("\nPlotando médias...")
+plotar_barras_medias_clusters(medias_por_cluster, variaveis_numericas)
+
+# Heatmap
+print("\nPlotando heatmap...")
+plotar_heatmap_clusters(medias_por_cluster)
+
+# Spider plot
+print("\nPlotando spider plot...")
+plotar_radar_chart_clusters(medias_por_cluster, variaveis_numericas)
+
+"""
+Cluster 0 tem um perfil de uso menor, com menor tempo de uso, menor tempo em redes sociais e checagem de celular
+mais baixa, mas o desempenho acadêmico e idade é menor em relação aos outros grupos. Em contraponto, eles tem maior
+nível de interações sociais, níveis de ansiedade e depressão mais baixos que a média, maior auto estima, maior 
+presença de controle parental e dorme melhor.
+
+Cluster 1 tem um perfil de uso de celular muito maior (uso diário, tempo em rede social e checagem de celular por dia), 
+tendo um perfil menos saudável em relação a sono, níveis de auto estima, depressão, ansiedade e interações sociais, 
+a presença parental também é menor, isso pode indicar um lar menos saudável, e que não necessariamente se reflete no 
+desempenho acadêmico, sendo ele moderado.
+
+Desempenho acadêmico e saúde mental
+>
+>Cluster 2 tem um perfil de grande risco, mesmo tendo um uso de celulares próximo do normal, os níveis de ansiedade e 
+depressão são os maiores até agora, com níveis de interação social, desempenho acadêmico bem acima da média, e controle
+parental baixo, sua saúde mental pode se camuflar. A aparente causa demostra ser o desempenho acadêmico elevado, a pressão 
+por ele pode deprimir os adolescentes, que sem a atenção adequada dos pais, apresentam um perfil de risco que necessita de 
+atenção imediata.
+"""
+
+# Testes estatísticos
+# Anova
+montar_cabecalho("TESTE ANOVA")
+montar_divisor("Resultados:", 40)
+print("H0 (Hipótese Nula): As médias dos clusters são iguais")
+print("H1 (Hipótese Alternativa): Pelo menos uma média é diferente")
+print("Significância: α = 0.05 (p-value < 0.05 → rejeitar H0)\n")
+
+resultados_anova = []
+
+for var in variaveis_numericas:
+    # Grupos
+    grupos = [df_original[df_original['Cluster'] == c][var].values 
+              for c in sorted(df_original['Cluster'].unique())]
+    
+    f_stat, p_value = f_oneway(*grupos)
+    
+    # Interpretação
+    if p_value < 0.001:
+        significancia = "ALTAMENTE SIGNIFICATIVO"
+    elif p_value < 0.01:
+        significancia = "MUITO SIGNIFICATIVO"
+    elif p_value < 0.05:
+        significancia = "SIGNIFICATIVO"
+    else:
+        significancia = "NÃO SIGNIFICATIVO"
+        
+    resultados_anova.append({
+        'Variável': var,
+        'F-statistic': f_stat,
+        'p-value': p_value,
+        'Significância': significancia
+    })
+    
+    print(f"Variável: {var}")
+    print(f"   F-statistic: {f_stat:.4f}")
+    print(f"   p-value: {p_value:.6f}")
+    print(f"   Resultado: {significancia}")
+    print()
+    
+# DF com resultados
+df_anova = pd.DataFrame(resultados_anova)
+df_anova = df_anova.sort_values('p-value')
+
+# Apresentando
+montar_divisor("Variáveis organizadas por significancia", 40)
+print(df_anova.to_string(index=False))
+
+# Interpretação final (desconsiderando o heatmap padronizado, considerando apenas ANOVA)
+montar_cabecalho("CARACTERIZANDO OS CLUSTERS")
+
+# Organizando as features
+vars_sig = df_anova[df_anova['p-value'] < 0.05]['Variável'].tolist()
+
+# Cluster 0
+montar_divisor("Cluster 0 - Uso controlado", 70)
+print(f"Tamanho: {(df_original['Cluster'] == 0).sum()} adolescentes " +
+      f"({(df_original['Cluster'] == 0).sum() / len(df_original) * 100:.1f}%)")
+
+print("\nCaracterísticas principais (por significância):")
+for var in vars_sig:
+    valor = medias_por_cluster.loc[0, var]
+    print(f"  • {var}: {valor:.2f}")
+
+print("\nInterpretação:")
+print("  Uso saudável, com baixos níveis de uso de smartphone e melhor qualidade de sono em relação aos outros grupos.")
+
+# Cluster 1
+montar_divisor("Cluster 1 - Uso intenso", 70)
+print(f"Tamanho: {(df_original['Cluster'] == 1).sum()} adolescentes " +
+      f"({(df_original['Cluster'] == 1).sum() / len(df_original) * 100:.1f}%)")
+
+print("\nCaracterísticas principais (por significância):")
+for var in vars_sig:
+    valor = medias_por_cluster.loc[1, var]
+    print(f"  • {var}: {valor:.2f}")
+
+print("\nInterpretação:")
+print("  Contraponto direto ao cluster 0, com o maior nível de uso, tanto em horas quanto em checagens, e em indicadores chave (ANOVA). Sono prejudicado, tendo o menor valor dos grupos")
+
+# Cluster 2
+montar_divisor("Cluster 2 - Uso moderado", 70)
+print(f"Tamanho: {(df_original['Cluster'] == 2).sum()} adolescentes " +
+      f"({(df_original['Cluster'] == 2).sum() / len(df_original) * 100:.1f}%)")
+
+print("\nCaracterísticas principais (por significância):")
+for var in vars_sig:
+    valor = medias_por_cluster.loc[2, var]
+    print(f"  • {var}: {valor:.2f}")
+
+print("\nInterpretação:")
+print("  Maior grupo dos 3, com indicadores de uso controlados, se posicionando entre o Cluster 0 e Cluster 1.")
+
+# Salvando os DF's
