@@ -11,7 +11,7 @@
 - Maior tempo diário, tempo em redes sociais e checagens por dia
 - Pior qualidade de sono (menor média entre os grupos)
 
-### Cluster 2: Uso Moderado (35.1%)
+### Cluster 2: Uso moderado (35.1%)
 - Maior grupo.
 - Indicadores de uso controlados
 - Se posiciona entre o Cluster 0 e Cluster 1 na maioria das features
