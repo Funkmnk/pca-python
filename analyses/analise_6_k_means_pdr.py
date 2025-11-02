@@ -554,4 +554,11 @@ for var in vars_sig:
 print("\nInterpretação:")
 print("  Maior grupo dos 3, com indicadores de uso controlados, se posicionando entre o Cluster 0 e Cluster 1.")
 
-# Salvando os DF's
+# Clusters
+df_original.to_csv('../data/clusterizacao/dataset_com_clusters.csv', index=False)
+
+# Descritiva
+medias_por_cluster.to_csv('../data/clusterizacao/caracterizacao_medias.csv')
+
+# ANOVA
+df_anova.to_csv('../data/clusterizacao/caracterizacao_anova.csv', index=False)
