@@ -31,7 +31,7 @@ print(df[var_analise].describe())
 # Criando categorias
 montar_cabecalho(f"CRIANDO CATEGORIAS DE {var_analise}")
 
-bins = [0, 3.33, 6.66, 10.0]
+bins = [0, 8.0, 9.5, 10.0]
 labels = [1, 2, 3]
 
 df['Addiction_Category'] = pd.cut(
@@ -40,6 +40,12 @@ df['Addiction_Category'] = pd.cut(
     labels=labels,
     include_lowest=True
 )
+
+contagem = df['Addiction_Category'].value_counts()
+print(contagem)
+
+if contagem.min() < 5:
+    print("ALERTA CRÍTICO: Uma das classes tem menos de 5 amostras. O LDA vai falhar.")
 
 # Distribuição por categorias
 print("Distribuição por categorias:")
@@ -54,7 +60,7 @@ distribuicao.plot(kind='bar', color=['#2ecc71', '#f39c12', '#e74c3c'])
 plt.title('Distribuição das categorias de vício', fontsize=16, fontweight='bold')
 plt.xlabel('Categoria de vício', fontsize=12)
 plt.ylabel('Frequência', fontsize=12)
-plt.xticks([0, 1, 2], ['Baixo (1)', 'Moderado (2)', 'Alto (3)'], rotation=0)
+plt.xticks([0, 1, 2], ['Menor Intensidade (1)', 'Intensidade Média (2)', 'Intensidade Extrema (3)'], rotation=0)
 plt.grid(axis='y', alpha=0.3)
 plt.tight_layout()
 plt.savefig('../plots/03_distribuicao_categorias.png', dpi=300, bbox_inches='tight')

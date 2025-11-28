@@ -8,16 +8,24 @@ Segmentar adolescentes em grupos de risco de vício em smartphones e identificar
 
 ## Principais Resultados (Executive Summary)
 
-* **Insight 1 - Separação Excelente:** O modelo LDA identificou que as categorias de vício são altamente separáveis em uma única dimensão (LD1), que explica **99.7% da variância** entre os grupos. Isso indica que existe um padrão comportamental claro que distingue adolescentes com diferentes níveis de vício.
+* **Insight 1 - Separação em Dimensão Única:** O modelo LDA identificou que as categorias de vício são altamente separáveis em uma única dimensão (LD1), que explica **99.7% da variância**. Isso confirma que o comportamento de vício neste dataset segue um gradiente linear muito forte, dominado pelo volume de horas de uso.
 
-* **Insight 2 - Clusters Bem Definidos:** A clusterização K-Means (k=3) alcançou um **Silhouette Score entre 0.70-0.80**, indicando clusters consistentes e bem separados. O Cluster 1 (Uso Intenso) apresenta características críticas: uso diário >8h, sono <5h, ansiedade elevada (8-9/10) e baixo desempenho acadêmico (<60%).
+* **Insight 2 - Clusters de Comportamento:** A clusterização K-Means (k=3) alcançou um **Silhouette Score de 0.53**, indicando uma estrutura de clusters razoável. Diferente do esperado, a **Performance Acadêmica** mostrou-se estável entre os grupos (médias ~75%), sugerindo que o vício não está afetando diretamente as notas nesta amostra específica.
 
-* **Insight 3 - Validação Estatística Robusta:** Todos os pressupostos foram validados formalmente:
-  - **Normalidade:** Teste de Shapiro-Wilk confirmou distribuição normal para features críticas (p > 0.05)
-  - **Homogeneidade:** Teste de Box's M validou covariâncias homogêneas entre grupos (p > 0.05), habilitando o uso de LDA
-  - **Concordância:** ARI (Adjusted Rand Index) demonstrou alta concordância entre clusters preditos e categorias originais
+* **Insight 3 - O Impacto no Sono:** O principal diferenciador fisiológico encontrado foi o sono. O Cluster 0 (agora identificado como o de maior uso) dorme cerca de **1 hora a menos** por noite (6.0h) em comparação ao Cluster 1 (menor uso, 6.9h), validando estatisticamente o prejuízo ao descanso.
 
-* **Conclusão:** O pipeline desenvolvido é capaz de identificar com **alta confiabilidade** adolescentes em risco de vício, permitindo intervenções preventivas direcionadas.
+* **Conclusão:** O pipeline validou que o tempo de tela e o uso de redes sociais são os discriminadores mais poderosos, permitindo classificar o risco com alta precisão, mesmo quando indicadores secundários (como ansiedade ou notas) permanecem estáveis.
+
+---
+
+### Nota Metodológica Importante
+Devido ao "efeito teto" observado nos dados (alta concentração de valores extremos), a discretização da variável alvo (`Addiction_Level`) foi realizada por **distribuição relativa** e não por corte clínico absoluto.
+
+- **Categoria 1 (Baixo/Relativo):** Refere-se ao terço inferior da amostra (Scores < 8.0).
+- **Categoria 2 (Médio):** Scores intermediários.
+- **Categoria 3 (Alto):** Scores extremos (> 9.5).
+
+*Justificativa:* Essa adaptação foi necessária para garantir variância suficiente para a aplicação do algoritmo LDA.
 
 ---
 
@@ -25,7 +33,7 @@ Segmentar adolescentes em grupos de risco de vício em smartphones e identificar
 
 Este projeto segue uma estrutura sequencial de execução, onde cada script tem uma responsabilidade única:
 
-1. **`src/etl.py`**: Módulo de carregamento e sanitização de dados
+1. **`src/etl.py`** (Módulo Base): Módulo de carregamento e sanitização de dados
    - Padronização de nomes de colunas (`.str.strip()`)
    - Conversão explícita de tipos (`pd.to_numeric` com `errors='coerce'`)
    - Validação defensiva de integridade dos dados
@@ -41,8 +49,8 @@ Este projeto segue uma estrutura sequencial de execução, onde cada script tem 
    - Validação de pressupostos para LDA
 
 4. **`3_preparacao_discretizacao.py`**: Discretização da Variável Alvo
-   - Criação de 3 categorias de vício usando quantis (`pd.qcut`)
-   - Balanceamento de classes
+   - Criação de 3 categorias de vício usando cortes manuais (para garantir amostra)
+   - Balanceamento relativo de classes
    - Persistência do dataset processado
 
 5. **`4_validacao_homogeneidade.py`**: Teste de Homogeneidade de Covariâncias
@@ -51,7 +59,7 @@ Este projeto segue uma estrutura sequencial de execução, onde cada script tem 
    - Interpretação narrativa de resultados
 
 6. **`5_reducao_lda.py`**: Linear Discriminant Analysis (Redução Dimensional)
-   - Transformação de 18 features → 2 componentes LDA
+   - Transformação de features → 2 componentes LDA
    - Análise de variância explicada (LD1: 99.7%, LD2: 0.3%)
    - Identificação de features mais discriminantes
    - **Persistência:** `lda_model.pkl`, `lda_feature_names.pkl`
@@ -79,16 +87,18 @@ Este projeto utiliza **uv** para gestão de dependências e ambiente virtual.
 ```bash
 git clone 
 cd 
-```
+````
 
-### 2. Instale as dependências:
+### 2\. Instale as dependências:
+
 ```bash
 uv sync
 ```
 
-### 3. Execute o Pipeline:
+### 3\. Execute o Pipeline:
 
 Siga a ordem numérica dos scripts na pasta `analyses/`:
+
 ```bash
 python analyses/1_EDA_correlacao.py
 python analyses/2_validacao_normalidade.py
@@ -101,9 +111,10 @@ python analyses/7_predicao_novos_dados.py
 
 **Nota:** Cada script gera visualizações em `plots/`, datasets processados em `data/`, e artefatos de ML em `models/`.
 
----
+-----
 
 ## Estrutura de Pastas
+
 ```
 projeto/
 │
@@ -161,76 +172,83 @@ projeto/
 └── README.md                       # Este arquivo
 ```
 
----
+-----
 
 ## Resultados Numéricos Detalhados
 
 ### Análise de Correlação
-- **Features altamente correlacionadas (>0.7):**
-  - `Daily_Usage_Hours` ↔ `Time_on_Social_Media` (r = 0.89)
-  - `Anxiety_Level` ↔ `Depression_Level` (r = 0.85)
-  - `Academic_Performance` ↔ `Self_Esteem` (r = -0.76)
+
+  - **Features altamente correlacionadas (\>0.7):**
+      - `Daily_Usage_Hours` ↔ `Time_on_Social_Media` (r = 0.89)
+      - `Anxiety_Level` ↔ `Depression_Level` (r = 0.85)
+      - `Academic_Performance` ↔ `Self_Esteem` (r = -0.76)
 
 ### Validação Estatística
-- **Teste de Normalidade (Shapiro-Wilk):**
-  - 85% das features apresentaram distribuição normal (p > 0.05)
-  - Features críticas validadas para análise paramétrica
 
-- **Teste de Homogeneidade (Box's M):**
-  - p-valor > 0.05 → Covariâncias homogêneas
-  - **Decisão:** LDA é apropriado (melhor que QDA)
+  - **Teste de Normalidade (Shapiro-Wilk):**
+
+      - 85% das features apresentaram distribuição normal (p \> 0.05)
+      - Features críticas validadas para análise paramétrica
+
+  - **Teste de Homogeneidade (Box's M):**
+
+      - p-valor \> 0.05 → Covariâncias homogêneas
+      - **Decisão:** LDA é apropriado (melhor que QDA)
 
 ### Redução Dimensional (LDA)
-- **Variância Explicada:**
-  - LD1: **99.7%** da separação entre classes
-  - LD2: **0.3%** da separação entre classes
-- **Top 3 Features Discriminantes (LD1):**
-  1. `Daily_Usage_Hours` (loading: +0.487)
-  2. `Time_on_Social_Media` (loading: +0.435)
-  3. `Sleep_Hours` (loading: -0.398)
+
+  - **Variância Explicada:**
+      - LD1: **99.7%** da separação entre classes
+      - LD2: **0.3%** da separação entre classes
+  - **Top 3 Features Discriminantes (LD1):**
+    1.  `Daily_Usage_Hours` (loading: +1.339)
+    2.  `Time_on_Social_Media` (loading: +0.692)
+    3.  `Apps_Used_Daily` (loading: +0.662)
 
 ### Clusterização (K-Means)
-- **Número de Clusters:** k = 3 (escolhido via Elbow Method)
-- **Silhouette Score:** 0.72 (separação EXCELENTE)
-- **Adjusted Rand Index (ARI):** 0.84 (concordância EXCELENTE com categorias originais)
-- **Normalized Mutual Information (NMI):** 0.79 (alta informação mútua)
 
-### Perfis dos Clusters
+  - **Número de Clusters:** k = 3 (escolhido via Elbow Method)
+  - **Silhouette Score:** 0.53 (separação RAZOÁVEL/BOA)
+  - **Adjusted Rand Index (ARI):** 0.42 (concordância MODERADA com categorias manuais)
+  - **Normalized Mutual Information (NMI):** 0.58 (informação mútua moderada)
 
-| Cluster | Perfil | Características |
-|---------|--------|-----------------|
-| **0** | Uso Controlado | Uso <3h/dia, Sono 8-9h, Performance >85%, Baixa ansiedade (2-3) |
-| **1** | Uso Intenso | Uso >8h/dia, Sono <5h, Performance <60%, Alta ansiedade (8-9) |
-| **2** | Uso Moderado | Uso 5-6h/dia, Sono 6-7h, Performance 70-75%, Ansiedade moderada (5-6) |
+### Perfis dos Clusters (Atualizado)
 
----
+| Cluster | Perfil (Baseado nos Dados) | Características Médias |
+|:-------:|:---------------------------|:-----------------------|
+| **0** | **Intensidade Alta/Extrema** | Uso **6.7h**/dia, Sono **6.0h**, Performance 75% |
+| **1** | **Menor Intensidade** | Uso **3.4h**/dia, Sono **6.9h**, Performance 75% |
+| **2** | **Intensidade Média** | Uso **5.0h**/dia, Sono **6.5h**, Performance 75% |
+
+*Nota: As médias indicam que a Performance Acadêmica não variou significativamente entre os grupos nesta amostra, enquanto o Sono e Horas de Uso foram os principais diferenciais.*
+
+-----
 
 ## Tecnologias Utilizadas
 
-- **Python 3.13**
-- **Bibliotecas Principais:**
-  - `pandas` - Manipulação de dados
-  - `numpy` - Computação numérica
-  - `scikit-learn` - Machine Learning (LDA, K-Means, StandardScaler)
-  - `matplotlib` - Visualizações
-  - `seaborn` - Visualizações estatísticas
-  - `scipy` - Testes estatísticos (Shapiro-Wilk, Box's M)
+  - **Python 3.13**
+  - **Bibliotecas Principais:**
+      - `pandas` - Manipulação de dados
+      - `numpy` - Computação numérica
+      - `scikit-learn` - Machine Learning (LDA, K-Means, StandardScaler)
+      - `matplotlib` - Visualizações
+      - `seaborn` - Visualizações estatísticas
+      - `scipy` - Testes estatísticos (Shapiro-Wilk, Box's M)
 
----
+-----
 
 ## Fonte dos Dados
 
 **Dataset:** Teen Phone Addiction Dataset  
 **Fonte:** [Kaggle - Teen Phone Addiction](https://www.kaggle.com/datasets/sumedh1507/teen-phone-addiction)  
 **Dimensões:** 3.000 linhas × 25 colunas  
-**Período:** 2024  
+**Período:** 2024
 
 **Variáveis principais:**
-- Demográficas: Idade, Gênero
-- Comportamentais: Uso diário, Uso em fins de semana, Sono, Atividade física
-- Psicológicas: Ansiedade, Depressão, Autoestima
-- Sociais: Interações sociais, Comunicação familiar, Controle parental
-- Acadêmicas: Performance acadêmica
-- Tecnológicas: Apps usados, Tempo em redes sociais, Tempo em jogos
 
----
+  - Demográficas: Idade, Gênero
+  - Comportamentais: Uso diário, Uso em fins de semana, Sono, Atividade física
+  - Psicológicas: Ansiedade, Depressão, Autoestima
+  - Sociais: Interações sociais, Comunicação familiar, Controle parental
+  - Acadêmicas: Performance acadêmica
+  - Tecnológicas: Apps usados, Tempo em redes sociais, Tempo em jogos

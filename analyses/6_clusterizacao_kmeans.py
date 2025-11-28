@@ -439,52 +439,71 @@ with open('../models/scaler_kmeans.pkl', 'wb') as f:
 with open('../models/kmeans_model.pkl', 'wb') as f:
     pickle.dump(kmeans_final, f)
 
+#                         ATRIBUIÇÃO DINÂMICA
+medias_uso = medias_por_cluster['Daily_Usage_Hours']
+
+# O cluster com MENOR uso é o "Menor Intensidade"
+c_baixo = medias_uso.idxmin()
+
+# O cluster com MAIOR uso é o "Intensidade Extrema"
+c_alto = medias_uso.idxmax()
+
+# O cluster que sobra é o "Médio"
+c_medio = list({0, 1, 2} - {c_baixo, c_alto})[0]
+
+print(f"\nIDENTIFICAÇÃO DOS CLUSTERS:")
+print(f"  -> Cluster {c_baixo}: Menor Intensidade (Média: {medias_uso[c_baixo]:.2f}h)")
+print(f"  -> Cluster {c_medio}: Intensidade Média (Média: {medias_uso[c_medio]:.2f}h)")
+print(f"  -> Cluster {c_alto}: Intensidade Extrema (Média: {medias_uso[c_alto]:.2f}h)")
+
 # Salvando perfis dos clusters
 perfis_clusters = {
-    0: "Uso Controlado - Baixo risco de vício",
-    1: "Uso Intenso - Alto risco de vício",
-    2: "Uso Moderado - Risco intermediário"
+    c_baixo: "Menor Intensidade (Relativo) - Monitoramento Padrão",
+    c_medio: "Intensidade Média - Risco Elevado",
+    c_alto:  "Intensidade Extrema - Intervenção Prioritária"
 }
+
 with open('../models/perfis_clusters.pkl', 'wb') as f:
     pickle.dump(perfis_clusters, f)
 
 # Interpretação final
 montar_cabecalho("CARACTERIZAÇÃO FINAL DOS CLUSTERS")
 
-# Ordenando vars por significativas
+# Ordenando vars por significância
 vars_sig = df_anova[df_anova['P_valor'] < 0.05]['Variavel'].tolist()
 
-# Cluster 0
-montar_divisor("Cluster 0 - Uso Controlado", 70)
-qtd_c0 = (df_original['Cluster'] == 0).sum()
-pct_c0 = (qtd_c0 / len(df_original)) * 100
-print(f"Tamanho: {qtd_c0:,} adolescentes ({pct_c0:.1f}%)\n")
-print("Características principais (variáveis mais significativas):")
-for var in vars_sig[:5]:  # Top 5
-    valor = medias_por_cluster.loc[0, var]
-    print(f"  - {var}: {valor:.2f}")
-print("\nPERFIL: Uso saudável, com baixos níveis de uso de smartphone e melhor qualidade de sono em relação aos outros grupos.")
+def imprimir_perfil_cluster(cluster_id, titulo, descricao):
+    
+    montar_divisor(f"Cluster {cluster_id} - {titulo}", 70)
+    
+    qtd = (df_original['Cluster'] == cluster_id).sum()
+    pct = (qtd / len(df_original)) * 100
+    print(f"Tamanho: {qtd:,} adolescentes ({pct:.1f}%)\n")
+    
+    print("Características principais (variáveis mais significativas):")
+    for var in vars_sig[:5]:  # Top 5
+        valor = medias_por_cluster.loc[cluster_id, var]
+        print(f"  - {var}: {valor:.2f}")
+    
+    print(f"\nPERFIL: {descricao}")
 
-# Cluster 1
-montar_divisor("Cluster 1 - Uso Intenso", 70)
-qtd_c1 = (df_original['Cluster'] == 1).sum()
-pct_c1 = (qtd_c1 / len(df_original)) * 100
-print(f"Tamanho: {qtd_c1:,} adolescentes ({pct_c1:.1f}%)\n")
-print("Características principais (variáveis mais significativas):")
-for var in vars_sig[:5]:
-    valor = medias_por_cluster.loc[1, var]
-    print(f"  - {var}: {valor:.2f}")
-print("\nPERFIL: Contraponto direto ao cluster 0, com o maior nível de uso, tanto em horas quanto em checagens, e em indicadores chave (ANOVA). Sono prejudicado, tendo o menor valor dos grupos.")
+# Imprimindo em ordem
+imprimir_perfil_cluster(
+    c_baixo, 
+    "Menor Intensidade", 
+    "Grupo com menores médias de uso e sono preservado. Representa o terço 'menos afetado' da amostra (Relativo)."
+)
 
-# Cluster 2
-montar_divisor("Cluster 2 - Uso Moderado", 70)
-qtd_c2 = (df_original['Cluster'] == 2).sum()
-pct_c2 = (qtd_c2 / len(df_original)) * 100
-print(f"Tamanho: {qtd_c2:,} adolescentes ({pct_c2:.1f}%)\n")
-print("Características principais (variáveis mais significativas):")
-for var in vars_sig[:5]:
-    valor = medias_por_cluster.loc[2, var]
-    print(f"  - {var}: {valor:.2f}")
-print("\nPERFIL: Maior grupo dos 3, com indicadores de uso controlados, se posicionando entre o Cluster 0 e Cluster 1.")
+imprimir_perfil_cluster(
+    c_medio, 
+    "Intensidade Média", 
+    "Grupo intermediário. Apresenta uso elevado, mas não tão extremo quanto o grupo de risco máximo."
+)
+
+imprimir_perfil_cluster(
+    c_alto, 
+    "Intensidade Extrema", 
+    "Grupo de maior risco. Uso diário excessivo e sono prejudicado. Requer atenção prioritária."
+)
 
 print("="*70)

@@ -45,7 +45,7 @@ distribuicao.plot(kind='bar', color=['#2ecc71', '#f39c12', '#e74c3c'])
 plt.title('Distribuição das categorias de vício', fontsize=16, fontweight='bold')
 plt.xlabel('Categoria de vício', fontsize=12)
 plt.ylabel('Frequência', fontsize=12)
-plt.xticks([0, 1, 2], ['Baixo (1)', 'Moderado (2)', 'Alto (3)'], rotation=0)
+plt.xticks([0, 1, 2], ['Menor Intensidade (1)', 'Intensidade Média (2)', 'Intensidade Extrema (3)'], rotation=0)
 plt.grid(axis='y', alpha=0.3)
 plt.tight_layout()  # BOA PRÁTICA
 plt.savefig('../plots/05_lda_01_distribuicao_categorias.png', dpi=300, bbox_inches='tight')
@@ -158,7 +158,7 @@ df_lda[var_alvo] = y.values
 plt.figure(figsize=(12, 8))
 
 cores = {1: '#2ecc71', 2: '#f39c12', 3: '#e74c3c'}
-labels = {1: 'Vício Baixo', 2: 'Vício Moderado', 3: 'Vício Alto'}
+labels = {1: 'Menor Intensidade', 2: 'Intensidade Média', 3: 'Intensidade Extrema'}
 
 for categoria in sorted(df_lda['Addiction_Category'].unique()):
     dados_cat = df_lda[df_lda['Addiction_Category'] == categoria]
