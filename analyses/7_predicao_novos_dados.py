@@ -73,7 +73,7 @@ novos_dados = pd.DataFrame({
     'Apps_Used_Daily': [8, 25, 15, 5, 30],
     'Screen_Time_Before_Bed': [0.5, 3, 2, 0.2, 4],
     'Family_Communication': [8, 3, 5, 9, 2],
-    'Addiction_Level': [25, 85, 60, 15, 95]
+    'Addiction_Level': [2.5, 8.5, 6.0, 1.5, 9.5]
 })
 
 print("Novos adolescentes para predição:")
@@ -146,7 +146,7 @@ montar_cabecalho("RESULTADOS DA PREDIÇÃO")
 novos_dados['Cluster_Predito'] = clusters_preditos
 novos_dados['Perfil_Risco'] = novos_dados['Cluster_Predito'].map(perfis_clusters)
 
-# Calculando distância ao centróide (confiança da predição)
+# Calculando a confiança da predição
 distancias = kmeans_model.transform(X_normalizado).min(axis=1)
 novos_dados['Confianca'] = np.round(1 / (1 + distancias), 2)
 
@@ -181,9 +181,12 @@ novos_dados.to_csv('../data/predicoes_novos_dados.csv', index=False)
 # Resumo estatístico
 print("\nRESUMO DAS PREDIÇÕES:")
 print(f"   Total de adolescentes analisados: {len(novos_dados)}")
-print(f"   Cluster 0 (Uso Controlado): {(clusters_preditos == 0).sum()}")
-print(f"   Cluster 1 (Uso Intenso): {(clusters_preditos == 1).sum()}")
-print(f"   Cluster 2 (Uso Moderado): {(clusters_preditos == 2).sum()}")
+
+for cluster_id in sorted(perfis_clusters.keys()):
+    perfil = perfis_clusters[cluster_id]
+    qtd = (clusters_preditos == cluster_id).sum()
+    print(f"   Cluster {cluster_id} ({perfil}): {qtd}")
+
 print(f"   Confiança média: {novos_dados['Confianca'].mean()*100:.0f}%")
 
 print("="*70)
