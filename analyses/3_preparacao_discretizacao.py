@@ -31,13 +31,15 @@ print(df[var_analise].describe())
 # Criando categorias
 montar_cabecalho(f"CRIANDO CATEGORIAS DE {var_analise}")
 
-df['Addiction_Category'] = pd.qcut(
-    df[var_analise],
-    q=5,
-    duplicates='drop'
-)
+bins = [0, 3.33, 6.66, 10.0]
+labels = [1, 2, 3]
 
-df['Addiction_Category'] = df['Addiction_Category'].cat.codes + 1
+df['Addiction_Category'] = pd.cut(
+    df[var_analise],
+    bins=bins,
+    labels=labels,
+    include_lowest=True
+)
 
 # Distribuição por categorias
 print("Distribuição por categorias:")

@@ -243,6 +243,10 @@ with open('../models/lda_feature_names.pkl', 'wb') as f:
     pickle.dump(feature_names, f)
 print("Features do LDA salvas: ../models/lda_feature_names.pkl")
 
+# Salvando Scaller das features
+with open('../models/scaler_features.pkl', 'wb') as f:
+    pickle.dump(scaler, f)
+
 # Resumo
 montar_cabecalho("RESUMO FINAL")
 

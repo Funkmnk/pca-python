@@ -24,10 +24,15 @@ try:
         lda_features = pickle.load(f)
     print(f"Features LDA carregadas ({len(lda_features)} features)")
     
-    # Carregando Scaler
+    # Carregando Scaler das features (pré-LDA)
+    with open('../models/scaler_features.pkl', 'rb') as f:
+        scaler_features = pickle.load(f)
+    print("StandardScaler (features) carregado")
+    
+    # Carregando Scaler do LD1 (pré-KMeans)
     with open('../models/scaler_kmeans.pkl', 'rb') as f:
-        scaler = pickle.load(f)
-    print("StandardScaler carregado")
+        scaler_kmeans = pickle.load(f)
+    print("StandardScaler (K-Means) carregado")
     
     # Carregando modelo
     with open('../models/kmeans_model.pkl', 'rb') as f:
@@ -110,18 +115,23 @@ print("\nSelecionando features do treinamento...")
 X_novos = novos_dados[lda_features]
 print(f"   Features selecionadas: {X_novos.shape[1]}")
 
+# Padronizando features (MESMO scaler do treinamento)
+print("\nPadronizando features com StandardScaler...")
+X_novos_scaled = scaler_features.transform(X_novos)
+print(f"   Features padronizadas: média ≈ 0, desvio ≈ 1")
+
 # Aplicando LDA
 print("\nAplicando LDA (redução de dimensionalidade)...")
-X_lda = lda_model.transform(X_novos)
+X_lda = lda_model.transform(X_novos_scaled)
 print(f"   Dimensões após LDA: {X_lda.shape[1]} componente(s)")
 print(f"   Usando apenas LD1 (explica 99.7% da variância)")
 
 # Usa apenas LD1 para clusterizar
 X_lda_ld1 = X_lda[:, 0].reshape(-1, 1)
 
-# Normalizando
-print("\nNormalizando com StandardScaler...")
-X_normalizado = scaler.transform(X_lda_ld1)
+# Normalizando LD1 (pré-KMeans)
+print("\nNormalizando LD1 com StandardScaler...")
+X_normalizado = scaler_kmeans.transform(X_lda_ld1)
 print(f"   Dados normalizados: média ≈ 0, desvio ≈ 1")
 
 # Predição

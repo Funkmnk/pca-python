@@ -27,17 +27,17 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 26, Samantha Sanchez          ,16, Male  , Port Bianca            , 11th        ,5.5,5.9,78,5,1.2,1,7,3,0,0.7,44,14,0.9,1.3,1.3, Gaming             ,3,3.9,8.4,2
 27, Kelly Giles               ,19, Male  , West Kimberlyfurt      , 11th        ,6.2,4.5,65,3,1.3,5,7,1,0,1.1,115,10,2.1,1.6,1.0, Social Media       ,7,6.6,10.0,1
 28, Jeffrey Crawford          ,19, Male  , Shawburgh              , 8th         ,4.9,9.3,50,4,0.0,7,4,1,0,0.3,117,5,3.5,4.0,0.9, Education          ,3,7.0,10.0,2
-29, Tammy Gallegos            ,17, Female, West Cynthia           , 10th        ,6.6,8.1,77,7,1.0,6,1,3,1,1.5,147,14,2.0,1.7,1.6, Education          ,8,9.2,10.0,1
+29, Tammy Gallegos            ,17, Female, West Cynthia           , 10th        ,6.6,8.1,77,7,1.0,6,1,3,1,1.5,147,14,2.0,1.7,1.6, Education          ,8,9.2,10.0,2
 30, Jared Bridges             ,19, Other , Jessicaberg            , 11th        ,8.6,5.2,63,0,1.1,6,4,8,0,1.3,72,15,0.2,1.8,0.7, Browsing           ,9,6.6,10.0,1
 31, Bailey Flores             ,15, Other , Lake Martha            , 12th        ,4.1,4.5,59,8,0.8,10,1,8,0,0.6,32,10,2.2,1.0,0.5, Education          ,9,9.3,7.7,0
 32, Jennifer Hudson           ,19, Male  , Vickifurt              , 10th        ,4.2,6.9,86,8,1.7,5,1,9,1,1.0,100,15,2.6,2.2,0.9, Browsing           ,4,6.9,10.0,2
 33, Kathleen Friedman         ,19, Male  , Port Ryan              , 10th        ,8.0,5.5,87,7,2.2,1,8,5,0,1.0,26,16,3.3,1.3,2.6, Gaming             ,6,5.2,10.0,1
 34, Cynthia Fisher            ,16, Male  , Lake Jamiebury         , 9th         ,3.3,5.3,50,4,0.0,7,1,6,0,0.3,141,14,0.7,3.2,0.0, Gaming             ,5,5.1,10.0,2
 35, Amy Carroll               ,16, Male  , South Williamfort      , 12th        ,4.7,6.6,59,6,1.5,10,4,7,1,0.6,123,18,1.0,1.1,1.2, Social Media       ,2,0.3,9.6,2
-36, Monica Roberts            ,15, Male  , West Kristinaview      , 8th         ,3.9,6.3,64,9,1.3,6,7,8,1,0.9,135,11,1.2,1.5,1.5, Social Media       ,7,2.2,8.4,0
+36, Monica Roberts            ,15, Male  , West Kristinaview      , 8th         ,3.9,6.3,64,9,1.3,6,7,8,1,0.9,135,11,1.2,1.5,1.5, Social Media       ,7,2.2,8.4,2
 37, Laura Steele              ,13, Female, Burketown              , 8th         ,4.4,6.8,62,8,1.4,2,1,10,0,1.7,66,7,0.9,0.0,0.0, Browsing           ,1,6.9,4.6,0
 38, Lauren Matthews           ,13, Male  , Christineton           , 9th         ,8.3,6.2,65,9,1.3,5,6,8,1,1.3,144,5,2.3,0.0,1.5, Other              ,1,2.9,10.0,2
-39, Marcus Stephens           ,16, Other , Schmitthaven           , 9th         ,7.4,6.9,67,0,1.7,6,6,8,0,1.6,117,16,1.6,0.7,0.7, Social Media       ,8,4.6,10.0,1
+39, Marcus Stephens           ,16, Other , Schmitthaven           , 9th         ,7.4,6.9,67,0,1.7,6,6,8,0,1.6,117,16,1.6,0.7,0.7, Social Media       ,8,4.6,10.0,2
 40, Cameron Hansen            ,16, Female, North Christina        , 12th        ,1.7,6.8,68,9,0.8,5,9,1,1,0.7,107,18,2.4,0.6,0.0, Education          ,6,6.2,7.0,0
 41, Richard Choi              ,13, Other , Jasonmouth             , 8th         ,6.2,8.3,77,1,0.4,7,2,4,0,1.1,141,5,3.8,1.4,0.9, Browsing           ,8,6.2,10.0,2
 42, Nicholas Gomez            ,19, Other , Roberttown             , 12th        ,5.2,7.2,96,5,0.1,4,10,3,0,0.7,119,16,3.0,1.7,0.6, Gaming             ,3,6.1,10.0,1
@@ -45,7 +45,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 44, Brittany Myers            ,13, Male  , Nguyenfort             , 11th        ,6.9,6.2,89,4,1.1,3,2,7,1,0.3,140,13,3.0,1.9,0.7, Gaming             ,9,4.1,10.0,1
 45, Alicia White              ,13, Male  , Millerton              , 9th         ,6.6,5.0,88,8,2.1,10,7,10,0,2.0,56,20,2.1,1.4,0.4, Education          ,9,6.2,10.0,1
 46, Brandi King               ,18, Female, Evanschester           , 8th         ,1.0,6.2,60,5,1.4,6,3,10,0,0.4,25,16,3.1,0.0,2.0, Gaming             ,4,5.8,4.7,0
-47, Kenneth Travis            ,17, Male  , Castilloside           , 8th         ,6.7,4.7,67,3,1.3,10,1,3,0,0.8,129,6,2.8,0.8,1.7, Gaming             ,7,9.9,10.0,1
+47, Kenneth Travis            ,17, Male  , Castilloside           , 8th         ,6.7,4.7,67,3,1.3,10,1,3,0,0.8,129,6,2.8,0.8,1.7, Gaming             ,7,9.9,10.0,2
 48, James Sanchez             ,19, Other , Adamsside              , 11th        ,7.1,7.1,67,2,0.4,1,1,4,0,2.6,119,16,2.8,2.4,0.0, Gaming             ,4,5.3,10.0,1
 49, Tyrone Cabrera            ,18, Male  , New Ericview           , 7th         ,4.7,6.5,69,6,1.5,10,3,1,0,1.3,119,5,3.4,1.0,0.0, Gaming             ,10,4.7,9.2,2
 50, Curtis Castro             ,14, Male  , East Amber             , 11th        ,8.1,7.2,91,6,1.4,8,7,8,1,0.3,120,13,1.4,2.2,1.9, Education          ,9,6.0,10.0,1
@@ -72,13 +72,13 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 71, Christine Hansen          ,17, Other , Jamesbury              , 12th        ,4.1,5.5,67,2,0.2,1,7,4,1,0.5,120,16,4.3,2.1,2.0, Browsing           ,8,11.0,10.0,1
 72, Kristen Holmes            ,19, Other , Hickschester           , 12th        ,4.9,4.4,86,5,1.8,7,6,7,1,0.9,90,15,2.5,1.2,0.5, Other              ,2,4.2,10.0,2
 73, Michelle Ellis            ,18, Male  , West Erikashire        , 12th        ,4.4,6.6,95,3,1.1,8,1,3,1,0.6,91,15,2.2,1.6,0.8, Education          ,1,3.9,9.7,2
-74, Dr. David Howard          ,19, Male  , South Taylortown       , 8th         ,6.3,3.0,58,8,1.1,5,2,8,0,0.6,48,6,3.9,1.1,0.1, Other              ,6,8.5,10.0,1
+74, Dr. David Howard          ,19, Male  , South Taylortown       , 8th         ,6.3,3.0,58,8,1.1,5,2,8,0,0.6,48,6,3.9,1.1,0.1, Other              ,6,8.5,10.0,2
 75, Michael Tucker            ,15, Male  , New Gregstad           , 9th         ,5.8,6.9,84,8,2.3,3,9,3,1,0.5,106,7,3.1,1.2,1.5, Social Media       ,6,5.5,10.0,2
 76, Brenda Lee                ,13, Female, Morganshire            , 8th         ,6.5,7.2,58,10,0.3,9,6,5,0,1.1,74,6,2.6,2.0,1.1, Gaming             ,9,8.7,10.0,2
 77, Jennifer Levine           ,17, Female, West Michael           , 9th         ,5.8,7.0,76,8,1.7,5,5,5,1,1.7,116,19,3.0,2.2,2.2, Education          ,9,3.3,10.0,1
 78, Joshua Moore              ,19, Other , Gonzalezland           , 7th         ,5.1,7.0,64,4,1.5,10,6,7,0,1.7,140,5,0.5,1.7,0.9, Gaming             ,2,7.7,7.6,0
 79, Marcus Gibson             ,13, Other , East Thomas            , 8th         ,5.2,6.0,87,0,0.8,1,5,8,1,1.6,79,11,4.2,0.0,1.2, Gaming             ,6,3.7,10.0,2
-80, Mackenzie Wright          ,13, Male  , Antoniohaven           , 11th        ,4.8,8.6,78,8,0.0,3,3,10,1,1.0,51,9,3.0,2.4,1.6, Social Media       ,7,7.1,8.7,0
+80, Mackenzie Wright          ,13, Male  , Antoniohaven           , 11th        ,4.8,8.6,78,8,0.0,3,3,10,1,1.0,51,9,3.0,2.4,1.6, Social Media       ,7,7.1,8.7,2
 81, Christopher Smith         ,19, Male  , Lake Susanport         , 11th        ,4.3,4.3,91,6,0.0,9,8,5,0,0.9,98,7,2.2,0.6,0.3, Social Media       ,8,5.2,8.3,2
 82, Andrew Kim                ,19, Female, North Cristina         , 7th         ,7.6,6.4,88,4,0.0,6,4,8,0,1.8,77,15,4.6,0.0,0.0, Gaming             ,7,7.1,10.0,1
 83, Rebecca Reynolds          ,17, Female, Lake Adrianberg        , 7th         ,5.5,6.9,65,3,0.4,6,9,9,1,0.4,82,6,1.6,1.1,0.2, Browsing           ,4,6.2,7.6,0
@@ -87,7 +87,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 86, Maria Ochoa               ,16, Male  , South Tonyton          , 12th        ,3.8,5.1,85,1,0.0,8,7,8,0,0.6,104,10,1.8,0.5,1.3, Social Media       ,9,9.3,7.6,0
 87, James Herrera             ,13, Other , Lake Nancy             , 10th        ,7.3,5.6,84,1,0.2,4,1,8,0,1.2,22,11,2.2,2.0,0.9, Other              ,1,4.1,10.0,2
 88, Brian Coleman             ,19, Female, Kevinport              , 8th         ,0.7,4.6,64,6,1.3,10,1,9,0,0.4,146,10,2.2,0.2,1.3, Other              ,3,5.3,5.7,0
-89, Gregory Martinez          ,14, Male  , South Adamside         , 11th        ,3.0,6.6,82,0,0.8,1,3,3,0,0.6,84,6,3.7,2.3,1.0, Other              ,9,6.7,8.6,0
+89, Gregory Martinez          ,14, Male  , South Adamside         , 11th        ,3.0,6.6,82,0,0.8,1,3,3,0,0.6,84,6,3.7,2.3,1.0, Other              ,9,6.7,8.6,2
 90, Richard Nichols           ,19, Other , East Andrewport        , 12th        ,4.0,7.4,83,3,0.3,10,4,4,0,0.6,55,18,4.1,0.8,0.0, Gaming             ,3,7.4,9.9,2
 91, Steven Tanner             ,16, Other , Craigstad              , 12th        ,8.1,6.8,59,1,0.0,7,3,1,0,0.6,129,7,0.7,2.5,1.5, Other              ,1,5.1,10.0,1
 92, Michael Farmer            ,17, Male  , Guerrafort             , 12th        ,5.2,6.6,56,10,0.9,6,8,4,0,0.5,98,16,2.4,1.4,1.0, Other              ,5,8.1,10.0,2
@@ -113,7 +113,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 112, Melissa Becker DDS        ,18, Other , East Pamelaside        , 9th         ,2.0,7.5,76,0,1.1,1,7,2,1,0.9,115,7,1.4,1.9,1.3, Gaming             ,10,5.6,5.2,0
 113, John Griffin              ,16, Male  , Loveberg               , 10th        ,3.0,4.7,51,10,3.0,1,8,1,1,0.3,42,18,1.7,3.3,0.0, Education          ,3,6.7,10.0,2
 114, James Alvarez             ,15, Female, Port Veronicamouth     , 9th         ,6.9,3.9,73,9,2.2,1,6,4,0,0.8,58,16,3.3,2.8,1.8, Education          ,3,4.9,10.0,1
-115, Brad Sanchez              ,16, Other , Port Samanthaberg      , 8th         ,5.5,5.4,63,8,0.0,5,10,3,1,2.0,72,14,1.4,0.0,0.8, Other              ,1,8.3,8.4,2
+115, Brad Sanchez              ,16, Other , Port Samanthaberg      , 8th         ,5.5,5.4,63,8,0.0,5,10,3,1,2.0,72,14,1.4,0.0,0.8, Other              ,1,8.3,8.4,0
 116, Cory Santiago             ,15, Female, Robertshire            , 11th        ,6.6,9.5,53,5,1.0,8,4,1,0,0.8,121,13,4.5,1.7,2.8, Gaming             ,6,6.4,10.0,1
 117, Shelley Curtis            ,19, Other , South Brittanychester  , 12th        ,8.3,5.7,58,9,1.6,3,1,3,0,0.1,21,9,1.7,0.8,1.2, Other              ,10,6.5,10.0,2
 118, Cheryl Thomas             ,18, Other , East Chadhaven         , 8th         ,3.6,3.1,56,0,2.4,5,9,4,1,0.9,80,16,3.2,0.3,1.5, Social Media       ,7,7.3,10.0,2
@@ -121,8 +121,8 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 120, Dr. Elizabeth Porter      ,19, Other , Mirandaborough         , 9th         ,2.1,7.3,71,7,0.5,4,1,4,1,1.7,54,9,2.5,1.5,1.6, Education          ,5,2.1,5.3,0
 121, Monica Shelton            ,16, Male  , Brownchester           , 7th         ,7.8,7.4,81,0,1.9,5,6,10,0,1.1,135,14,3.6,1.1,1.3, Browsing           ,6,4.5,10.0,1
 122, Heather Wilson            ,14, Male  , Chelseafurt            , 9th         ,4.3,3.9,64,2,2.9,10,10,6,1,0.6,119,9,1.1,1.4,1.8, Other              ,4,6.7,9.0,2
-123, Angie White               ,18, Other , West Maryport          , 12th        ,7.4,7.4,80,0,1.1,1,2,3,0,1.9,57,20,1.9,0.9,1.6, Gaming             ,10,4.6,10.0,1
-124, Grace Mullen              ,18, Female, West Donna             , 7th         ,6.4,7.9,72,4,2.0,5,6,4,1,0.7,23,13,0.7,2.4,0.7, Other              ,3,7.4,8.6,2
+123, Angie White               ,18, Other , West Maryport          , 12th        ,7.4,7.4,80,0,1.1,1,2,3,0,1.9,57,20,1.9,0.9,1.6, Gaming             ,10,4.6,10.0,2
+124, Grace Mullen              ,18, Female, West Donna             , 7th         ,6.4,7.9,72,4,2.0,5,6,4,1,0.7,23,13,0.7,2.4,0.7, Other              ,3,7.4,8.6,0
 125, Megan Colon               ,13, Other , West Jeremy            , 9th         ,2.0,8.4,78,10,1.6,5,1,10,0,0.4,140,17,2.0,0.8,2.4, Gaming             ,1,5.1,6.8,0
 126, Christine Cunningham      ,15, Male  , Lake Laurastad         , 8th         ,2.6,6.8,65,0,1.3,6,5,2,1,1.0,26,6,1.8,2.8,1.1, Other              ,6,9.5,5.5,0
 127, Sonya Armstrong           ,13, Other , North Brian            , 7th         ,4.4,5.0,68,7,3.7,2,4,8,0,1.8,70,18,2.4,1.1,0.7, Browsing           ,2,5.1,10.0,2
@@ -173,7 +173,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 172, Jennifer Young            ,16, Female, East Christopher       , 8th         ,4.3,6.6,94,9,1.0,2,10,4,0,0.8,47,17,1.6,1.4,0.0, Social Media       ,5,0.7,8.3,2
 173, David Logan               ,14, Other , Duanebury              , 8th         ,6.8,6.1,92,8,2.0,9,1,5,1,1.0,46,6,2.1,1.7,1.7, Other              ,5,2.9,9.7,2
 174, Jonathan Roberts Jr.      ,13, Other , Lake Willieshire       , 11th        ,6.3,5.4,100,8,2.0,5,5,3,0,1.8,30,12,1.6,1.4,1.8, Browsing           ,5,5.5,9.6,2
-175, William Wolfe             ,13, Female, Joneschester           , 10th        ,5.3,9.7,52,5,1.0,3,3,8,1,1.7,145,9,2.3,1.3,0.0, Education          ,6,7.3,8.8,2
+175, William Wolfe             ,13, Female, Joneschester           , 10th        ,5.3,9.7,52,5,1.0,3,3,8,1,1.7,145,9,2.3,1.3,0.0, Education          ,6,7.3,8.8,0
 176, Sharon Smith              ,17, Other , North Anne             , 9th         ,4.4,5.7,99,2,1.2,1,4,10,1,0.9,58,9,2.5,1.0,0.6, Other              ,2,4.3,8.0,0
 177, Brittany Kirk             ,16, Other , New Alicia             , 10th        ,8.1,6.7,50,0,2.0,4,7,7,1,0.5,63,7,2.1,0.0,1.8, Other              ,7,7.2,9.5,2
 178, Michael Harris            ,13, Other , Lake Lori              , 9th         ,3.6,6.0,65,9,0.4,5,2,6,1,1.6,83,11,1.1,2.2,0.8, Education          ,4,4.5,7.8,0
@@ -212,12 +212,12 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 211, Devin Hansen              ,18, Female, North Catherine        , 8th         ,3.5,7.2,94,0,0.5,1,6,7,0,2.0,84,11,2.7,2.9,0.8, Gaming             ,10,5.2,9.4,2
 212, Brandy Miller             ,14, Male  , Lake Raymond           , 7th         ,6.6,5.0,84,4,1.0,2,6,8,1,0.4,63,16,1.7,0.0,1.1, Gaming             ,5,6.7,10.0,2
 213, Adam Turner               ,16, Other , New Vincent            , 11th        ,6.1,7.5,71,10,0.6,7,10,4,0,1.5,39,20,1.8,1.9,2.6, Education          ,9,5.8,10.0,2
-214, Kathleen Price            ,17, Other , Emmamouth              , 10th        ,3.3,5.6,59,6,0.6,7,4,10,1,1.2,140,5,2.6,1.7,0.2, Education          ,9,1.8,8.6,0
+214, Kathleen Price            ,17, Other , Emmamouth              , 10th        ,3.3,5.6,59,6,0.6,7,4,10,1,1.2,140,5,2.6,1.7,0.2, Education          ,9,1.8,8.6,2
 215, Bryan Horton              ,13, Male  , New Teresa             , 10th        ,6.3,7.2,81,7,0.0,3,4,3,0,1.9,77,15,2.5,0.4,1.8, Social Media       ,7,5.0,10.0,2
 216, Tina White                ,14, Male  , Cruzland               , 11th        ,6.5,7.9,93,10,1.7,9,4,1,1,0.6,113,8,4.3,2.5,0.7, Browsing           ,10,7.1,10.0,1
-217, Corey Howell              ,19, Other , West Colin             , 8th         ,4.6,8.4,84,4,1.8,3,4,1,0,0.5,51,18,4.4,2.2,0.7, Other              ,9,6.8,10.0,1
+217, Corey Howell              ,19, Other , West Colin             , 8th         ,4.6,8.4,84,4,1.8,3,4,1,0,0.5,51,18,4.4,2.2,0.7, Other              ,9,6.8,10.0,2
 218, Matthew Gutierrez         ,13, Other , Schultzfurt            , 11th        ,1.6,6.0,75,9,1.0,8,4,4,0,0.3,62,17,1.7,1.2,0.9, Education          ,10,4.1,6.1,0
-219, Jennifer Gomez            ,18, Male  , Jonesside              , 8th         ,8.1,7.7,71,5,0.1,9,3,5,1,1.4,143,6,2.8,0.7,0.0, Other              ,9,6.4,10.0,1
+219, Jennifer Gomez            ,18, Male  , Jonesside              , 8th         ,8.1,7.7,71,5,0.1,9,3,5,1,1.4,143,6,2.8,0.7,0.0, Other              ,9,6.4,10.0,2
 220, Amy Ponce                 ,16, Female, East Williamborough    , 11th        ,4.7,5.8,51,8,1.3,2,9,7,1,0.3,60,10,4.1,1.2,1.3, Browsing           ,6,5.0,10.0,2
 221, Kimberly Mcdowell         ,15, Other , Elliottton             , 9th         ,8.8,7.1,59,10,0.2,10,4,2,1,1.1,141,14,0.9,0.5,1.2, Browsing           ,8,5.5,10.0,1
 222, Caitlin Cook              ,17, Female, Floresview             , 9th         ,8.9,7.0,93,9,1.4,9,8,3,0,0.0,70,5,1.8,1.8,0.5, Browsing           ,9,4.4,10.0,2
@@ -238,7 +238,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 237, Ryan Fletcher             ,17, Female, Ashleytown             , 9th         ,4.8,10.0,57,0,0.4,10,4,7,1,0.2,92,7,2.1,1.3,0.5, Other              ,7,1.5,6.4,0
 238, Matthew Floyd             ,13, Male  , Katherineport          , 7th         ,4.2,7.0,62,6,0.4,8,3,8,0,0.9,68,14,1.8,1.9,1.3, Other              ,6,4.3,8.6,2
 239, Kelly Vasquez             ,16, Male  , South Dawn             , 11th        ,8.4,7.7,99,5,0.4,6,5,4,1,0.3,143,6,2.7,0.8,0.9, Gaming             ,1,8.1,10.0,1
-240, Amanda Jacobs             ,19, Other , Lake Janetborough      , 10th        ,6.2,7.9,79,5,2.6,1,4,2,0,0.7,71,17,0.9,0.6,0.2, Gaming             ,10,8.1,8.6,2
+240, Amanda Jacobs             ,19, Other , Lake Janetborough      , 10th        ,6.2,7.9,79,5,2.6,1,4,2,0,0.7,71,17,0.9,0.6,0.2, Gaming             ,10,8.1,8.6,0
 241, Angela Parrish            ,16, Female, East Kyle              , 8th         ,4.8,5.4,82,2,1.3,5,8,2,0,0.9,39,14,1.4,1.6,0.5, Gaming             ,7,7.9,8.7,2
 242, Lauren Flynn              ,17, Female, Port Marcus            , 8th         ,8.0,7.7,75,1,1.0,4,6,4,0,0.2,107,11,2.7,1.3,1.6, Social Media       ,3,5.3,10.0,1
 243, Tara Stevens              ,13, Female, West Carlos            , 12th        ,6.7,3.5,74,10,0.0,2,7,3,1,0.6,70,11,0.4,1.0,0.2, Social Media       ,7,7.1,10.0,2
@@ -262,7 +262,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 261, Ruben Adams               ,18, Female, Brandyview             , 7th         ,2.0,7.1,59,2,1.3,9,9,7,0,0.9,128,6,2.7,0.8,2.0, Other              ,7,9.7,5.7,0
 262, Robert Morrow             ,19, Female, Garymouth              , 11th        ,6.6,6.9,83,8,0.0,4,8,3,1,1.2,40,10,3.4,1.8,1.4, Browsing           ,8,1.6,10.0,2
 263, Jeffrey Dunn              ,19, Male  , Derrickmouth           , 12th        ,2.0,7.9,99,5,1.7,10,8,2,1,1.4,103,8,3.2,0.0,2.1, Browsing           ,8,7.4,4.9,0
-264, Shane Jefferson           ,15, Male  , Wagnershire            , 12th        ,3.5,6.5,100,9,2.0,8,4,5,1,0.9,150,12,0.2,2.3,1.6, Gaming             ,7,2.7,8.1,0
+264, Shane Jefferson           ,15, Male  , Wagnershire            , 12th        ,3.5,6.5,100,9,2.0,8,4,5,1,0.9,150,12,0.2,2.3,1.6, Gaming             ,7,2.7,8.1,2
 265, Christine Webb            ,14, Male  , Rachelside             , 8th         ,8.0,4.8,74,0,1.9,6,4,4,1,0.8,80,19,3.7,1.8,2.1, Gaming             ,6,1.5,10.0,1
 266, Christopher Walker        ,14, Other , South Kimberly         , 11th        ,7.5,6.2,65,5,0.9,1,9,5,0,0.5,77,20,1.8,0.6,0.2, Browsing           ,8,4.9,10.0,1
 267, William Lee MD            ,19, Female, Martinshire            , 7th         ,5.0,7.6,77,1,0.3,6,9,2,1,1.4,106,18,3.8,2.1,0.8, Other              ,8,4.2,10.0,1
@@ -305,7 +305,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 304, Joel Simmons              ,18, Female, Watersland             , 12th        ,3.7,6.5,99,1,0.3,5,3,9,1,0.5,93,6,1.0,3.3,1.3, Other              ,3,2.8,7.8,0
 305, Michelle Williams         ,18, Female, South Dana             , 11th        ,5.2,6.3,76,10,0.8,10,10,5,0,1.0,125,20,3.0,0.0,0.7, Social Media       ,3,2.8,10.0,1
 306, Bill Lopez                ,17, Female, Hortonmouth            , 8th         ,8.2,7.6,62,10,1.5,2,6,2,0,0.8,61,10,2.2,0.0,1.2, Social Media       ,3,7.7,9.8,2
-307, David Williams            ,13, Other , Daughertyshire         , 10th        ,6.2,6.1,67,8,0.2,10,10,3,1,0.8,95,11,2.6,1.9,0.7, Social Media       ,3,4.2,10.0,2
+307, David Williams            ,13, Other , Daughertyshire         , 10th        ,6.2,6.1,67,8,0.2,10,10,3,1,0.8,95,11,2.6,1.9,0.7, Social Media       ,3,4.2,10.0,1
 308, Kimberly Vazquez          ,16, Female, Carlastad              , 10th        ,7.0,7.4,93,7,2.0,7,4,8,1,1.3,94,19,3.1,1.6,1.3, Social Media       ,2,3.5,10.0,1
 309, Kim Christian             ,13, Male  , Millsbury              , 7th         ,3.7,5.3,79,3,1.2,8,3,4,1,1.4,96,7,2.5,1.6,2.2, Browsing           ,7,5.3,8.5,0
 310, Michelle Krueger          ,15, Other , Hernandezbury          , 12th        ,8.2,5.1,76,4,1.1,6,1,4,1,0.9,29,12,2.3,1.4,1.5, Gaming             ,3,7.5,10.0,1
@@ -325,7 +325,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 324, Rachel Garrett            ,16, Male  , West Vanessaport       , 12th        ,3.3,5.7,83,10,0.8,7,5,8,1,1.6,120,7,2.8,2.9,2.2, Gaming             ,10,8.1,10.0,2
 325, Jennifer Spencer          ,16, Other , East Claudiafort       , 12th        ,6.8,8.5,69,3,0.6,1,3,3,0,1.7,50,7,3.7,3.0,0.3, Other              ,1,5.3,10.0,2
 326, Ricardo Maynard           ,14, Male  , Taraport               , 11th        ,6.2,5.8,53,2,0.0,3,6,5,0,1.7,109,19,2.1,1.9,1.1, Other              ,5,4.3,10.0,1
-327, Victoria Cisneros         ,14, Female, South Vincentshire     , 10th        ,3.9,5.3,63,10,1.3,8,2,7,1,1.6,141,19,1.3,2.4,0.3, Other              ,8,3.0,10.0,2
+327, Victoria Cisneros         ,14, Female, South Vincentshire     , 10th        ,3.9,5.3,63,10,1.3,8,2,7,1,1.6,141,19,1.3,2.4,0.3, Other              ,8,3.0,10.0,1
 328, Anthony Sutton            ,16, Female, Fosterberg             , 8th         ,3.7,6.7,53,6,1.9,10,8,7,0,1.7,26,9,2.3,0.0,0.0, Education          ,7,8.2,5.0,0
 329, Jonathan Nash             ,15, Male  , Christinafurt          , 9th         ,4.5,5.3,62,7,0.0,4,1,9,0,0.6,44,17,1.6,1.7,1.0, Gaming             ,7,7.7,9.4,2
 330, Nicholas Pena             ,15, Female, Port Robinbury         , 11th        ,7.3,4.4,62,0,0.3,10,7,9,0,1.6,62,14,4.4,2.5,1.0, Other              ,8,9.1,10.0,1
@@ -352,7 +352,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 351, Tiffany Briggs            ,18, Other , North Jacob            , 11th        ,6.7,6.6,95,0,1.2,8,2,6,0,0.7,93,15,3.8,0.3,1.7, Browsing           ,2,4.1,10.0,1
 352, Christina Gallegos        ,17, Female, Port Dawn              , 12th        ,8.6,6.0,56,0,2.1,7,10,9,0,1.3,114,17,2.1,0.1,0.9, Education          ,10,5.4,10.0,1
 353, Lisa Adams                ,14, Female, North Danastad         , 11th        ,3.2,7.3,74,1,0.2,6,8,7,1,1.4,106,11,1.8,0.3,1.4, Social Media       ,9,5.3,6.0,0
-354, Aaron Anderson            ,19, Female, Troyburgh              , 8th         ,7.1,8.7,100,1,0.7,8,7,5,0,1.0,82,14,2.9,1.6,1.1, Education          ,7,5.8,10.0,1
+354, Aaron Anderson            ,19, Female, Troyburgh              , 8th         ,7.1,8.7,100,1,0.7,8,7,5,0,1.0,82,14,2.9,1.6,1.1, Education          ,7,5.8,10.0,2
 355, Martin Clark              ,14, Other , Howardbury             , 8th         ,6.8,7.5,84,1,2.7,7,8,10,0,1.7,116,9,1.3,1.2,1.3, Education          ,4,7.7,9.7,2
 356, Peter Nguyen              ,13, Other , North Michael          , 9th         ,8.8,6.8,83,9,0.3,2,2,1,1,1.4,149,5,3.0,1.0,2.0, Social Media       ,10,6.3,10.0,1
 357, Joshua Williams           ,16, Female, Omarborough            , 10th        ,5.0,6.6,50,2,0.9,9,3,5,0,1.1,69,16,3.6,1.7,2.2, Other              ,7,4.8,10.0,2
@@ -361,7 +361,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 360, Amy Phillips              ,15, Male  , North Harold           , 12th        ,4.8,7.5,68,9,0.0,4,2,2,1,0.7,102,11,2.7,1.1,1.2, Browsing           ,1,5.9,9.1,2
 361, Drew Mitchell             ,16, Female, Schneiderbury          , 9th         ,4.3,7.1,63,3,1.5,6,5,10,1,0.9,65,5,0.6,3.1,0.8, Other              ,7,2.4,6.7,0
 362, Shane Davis               ,15, Female, East Alicia            , 8th         ,6.4,6.3,89,1,2.6,5,9,9,0,0.2,31,12,3.7,0.7,1.3, Other              ,7,4.4,10.0,2
-363, Denise Lin MD             ,17, Male  , South Juliaton         , 11th        ,2.2,4.9,62,9,0.1,3,4,7,1,1.4,127,8,3.1,1.5,2.4, Browsing           ,4,6.1,8.5,0
+363, Denise Lin MD             ,17, Male  , South Juliaton         , 11th        ,2.2,4.9,62,9,0.1,3,4,7,1,1.4,127,8,3.1,1.5,2.4, Browsing           ,4,6.1,8.5,2
 364, Steven Andrade            ,14, Other , Robertburgh            , 9th         ,6.9,7.4,50,5,0.9,5,3,4,0,0.7,58,20,0.9,1.3,1.2, Social Media       ,3,6.9,10.0,2
 365, Angela Brown              ,19, Female, Barbarastad            , 7th         ,3.8,6.5,91,4,1.6,7,2,8,0,1.9,134,11,4.3,1.2,1.0, Gaming             ,8,7.5,10.0,2
 366, Daniel Sherman            ,18, Male  , East Brian             , 12th        ,4.1,7.5,93,9,0.9,3,5,6,0,0.4,25,9,2.7,1.6,1.4, Browsing           ,6,4.5,7.0,0
@@ -415,7 +415,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 414, Michelle Hicks            ,16, Female, Stewartport            , 11th        ,3.7,5.9,83,6,1.4,3,1,5,1,1.2,83,11,1.5,0.9,0.9, Browsing           ,1,5.9,7.0,0
 415, Mr. Brian Garcia          ,15, Other , Cynthiaville           , 8th         ,8.4,5.2,95,2,0.4,9,6,6,0,0.6,108,14,2.6,2.9,0.1, Browsing           ,1,2.3,10.0,1
 416, Monica Hill               ,16, Male  , North Stevenshire      , 12th        ,8.8,7.3,80,10,1.0,4,3,3,1,1.1,58,10,3.5,1.9,0.6, Other              ,3,4.7,10.0,1
-417, Peggy Butler              ,17, Male  , New Natalieside        , 11th        ,6.2,6.2,64,8,2.5,10,3,3,0,1.9,41,13,3.4,1.9,1.6, Social Media       ,8,8.5,10.0,1
+417, Peggy Butler              ,17, Male  , New Natalieside        , 11th        ,6.2,6.2,64,8,2.5,10,3,3,0,1.9,41,13,3.4,1.9,1.6, Social Media       ,8,8.5,10.0,2
 418, Ralph Allen               ,15, Other , New Jessica            , 8th         ,3.8,3.9,73,2,1.8,5,1,8,1,0.0,85,6,1.5,1.9,1.3, Other              ,7,6.5,8.2,0
 419, Robert Foster             ,15, Other , Smithburgh             , 12th        ,6.0,7.4,57,5,1.0,9,8,3,1,0.9,113,18,2.5,0.4,0.6, Education          ,8,5.0,10.0,2
 420, Sabrina Hicks             ,15, Other , West Justin            , 12th        ,2.4,8.3,100,8,0.0,6,3,9,0,0.6,93,18,3.3,0.2,0.9, Social Media       ,7,3.3,7.2,0
@@ -445,7 +445,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 444, Donald Sutton             ,16, Male  , Meghanmouth            , 12th        ,7.3,10.0,94,4,0.5,1,10,4,0,1.7,122,19,2.1,2.2,0.0, Browsing           ,2,7.1,10.0,1
 445, Laura Smith               ,14, Other , New Adamchester        , 8th         ,6.8,7.7,53,0,1.2,6,5,2,1,1.7,55,18,3.2,1.5,0.9, Other              ,8,7.0,10.0,1
 446, Erika Hill                ,14, Other , Joannmouth             , 11th        ,3.7,7.5,53,6,1.3,7,4,3,1,0.2,115,18,3.1,1.8,0.4, Other              ,2,4.5,10.0,2
-447, Diane Walters             ,19, Other , West Rodneyfurt        , 7th         ,5.0,6.9,50,0,0.4,9,9,2,1,0.7,108,19,1.8,2.3,0.0, Social Media       ,3,6.7,10.0,1
+447, Diane Walters             ,19, Other , West Rodneyfurt        , 7th         ,5.0,6.9,50,0,0.4,9,9,2,1,0.7,108,19,1.8,2.3,0.0, Social Media       ,3,6.7,10.0,2
 448, Madison Thomas            ,19, Male  , Williamschester        , 12th        ,6.8,9.4,67,6,0.8,8,1,2,1,1.3,57,20,1.1,1.1,1.0, Social Media       ,6,7.1,9.4,2
 449, Lindsey Sheppard          ,19, Male  , Brownstad              , 9th         ,6.6,8.6,61,8,2.0,10,9,8,0,1.3,133,5,1.6,2.1,0.9, Other              ,7,7.8,9.7,2
 450, David Williams            ,13, Male  , Lake Amanda            , 10th        ,3.8,5.2,75,5,0.9,1,2,7,0,0.0,123,18,4.5,0.4,1.6, Gaming             ,4,3.9,10.0,1
@@ -472,10 +472,10 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 471, Brian Sanchez             ,19, Male  , Courtneyland           , 9th         ,5.6,6.1,91,9,1.5,9,7,9,0,0.2,111,12,2.7,0.4,3.0, Other              ,7,2.9,10.0,2
 472, Rebecca Williams          ,13, Male  , Port Shawnland         , 10th        ,3.8,7.1,99,7,1.1,3,7,10,1,0.8,26,20,4.1,1.8,0.1, Other              ,6,6.2,10.0,2
 473, Lisa Baker                ,18, Female, North Brookebury       , 11th        ,5.0,8.5,99,4,0.0,5,2,6,0,0.0,134,15,4.1,1.3,1.2, Education          ,1,6.0,10.0,1
-474, Jessica Stevens           ,19, Other , East Bailey            , 9th         ,5.2,8.7,51,1,1.5,3,10,8,1,0.9,81,18,2.6,0.1,0.3, Browsing           ,3,5.7,8.8,2
+474, Jessica Stevens           ,19, Other , East Bailey            , 9th         ,5.2,8.7,51,1,1.5,3,10,8,1,0.9,81,18,2.6,0.1,0.3, Browsing           ,3,5.7,8.8,0
 475, Christopher Juarez        ,17, Male  , Butlerhaven            , 7th         ,10.2,10.0,64,6,2.0,2,1,1,0,0.2,73,17,1.6,1.0,1.6, Social Media       ,10,5.3,10.0,1
 476, Kathryn Bowman            ,13, Female, Jamieview              , 12th        ,1.1,9.0,98,0,1.1,4,4,1,1,1.6,132,19,1.7,2.6,1.7, Education          ,6,5.0,7.3,0
-477, Angela Morales            ,14, Other , South Louis            , 8th         ,2.4,6.0,84,3,0.0,9,7,5,1,0.3,65,20,2.1,1.5,1.4, Gaming             ,8,4.0,8.3,0
+477, Angela Morales            ,14, Other , South Louis            , 8th         ,2.4,6.0,84,3,0.0,9,7,5,1,0.3,65,20,2.1,1.5,1.4, Gaming             ,8,4.0,8.3,2
 478, Allison Lyons             ,17, Male  , Reginafurt             , 8th         ,5.5,7.4,93,7,1.3,9,5,5,1,1.5,81,6,3.0,1.5,0.6, Gaming             ,5,5.7,9.1,2
 479, Tracy Werner              ,16, Male  , East Michaelmouth      , 11th        ,5.0,7.9,100,0,0.3,4,9,8,1,0.9,26,15,1.6,0.0,0.8, Social Media       ,4,8.4,6.2,0
 480, Erica Lowery              ,15, Other , South Sarahville       , 10th        ,2.2,7.2,79,0,1.5,8,1,3,0,0.1,56,9,2.5,0.7,0.7, Gaming             ,6,7.0,4.7,0
@@ -536,7 +536,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 535, Melissa Gordon            ,15, Male  , Julieshire             , 11th        ,2.2,5.1,65,5,2.3,5,4,2,0,0.8,148,12,2.5,1.2,1.1, Social Media       ,4,7.7,8.7,2
 536, Heather Gonzalez DDS      ,17, Female, East Samuelland        , 8th         ,3.2,3.0,76,7,1.4,10,4,10,1,1.7,39,17,2.8,1.7,0.2, Other              ,4,6.5,10.0,2
 537, Matthew Dillon            ,13, Male  , Omarview               , 11th        ,6.1,8.0,50,5,0.8,7,2,2,0,1.1,22,14,1.0,1.6,1.4, Browsing           ,7,5.9,7.9,0
-538, Megan Morales             ,13, Male  , Ashleystad             , 9th         ,7.6,7.2,86,3,1.8,10,3,9,1,1.4,117,10,1.9,1.7,0.7, Education          ,5,7.5,10.0,1
+538, Megan Morales             ,13, Male  , Ashleystad             , 9th         ,7.6,7.2,86,3,1.8,10,3,9,1,1.4,117,10,1.9,1.7,0.7, Education          ,5,7.5,10.0,2
 539, Lisa Gibson               ,17, Male  , Lake Georgeton         , 10th        ,4.5,7.3,91,5,0.8,8,1,8,1,1.3,135,13,2.7,2.4,1.4, Other              ,4,6.7,10.0,2
 540, Melanie Hughes            ,18, Other , South Jillmouth        , 8th         ,5.9,4.9,57,5,0.2,6,1,2,0,1.3,21,19,2.0,2.8,0.3, Gaming             ,9,7.9,10.0,1
 541, Seth Martinez             ,15, Other , Drakeland              , 12th        ,2.2,10.0,62,6,1.7,1,1,10,1,1.6,46,14,4.1,3.6,1.3, Education          ,5,5.2,8.6,0
@@ -590,7 +590,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 589, Joseph Arnold             ,16, Other , Ernestburgh            , 8th         ,4.9,7.1,66,7,2.1,10,1,6,0,0.6,40,18,4.3,3.1,1.2, Browsing           ,4,5.2,10.0,1
 590, Kristina Morgan           ,16, Female, Annstad                , 12th        ,4.3,7.3,95,9,2.1,4,3,3,1,0.7,130,16,3.8,0.6,2.5, Browsing           ,7,6.2,10.0,2
 591, Mckenzie Ball             ,17, Female, North Billyhaven       , 9th         ,6.1,6.6,52,10,0.9,7,4,1,0,0.9,39,18,3.6,1.1,1.0, Education          ,2,4.1,10.0,1
-592, Joseph Rodgers            ,19, Male  , Lake Rachelville       , 7th         ,3.9,7.7,58,9,0.0,4,7,7,1,0.9,51,16,2.7,1.4,0.8, Education          ,9,3.4,8.4,0
+592, Joseph Rodgers            ,19, Male  , Lake Rachelville       , 7th         ,3.9,7.7,58,9,0.0,4,7,7,1,0.9,51,16,2.7,1.4,0.8, Education          ,9,3.4,8.4,2
 593, Dustin Wood               ,17, Male  , Andrewside             , 12th        ,6.2,8.3,59,2,1.0,3,1,9,0,0.8,123,16,2.7,2.1,0.8, Gaming             ,9,7.5,10.0,1
 594, Katherine Estrada         ,19, Other , Mooreburgh             , 7th         ,3.2,4.2,67,5,0.1,7,2,3,1,1.5,89,9,3.1,1.1,0.9, Other              ,9,0.7,8.9,2
 595, Rachael Brown             ,16, Female, Port Tommyview         , 12th        ,3.9,6.3,59,2,0.7,5,2,2,1,1.2,120,18,5.0,4.0,2.5, Education          ,10,4.3,10.0,1
@@ -628,10 +628,10 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 627, Jessica Jones             ,15, Other , Smithberg              , 7th         ,5.5,5.3,69,0,0.0,1,7,1,1,0.0,45,12,1.9,1.3,0.9, Social Media       ,9,6.6,9.4,2
 628, John Garcia               ,14, Male  , North Thomasview       , 8th         ,2.6,7.2,73,3,0.6,8,9,1,0,0.0,107,9,4.6,1.5,1.4, Education          ,8,5.9,9.0,2
 629, Louis Robinson            ,13, Male  , North Jerry            , 7th         ,2.4,7.1,52,1,2.3,5,4,7,0,0.5,81,18,2.4,0.7,0.7, Browsing           ,1,3.5,7.2,0
-630, Makayla Parker            ,13, Male  , North Christopher      , 12th        ,4.3,5.8,100,10,0.4,2,1,9,1,0.9,126,15,3.4,1.3,1.2, Other              ,8,5.0,10.0,2
+630, Makayla Parker            ,13, Male  , North Christopher      , 12th        ,4.3,5.8,100,10,0.4,2,1,9,1,0.9,126,15,3.4,1.3,1.2, Other              ,8,5.0,10.0,1
 631, Brooke Gay                ,13, Female, South Richard          , 12th        ,1.1,6.8,77,9,1.9,3,9,4,1,1.6,38,19,4.2,3.8,0.0, Education          ,2,3.7,10.0,2
 632, Jason Whitaker            ,16, Female, Shawntown              , 9th         ,5.7,8.6,55,0,0.3,5,6,5,1,1.3,121,6,2.0,2.1,1.7, Other              ,4,4.4,9.1,2
-633, Mary Warner               ,14, Other , Huntland               , 12th        ,6.9,7.9,52,4,3.3,10,2,5,1,0.9,92,10,3.3,1.8,0.9, Social Media       ,4,7.9,10.0,1
+633, Mary Warner               ,14, Other , Huntland               , 12th        ,6.9,7.9,52,4,3.3,10,2,5,1,0.9,92,10,3.3,1.8,0.9, Social Media       ,4,7.9,10.0,2
 634, James Garcia              ,15, Other , North Sydney           , 9th         ,2.9,5.9,92,4,1.2,5,9,6,1,0.8,45,6,2.1,0.1,1.3, Browsing           ,4,4.3,4.2,0
 635, Patrick Flowers           ,15, Female, New Michael            , 12th        ,4.6,7.4,60,2,0.0,3,9,4,1,0.3,150,6,3.6,2.5,1.9, Social Media       ,4,3.7,10.0,2
 636, Stephanie Diaz            ,15, Other , Mariahport             , 11th        ,5.3,5.9,96,2,0.9,8,3,8,0,0.9,51,15,4.4,1.3,0.2, Gaming             ,5,10.2,10.0,1
@@ -644,7 +644,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 643, Jeffery Thomas            ,18, Female, East Melissafurt       , 7th         ,5.4,7.0,90,9,0.2,10,10,1,1,1.3,47,17,4.7,1.0,0.8, Gaming             ,6,9.5,10.0,1
 644, Christopher Miller        ,13, Female, North Ruben            , 10th        ,4.4,7.6,69,4,1.8,2,7,10,1,2.4,73,17,2.7,1.7,0.0, Browsing           ,2,3.3,9.9,2
 645, Terry Walker              ,14, Male  , New Michael            , 10th        ,6.3,4.4,52,6,0.6,2,1,5,1,0.7,74,7,2.8,1.0,1.5, Browsing           ,2,6.9,10.0,2
-646, Alex Martin               ,17, Female, Christopherton         , 12th        ,7.8,4.6,56,0,1.5,6,10,9,1,0.6,126,6,0.9,2.1,0.9, Other              ,4,8.2,10.0,1
+646, Alex Martin               ,17, Female, Christopherton         , 12th        ,7.8,4.6,56,0,1.5,6,10,9,1,0.6,126,6,0.9,2.1,0.9, Other              ,4,8.2,10.0,2
 647, Caleb Garrett             ,18, Female, West Morgan            , 8th         ,2.9,4.9,84,5,0.3,5,1,7,0,1.6,74,9,1.9,1.4,0.8, Other              ,3,8.8,7.0,0
 648, Donald Horne              ,16, Female, Lake Jonathan          , 11th        ,4.1,6.7,82,0,0.6,8,6,1,0,1.3,150,6,1.6,0.5,0.2, Social Media       ,6,3.4,7.0,0
 649, Sandra Barton             ,17, Female, Port Lisamouth         , 12th        ,5.5,5.5,62,8,0.8,9,4,7,0,0.7,67,18,3.8,2.9,0.0, Social Media       ,7,6.7,10.0,1
@@ -662,7 +662,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 661, Samantha Russell          ,16, Other , New Tarashire          , 8th         ,3.8,5.2,87,9,2.6,2,8,4,1,0.7,60,13,1.0,1.1,1.1, Education          ,6,8.7,7.1,0
 662, Katherine Montgomery      ,17, Male  , Masonburgh             , 8th         ,4.9,7.7,87,7,0.0,5,5,6,1,1.4,86,11,1.3,2.8,1.0, Browsing           ,7,7.4,9.1,2
 663, Edward Gilbert            ,17, Male  , Diazberg               , 10th        ,8.4,9.3,84,7,1.0,8,3,2,1,1.6,28,7,2.0,1.2,1.0, Social Media       ,8,5.0,8.9,2
-664, Francisco Sanchez         ,14, Other , South Jenna            , 10th        ,2.4,3.4,53,2,1.2,2,4,8,1,1.4,126,5,2.5,2.0,0.1, Browsing           ,1,6.0,8.7,0
+664, Francisco Sanchez         ,14, Other , South Jenna            , 10th        ,2.4,3.4,53,2,1.2,2,4,8,1,1.4,126,5,2.5,2.0,0.1, Browsing           ,1,6.0,8.7,2
 665, Kelly Stanley             ,13, Female, Lake Joseph            , 7th         ,4.6,8.7,98,7,1.2,4,6,1,0,1.4,122,10,3.8,1.9,0.2, Browsing           ,5,9.5,10.0,2
 666, Lawrence Fuller           ,17, Male  , East Willie            , 7th         ,5.3,8.4,67,10,0.7,9,4,8,1,0.5,70,18,3.4,0.9,0.7, Education          ,10,4.9,10.0,2
 667, Veronica Evans            ,15, Male  , East Amberberg         , 9th         ,5.6,5.3,73,5,0.6,5,4,9,1,2.0,100,9,2.7,0.0,1.1, Social Media       ,1,7.8,9.5,2
@@ -673,13 +673,13 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 672, Joshua Howard             ,13, Other , Stephaniehaven         , 12th        ,2.8,6.0,79,8,0.7,1,8,4,1,0.6,78,5,2.2,1.3,0.4, Gaming             ,4,6.7,5.9,0
 673, Hector Mendez             ,15, Other , Camachoberg            , 7th         ,4.6,5.1,51,2,1.0,8,7,6,1,1.3,89,17,2.8,0.8,2.1, Gaming             ,7,6.8,10.0,2
 674, Zachary Perkins           ,18, Male  , Marqueztown            , 9th         ,6.4,7.3,84,3,0.2,10,6,1,1,0.0,52,12,1.0,2.4,0.0, Gaming             ,6,9.2,9.6,2
-675, John Weber                ,13, Female, West Cliffordside      , 10th        ,3.7,5.7,90,6,0.8,3,6,7,0,0.6,117,20,3.2,1.3,1.6, Other              ,10,5.5,10.0,2
+675, John Weber                ,13, Female, West Cliffordside      , 10th        ,3.7,5.7,90,6,0.8,3,6,7,0,0.6,117,20,3.2,1.3,1.6, Other              ,10,5.5,10.0,1
 676, Jacqueline Fisher         ,14, Other , Lake James             , 11th        ,6.0,7.5,63,0,0.8,8,10,6,1,0.7,66,16,2.4,1.5,0.7, Other              ,5,3.8,10.0,2
 677, Kristin Palmer            ,19, Male  , Perrymouth             , 8th         ,6.5,6.9,88,7,1.2,7,5,2,1,1.2,93,19,2.3,2.3,1.7, Gaming             ,3,6.1,10.0,1
-678, Joel Roy                  ,17, Male  , Dawsonville            , 12th        ,4.7,5.5,68,5,0.3,8,1,6,0,1.5,77,8,1.9,1.3,0.0, Social Media       ,1,5.5,8.3,2
+678, Joel Roy                  ,17, Male  , Dawsonville            , 12th        ,4.7,5.5,68,5,0.3,8,1,6,0,1.5,77,8,1.9,1.3,0.0, Social Media       ,1,5.5,8.3,0
 679, Nathan Davis              ,17, Other , Georgemouth            , 8th         ,4.4,7.8,55,9,1.5,5,3,9,1,1.1,131,15,0.3,1.5,1.4, Social Media       ,5,7.5,7.9,0
 680, Marc Young                ,15, Male  , Port Brandy            , 12th        ,3.8,4.3,89,2,0.0,5,6,1,1,0.9,56,19,2.7,1.9,1.9, Other              ,1,5.0,10.0,2
-681, Daniel Reyes              ,17, Other , North Kelly            , 12th        ,9.3,6.9,88,2,0.7,6,2,3,0,1.2,106,9,2.0,0.3,0.9, Gaming             ,8,8.6,10.0,1
+681, Daniel Reyes              ,17, Other , North Kelly            , 12th        ,9.3,6.9,88,2,0.7,6,2,3,0,1.2,106,9,2.0,0.3,0.9, Gaming             ,8,8.6,10.0,2
 682, Ryan Gonzalez             ,14, Female, North Johnmouth        , 8th         ,3.8,6.2,95,4,0.8,7,1,2,0,1.5,32,9,3.1,1.6,1.4, Gaming             ,5,2.1,7.8,0
 683, Caroline Bowers           ,14, Male  , South Kayla            , 11th        ,4.8,6.4,77,5,0.2,7,3,2,0,1.0,62,18,2.9,1.1,0.1, Education          ,9,6.1,10.0,2
 684, Shane Walker              ,18, Male  , Cooperland             , 10th        ,4.9,7.0,94,3,1.3,6,9,8,0,0.6,109,13,2.3,0.0,0.0, Gaming             ,6,5.4,8.5,2
@@ -697,7 +697,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 696, Steven Peterson           ,16, Other , Lake Amandahaven       , 9th         ,5.2,6.1,93,6,0.6,8,8,5,1,0.9,93,11,4.2,2.4,0.3, Social Media       ,4,9.3,10.0,1
 697, Erika Jones               ,13, Male  , New Jessemouth         , 8th         ,2.5,7.6,90,7,0.1,5,2,10,1,1.0,61,7,2.6,1.9,2.4, Browsing           ,3,2.1,5.8,0
 698, Anthony Allen             ,18, Female, South Stephanieton     , 12th        ,4.0,5.7,55,0,1.4,4,5,2,1,1.3,48,18,2.7,3.0,0.7, Other              ,8,8.3,10.0,2
-699, Brittany Klein            ,18, Male  , Lake Julianborough     , 8th         ,7.6,7.0,61,7,2.7,10,3,7,0,1.6,121,5,3.1,1.7,1.9, Social Media       ,10,11.6,10.0,1
+699, Brittany Klein            ,18, Male  , Lake Julianborough     , 8th         ,7.6,7.0,61,7,2.7,10,3,7,0,1.6,121,5,3.1,1.7,1.9, Social Media       ,10,11.6,10.0,2
 700, Daniel Burgess            ,17, Female, Port Brittanyville     , 12th        ,4.9,4.7,79,8,1.0,3,4,2,1,1.3,122,12,2.3,1.2,0.6, Gaming             ,10,5.0,10.0,2
 701, Paul Rodriguez            ,14, Male  , Lake Holly             , 11th        ,2.8,4.4,60,8,0.0,2,4,7,1,1.2,95,9,2.8,0.4,0.5, Gaming             ,10,8.1,7.5,0
 702, Philip Patel              ,13, Female, North Christopher      , 11th        ,0.0,4.5,63,5,0.4,5,10,9,1,0.8,141,18,3.3,0.0,1.0, Social Media       ,1,6.1,7.5,0
@@ -708,9 +708,9 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 707, Steven Morgan             ,19, Female, Wellsland              , 7th         ,5.6,4.7,98,10,0.9,5,5,4,0,0.8,108,16,4.2,3.0,0.4, Other              ,2,9.1,10.0,1
 708, Joseph Reynolds           ,14, Other , South Carrie           , 12th        ,6.5,5.6,83,0,1.5,10,4,3,0,1.5,64,11,2.2,2.7,1.0, Social Media       ,2,7.3,10.0,1
 709, Jacqueline Holland        ,17, Male  , South Michael          , 10th        ,5.3,6.1,54,4,1.3,3,4,3,0,0.7,146,6,2.3,2.4,1.1, Browsing           ,9,8.0,10.0,2
-710, Robert Lee                ,17, Male  , Port Anthony           , 9th         ,4.0,7.5,52,1,1.4,7,4,5,1,0.7,67,14,2.4,1.8,0.5, Education          ,8,6.9,8.6,2
+710, Robert Lee                ,17, Male  , Port Anthony           , 9th         ,4.0,7.5,52,1,1.4,7,4,5,1,0.7,67,14,2.4,1.8,0.5, Education          ,8,6.9,8.6,0
 711, Pamela Johnson            ,15, Male  , Derrickville           , 8th         ,11.0,7.7,59,2,0.4,7,7,2,0,2.1,81,10,1.6,1.6,1.4, Browsing           ,8,6.2,10.0,1
-712, Lori Johnson              ,15, Other , Floresmouth            , 7th         ,6.3,7.5,83,5,1.3,8,10,4,0,1.6,40,14,4.4,1.3,1.2, Education          ,2,5.7,10.0,1
+712, Lori Johnson              ,15, Other , Floresmouth            , 7th         ,6.3,7.5,83,5,1.3,8,10,4,0,1.6,40,14,4.4,1.3,1.2, Education          ,2,5.7,10.0,2
 713, Annette Thomas            ,14, Female, New Willie             , 8th         ,0.3,5.8,64,7,0.4,4,9,2,0,0.0,43,18,2.0,1.1,0.7, Social Media       ,6,2.7,5.0,0
 714, Steven Sanchez            ,16, Male  , Marissaberg            , 12th        ,4.8,4.7,61,3,0.6,10,1,1,1,1.7,26,12,1.4,2.5,0.9, Education          ,10,2.9,9.3,2
 715, Nicole Martinez           ,19, Other , North Tony             , 8th         ,4.4,9.1,100,6,0.5,6,2,6,1,1.4,109,11,4.1,0.7,0.8, Education          ,5,7.2,9.0,2
@@ -722,7 +722,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 721, Scott Harris              ,19, Other , Jessicabury            , 7th         ,8.1,8.2,86,0,1.0,3,6,2,1,1.1,73,19,1.8,2.0,0.0, Education          ,6,5.9,10.0,1
 722, Heather Cunningham        ,19, Female, Priceville             , 11th        ,6.4,5.2,97,7,1.9,5,2,2,0,1.2,55,13,1.6,0.8,1.1, Browsing           ,5,6.7,9.9,2
 723, Kristen Sosa              ,18, Female, Port Marcus            , 8th         ,5.1,4.2,82,8,0.2,1,7,8,0,1.3,127,20,2.2,2.2,1.5, Other              ,9,3.2,10.0,1
-724, Matthew Livingston III    ,19, Other , Stephentown            , 7th         ,5.3,10.0,60,6,2.2,6,1,7,0,1.4,93,17,2.3,0.4,0.5, Other              ,3,6.3,8.3,2
+724, Matthew Livingston III    ,19, Other , Stephentown            , 7th         ,5.3,10.0,60,6,2.2,6,1,7,0,1.4,93,17,2.3,0.4,0.5, Other              ,3,6.3,8.3,0
 725, Mary Ruiz                 ,15, Male  , North Dwaynemouth      , 11th        ,5.6,7.7,75,9,0.0,3,9,5,1,0.2,72,14,2.0,1.9,0.7, Browsing           ,3,3.1,9.9,2
 726, Andrea Young              ,14, Male  , Jamesstad              , 10th        ,6.7,5.2,84,6,1.2,2,10,7,0,1.9,60,19,1.4,1.1,1.4, Browsing           ,1,3.6,10.0,2
 727, Cindy Adams               ,17, Female, Shelleychester         , 10th        ,3.8,7.0,96,6,1.1,4,5,10,0,1.6,122,8,2.0,0.1,0.7, Browsing           ,1,9.6,6.4,0
@@ -742,7 +742,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 741, Stephanie Diaz            ,17, Other , Millerhaven            , 12th        ,6.0,6.1,71,8,1.9,9,10,6,0,0.6,99,17,4.7,0.0,0.7, Education          ,9,3.5,10.0,1
 742, Anthony Wilson            ,15, Female, Torresport             , 9th         ,5.8,9.9,50,7,2.2,5,7,6,0,1.2,137,12,3.1,1.1,1.3, Social Media       ,6,4.1,10.0,2
 743, Michael Wheeler           ,13, Other , North Tara             , 8th         ,5.3,8.7,85,2,1.6,5,4,4,0,1.2,58,11,0.7,0.3,0.0, Gaming             ,2,6.8,5.3,0
-744, Mr. Jorge Patton          ,17, Other , Lake David             , 8th         ,5.5,7.3,66,4,2.3,1,8,1,1,0.5,89,7,3.3,3.8,1.1, Education          ,10,7.7,10.0,1
+744, Mr. Jorge Patton          ,17, Other , Lake David             , 8th         ,5.5,7.3,66,4,2.3,1,8,1,1,0.5,89,7,3.3,3.8,1.1, Education          ,10,7.7,10.0,2
 745, Jennifer Wilson           ,14, Other , Hobbsland              , 9th         ,4.9,5.7,95,7,0.0,8,2,2,0,0.8,88,17,3.5,3.1,0.7, Social Media       ,8,5.4,10.0,1
 746, Robert Powell             ,13, Female, North Shawnberg        , 8th         ,5.6,8.3,94,2,0.0,4,6,9,0,1.0,144,5,1.8,0.9,1.8, Social Media       ,9,5.7,8.0,0
 747, Erica Allen               ,15, Female, Desireeville           , 12th        ,4.7,5.2,58,10,0.5,2,10,5,1,0.6,65,17,2.2,0.7,1.0, Social Media       ,8,6.1,9.7,2
@@ -754,9 +754,9 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 753, James Frazier             ,13, Male  , Jenniferbury           , 7th         ,7.5,5.2,68,6,0.8,7,6,7,0,0.0,84,11,2.1,2.7,0.1, Browsing           ,3,6.8,10.0,1
 754, Matthew Gardner           ,19, Female, Clarkton               , 8th         ,8.5,7.5,98,2,0.6,8,8,1,1,1.5,73,12,1.0,1.0,0.3, Other              ,4,5.5,10.0,2
 755, Robert Ruiz               ,19, Female, Claireville            , 8th         ,1.4,8.4,63,1,1.1,3,4,10,1,0.9,130,20,3.2,1.1,1.5, Browsing           ,4,5.5,8.1,0
-756, Brandon Peters            ,17, Other , Lake Anthonyland       , 7th         ,3.0,5.7,66,6,0.7,2,3,2,0,1.4,39,14,2.8,1.8,0.3, Education          ,2,6.5,8.3,2
+756, Brandon Peters            ,17, Other , Lake Anthonyland       , 7th         ,3.0,5.7,66,6,0.7,2,3,2,0,1.4,39,14,2.8,1.8,0.3, Education          ,2,6.5,8.3,0
 757, Alyssa Davidson           ,14, Other , Bryanhaven             , 8th         ,3.9,6.8,50,10,1.2,2,1,9,0,0.8,115,19,2.3,1.6,1.8, Education          ,10,3.5,10.0,2
-758, Andrea Booth              ,15, Other , East Jamesbury         , 7th         ,5.7,7.7,51,6,1.9,4,3,2,1,1.2,121,9,1.7,0.7,0.7, Social Media       ,6,2.0,8.5,2
+758, Andrea Booth              ,15, Other , East Jamesbury         , 7th         ,5.7,7.7,51,6,1.9,4,3,2,1,1.2,121,9,1.7,0.7,0.7, Social Media       ,6,2.0,8.5,0
 759, Erika Miller PhD          ,17, Female, Lake Samantha          , 10th        ,0.8,5.7,65,10,1.8,5,6,1,1,1.2,128,11,3.2,2.3,2.4, Gaming             ,3,7.2,8.2,0
 760, Heather Castro            ,16, Male  , Stewartchester         , 7th         ,8.1,9.5,65,6,1.8,6,2,1,1,0.6,38,20,0.0,1.3,0.4, Browsing           ,5,2.8,9.4,2
 761, Kirk Hart                 ,18, Male  , Ashleemouth            , 11th        ,6.8,8.4,95,5,0.4,1,5,7,1,1.0,103,8,1.2,1.1,0.9, Gaming             ,2,12.6,8.6,0
@@ -829,7 +829,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 828, Melissa Snyder            ,15, Male  , Penaborough            , 10th        ,2.2,5.5,72,4,1.4,5,1,1,0,1.1,131,5,1.9,1.5,1.7, Social Media       ,4,4.7,6.5,0
 829, Pamela Collins            ,15, Female, South Christopherville , 12th        ,7.0,8.2,68,4,0.6,3,5,7,0,1.1,148,17,3.5,2.1,1.3, Gaming             ,1,5.4,10.0,1
 830, Nicole Sanders            ,14, Male  , West Johnhaven         , 9th         ,3.8,6.8,78,7,1.4,2,9,2,1,1.2,43,7,2.0,2.3,0.7, Browsing           ,2,8.0,7.0,0
-831, Michael Garcia            ,14, Male  , Greenstad              , 8th         ,5.7,6.2,99,3,0.5,6,10,1,1,1.2,36,6,3.0,1.0,0.7, Gaming             ,2,6.4,8.5,2
+831, Michael Garcia            ,14, Male  , Greenstad              , 8th         ,5.7,6.2,99,3,0.5,6,10,1,1,1.2,36,6,3.0,1.0,0.7, Gaming             ,2,6.4,8.5,0
 832, Debbie Floyd              ,15, Female, East Ashleyshire       , 7th         ,9.1,6.0,56,7,0.1,10,1,1,1,0.0,120,9,1.5,2.3,1.5, Browsing           ,8,3.4,10.0,1
 833, David Newton              ,19, Other , West Scott             , 10th        ,2.8,7.1,64,1,0.1,4,2,4,1,0.8,109,12,3.1,1.0,1.6, Social Media       ,7,4.6,7.9,0
 834, Dylan Spencer             ,18, Female, West Jared             , 12th        ,2.2,6.0,83,2,1.4,8,1,6,1,0.5,92,16,1.1,2.0,1.0, Gaming             ,5,4.4,7.3,0
@@ -839,24 +839,24 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 838, Kevin Wagner MD           ,15, Female, New Stephaniemouth     , 7th         ,3.9,7.0,90,2,1.0,6,5,7,1,0.5,143,16,2.4,0.3,0.0, Social Media       ,6,5.2,9.2,2
 839, Dawn Henry                ,13, Male  , Johnhaven              , 8th         ,5.2,6.4,61,10,2.4,5,6,8,1,0.8,136,7,2.6,3.5,0.7, Education          ,1,5.7,10.0,1
 840, Michael Strickland        ,15, Male  , Jonesborough           , 12th        ,5.9,7.4,84,8,0.6,10,2,1,0,1.5,49,12,2.0,1.7,0.2, Education          ,10,4.1,9.3,2
-841, Randy Hunt                ,14, Male  , Jennybury              , 12th        ,2.1,4.6,57,1,1.0,3,6,7,1,1.0,86,13,2.3,2.1,0.8, Education          ,9,5.4,8.5,0
+841, Randy Hunt                ,14, Male  , Jennybury              , 12th        ,2.1,4.6,57,1,1.0,3,6,7,1,1.0,86,13,2.3,2.1,0.8, Education          ,9,5.4,8.5,2
 842, Michael Maldonado         ,18, Other , Lake Michael           , 8th         ,4.3,7.8,78,8,1.6,6,1,10,1,0.9,42,19,2.0,0.0,0.8, Education          ,9,7.6,7.0,0
 843, John Fletcher             ,16, Other , Jimenezside            , 8th         ,5.6,6.9,96,8,0.5,10,1,1,0,1.2,87,17,3.7,0.3,0.8, Education          ,10,6.5,10.0,2
 844, Joseph Taylor             ,18, Male  , Lake Nicole            , 12th        ,5.0,8.5,55,9,0.3,8,4,7,0,0.7,133,5,1.8,0.1,2.2, Social Media       ,7,6.0,6.3,0
 845, Henry Acosta              ,19, Female, Greeneland             , 7th         ,6.0,6.9,77,10,0.7,4,6,5,1,0.9,54,7,2.6,0.2,2.2, Gaming             ,5,8.2,7.8,0
 846, David Cox                 ,18, Female, Gonzalezton            , 10th        ,3.3,8.7,72,9,1.4,10,4,5,1,0.0,144,9,1.7,0.6,0.7, Education          ,4,10.4,5.9,0
-847, Daniel Rowland            ,19, Male  , East Jonathan          , 10th        ,4.2,8.3,81,7,1.6,9,10,8,1,0.4,96,20,1.9,3.8,0.3, Education          ,10,5.3,10.0,2
+847, Daniel Rowland            ,19, Male  , East Jonathan          , 10th        ,4.2,8.3,81,7,1.6,9,10,8,1,0.4,96,20,1.9,3.8,0.3, Education          ,10,5.3,10.0,1
 848, Samantha Castillo         ,17, Male  , Douglasport            , 11th        ,5.0,7.1,74,9,1.7,9,9,5,1,1.0,66,18,3.1,2.2,0.2, Browsing           ,9,9.3,10.0,2
-849, Frank Davis               ,19, Female, West Kelly             , 10th        ,7.3,4.9,73,6,0.8,10,9,8,1,1.2,33,15,2.5,0.6,0.6, Browsing           ,3,7.0,10.0,1
+849, Frank Davis               ,19, Female, West Kelly             , 10th        ,7.3,4.9,73,6,0.8,10,9,8,1,1.2,33,15,2.5,0.6,0.6, Browsing           ,3,7.0,10.0,2
 850, Bradley Brooks            ,17, Other , Port David             , 12th        ,7.0,5.0,50,9,2.1,5,10,1,0,1.3,51,19,2.5,1.8,1.8, Other              ,10,7.9,10.0,1
 851, Patricia Mcfarland        ,18, Male  , Derekborough           , 10th        ,3.0,3.1,66,7,0.0,3,6,9,0,1.4,33,20,3.4,1.6,1.2, Gaming             ,6,5.5,10.0,2
-852, Rebekah Martinez          ,17, Other , South Maurice          , 7th         ,6.1,4.6,85,4,1.4,5,2,7,1,0.1,39,5,2.6,0.4,1.2, Gaming             ,5,5.8,8.6,2
+852, Rebekah Martinez          ,17, Other , South Maurice          , 7th         ,6.1,4.6,85,4,1.4,5,2,7,1,0.1,39,5,2.6,0.4,1.2, Gaming             ,5,5.8,8.6,0
 853, April Patton              ,18, Other , Port Michaelhaven      , 10th        ,3.4,4.4,85,7,0.2,9,7,7,0,0.0,51,20,2.6,0.0,2.0, Other              ,6,4.7,8.8,2
 854, Kathryn Anderson          ,15, Other , Port Katie             , 12th        ,6.3,6.9,71,3,0.4,6,9,5,0,0.8,32,17,2.5,2.8,2.3, Gaming             ,6,4.2,10.0,1
 855, Michael Campbell          ,18, Female, Hicksburgh             , 9th         ,4.7,8.6,73,7,1.4,10,6,8,0,0.7,115,10,2.8,1.7,0.9, Other              ,6,7.3,9.2,2
 856, Joseph Johnson            ,19, Other , Parkerburgh            , 7th         ,6.1,5.3,75,6,0.4,7,8,5,0,1.8,58,12,5.0,0.2,0.9, Browsing           ,4,5.3,10.0,1
-857, Ashley Mathews            ,17, Other , South Sandra           , 10th        ,5.2,5.7,53,6,0.1,5,6,4,0,1.1,24,7,3.5,0.6,0.6, Gaming             ,2,4.8,8.3,2
-858, Derek Moore               ,14, Female, Candicechester         , 12th        ,4.4,3.0,94,3,0.0,2,1,2,1,0.2,142,8,3.4,1.0,1.3, Social Media       ,7,7.3,10.0,2
+857, Ashley Mathews            ,17, Other , South Sandra           , 10th        ,5.2,5.7,53,6,0.1,5,6,4,0,1.1,24,7,3.5,0.6,0.6, Gaming             ,2,4.8,8.3,0
+858, Derek Moore               ,14, Female, Candicechester         , 12th        ,4.4,3.0,94,3,0.0,2,1,2,1,0.2,142,8,3.4,1.0,1.3, Social Media       ,7,7.3,10.0,1
 859, Jennifer Navarro          ,16, Other , West Gary              , 10th        ,3.1,6.3,59,8,2.3,6,10,2,0,0.6,39,18,3.3,2.3,1.5, Other              ,2,3.0,9.9,2
 860, Felicia Prince            ,15, Other , Zacharyland            , 7th         ,6.1,5.8,99,7,1.7,8,7,7,0,0.2,66,19,4.2,0.0,1.3, Gaming             ,7,8.9,10.0,1
 861, Tracey Green              ,16, Male  , Ortizview              , 9th         ,7.7,3.5,71,10,0.0,2,2,5,1,0.9,32,19,4.2,2.8,1.4, Gaming             ,5,5.6,10.0,1
@@ -878,7 +878,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 877, Kristen Moore             ,14, Other , East Alyssaside        , 9th         ,4.5,5.6,95,3,0.0,1,6,4,0,1.0,27,18,2.6,1.8,0.8, Gaming             ,4,9.2,10.0,2
 878, Donna Wood                ,18, Other , Stevenshire            , 11th        ,7.8,8.0,61,1,0.5,1,3,2,1,1.1,89,18,2.9,0.5,0.8, Education          ,1,8.8,10.0,1
 879, Michael Johnson           ,16, Male  , New Lori               , 9th         ,4.1,6.2,61,6,0.2,3,7,10,1,1.3,46,12,2.7,2.6,0.8, Social Media       ,1,4.4,9.6,2
-880, Duane Rivers              ,16, Female, North Alexton          , 10th        ,5.0,6.1,53,0,1.6,1,4,8,0,0.6,85,5,3.5,0.8,1.1, Education          ,9,6.6,9.0,2
+880, Duane Rivers              ,16, Female, North Alexton          , 10th        ,5.0,6.1,53,0,1.6,1,4,8,0,0.6,85,5,3.5,0.8,1.1, Education          ,9,6.6,9.0,0
 881, Robin Dougherty           ,15, Other , South Jasmine          , 11th        ,1.3,7.4,77,1,0.0,8,10,4,0,1.6,106,16,2.6,1.7,0.2, Other              ,2,5.9,7.2,0
 882, Bridget Santos            ,18, Other , South Bobbyland        , 10th        ,10.6,6.7,79,6,0.2,4,5,5,0,0.5,97,20,1.0,1.8,2.2, Education          ,1,7.4,10.0,1
 883, Autumn Walters            ,14, Other , North Terry            , 9th         ,4.7,5.6,65,10,2.2,8,4,5,0,1.5,125,13,3.3,0.4,0.1, Other              ,10,7.9,10.0,2
@@ -889,12 +889,12 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 888, Erika Dean                ,16, Other , Margaretville          , 11th        ,6.6,5.4,58,6,1.7,3,10,3,1,2.3,83,9,2.7,2.8,1.7, Browsing           ,6,6.2,10.0,1
 889, John Sullivan             ,19, Female, Port Peterhaven        , 9th         ,4.2,7.4,98,2,1.3,10,1,8,0,0.3,65,5,3.2,1.9,1.0, Education          ,7,14.0,7.9,0
 890, Angela Johnson            ,13, Female, Holmesburgh            , 12th        ,8.2,6.9,50,6,0.9,6,7,1,0,1.2,22,7,1.4,0.7,1.4, Browsing           ,3,3.1,8.7,2
-891, Nancy Anderson            ,14, Female, Lake John              , 8th         ,6.5,4.9,90,10,1.6,8,7,4,0,1.1,46,13,3.0,1.3,0.0, Social Media       ,9,8.7,10.0,1
+891, Nancy Anderson            ,14, Female, Lake John              , 8th         ,6.5,4.9,90,10,1.6,8,7,4,0,1.1,46,13,3.0,1.3,0.0, Social Media       ,9,8.7,10.0,2
 892, Melissa Griffith          ,14, Male  , Port Michaelfurt       , 10th        ,4.3,8.4,61,10,0.0,2,1,8,1,1.1,147,9,1.9,1.1,0.0, Other              ,10,4.2,7.8,0
 893, Whitney Montes            ,16, Male  , West Taylor            , 10th        ,4.7,4.9,90,1,1.0,3,3,5,1,1.8,101,12,2.1,1.6,1.2, Gaming             ,6,6.4,10.0,2
 894, Scott Glass               ,16, Female, Morrowmouth            , 7th         ,6.6,5.4,51,3,0.7,2,3,10,1,1.5,114,11,2.1,1.9,0.9, Education          ,9,4.1,10.0,1
 895, Bruce Harmon              ,15, Male  , East Wayneland         , 10th        ,5.6,8.0,70,6,0.3,7,10,8,0,1.1,128,15,2.0,2.3,0.9, Social Media       ,3,7.2,10.0,2
-896, Andrew Martin             ,19, Male  , Phillipsfort           , 12th        ,4.4,6.1,76,2,0.8,3,2,3,1,1.4,58,7,3.6,1.0,0.7, Social Media       ,8,6.0,8.5,2
+896, Andrew Martin             ,19, Male  , Phillipsfort           , 12th        ,4.4,6.1,76,2,0.8,3,2,3,1,1.4,58,7,3.6,1.0,0.7, Social Media       ,8,6.0,8.5,0
 897, Alejandro Jennings        ,19, Female, Kaylaport              , 7th         ,3.1,5.7,53,10,0.4,3,7,5,1,0.5,46,16,3.2,2.1,0.5, Gaming             ,3,4.6,9.7,2
 898, James Barrett             ,15, Female, Mooremouth             , 8th         ,4.3,6.7,93,8,1.1,2,10,9,0,1.9,74,12,3.1,0.2,0.5, Browsing           ,3,2.9,8.1,0
 899, Joshua Mendoza            ,13, Male  , Parsonsshire           , 9th         ,7.4,4.3,97,1,1.7,4,5,5,1,1.7,69,6,1.1,1.4,0.2, Education          ,5,2.3,10.0,2
@@ -907,7 +907,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 906, Phillip Goodman           ,16, Female, South Joan             , 7th         ,8.2,5.3,65,6,1.7,3,10,7,1,1.3,90,10,2.6,1.7,1.5, Browsing           ,2,4.0,10.0,1
 907, John Allen                ,16, Female, Margaretburgh          , 11th        ,5.7,6.5,69,10,0.0,3,10,3,0,0.7,57,9,3.0,0.6,0.8, Browsing           ,10,8.0,9.0,2
 908, Jose Wagner               ,13, Other , Amandatown             , 12th        ,6.6,4.6,80,9,0.8,3,4,3,1,0.8,144,6,1.4,2.3,0.8, Social Media       ,6,6.3,10.0,1
-909, Franklin Russell          ,16, Male  , Mathisport             , 8th         ,4.9,4.6,59,0,2.5,10,5,5,1,1.1,94,16,3.4,0.7,1.3, Social Media       ,1,5.7,10.0,1
+909, Franklin Russell          ,16, Male  , Mathisport             , 8th         ,4.9,4.6,59,0,2.5,10,5,5,1,1.1,94,16,3.4,0.7,1.3, Social Media       ,1,5.7,10.0,2
 910, James West                ,16, Male  , West Nicole            , 11th        ,5.8,6.3,64,9,0.5,5,1,7,1,1.1,35,12,2.8,1.4,1.3, Gaming             ,7,7.3,10.0,2
 911, Cynthia Burke             ,19, Male  , Lake Holly             , 9th         ,7.1,7.0,83,2,1.7,5,6,2,0,0.9,75,15,2.1,1.3,0.5, Education          ,9,8.3,10.0,2
 912, Margaret Thompson         ,14, Female, West Dominichaven      , 12th        ,6.3,7.6,58,2,0.5,1,6,6,0,1.3,34,5,1.4,1.8,1.9, Social Media       ,7,5.2,7.4,0
@@ -915,7 +915,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 914, Chase Knapp               ,16, Other , Ashleyport             , 10th        ,9.0,7.1,73,5,0.4,9,5,6,1,1.9,29,19,2.5,2.5,1.1, Social Media       ,7,5.7,10.0,1
 915, Dr. Travis Estrada        ,14, Female, Michelleburgh          , 7th         ,4.2,8.1,78,1,1.6,9,3,7,0,0.4,110,11,4.9,1.3,0.9, Gaming             ,1,2.2,10.0,2
 916, Mrs. Andrea Figueroa      ,17, Other , Jefferymouth           , 11th        ,2.9,6.2,50,1,0.6,2,8,9,0,1.5,56,5,3.0,1.1,0.8, Education          ,6,5.2,6.0,0
-917, Michael May               ,15, Female, Jaredtown              , 11th        ,3.1,4.6,90,9,0.9,5,3,5,1,1.5,85,6,1.8,3.1,1.4, Social Media       ,8,3.2,8.6,0
+917, Michael May               ,15, Female, Jaredtown              , 11th        ,3.1,4.6,90,9,0.9,5,3,5,1,1.5,85,6,1.8,3.1,1.4, Social Media       ,8,3.2,8.6,2
 918, Timothy Taylor            ,15, Female, Thomasmouth            , 12th        ,5.5,6.5,67,10,0.9,10,2,4,0,1.8,120,14,2.8,1.1,1.8, Browsing           ,7,3.9,10.0,2
 919, Shawn Finley              ,19, Female, Lake Kelly             , 7th         ,6.4,5.0,74,1,2.3,1,4,5,1,0.9,66,16,1.9,2.6,0.7, Browsing           ,4,7.6,10.0,1
 920, Kenneth Carlson           ,15, Female, Madisonstad            , 11th        ,6.0,7.7,97,6,1.8,2,10,6,1,0.8,144,13,2.3,2.4,0.7, Other              ,3,6.2,10.0,1
@@ -930,9 +930,9 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 929, Mark Thomas               ,19, Other , Lake Nicolefurt        , 7th         ,7.4,7.6,58,5,0.3,9,7,6,0,1.0,129,8,4.3,0.1,1.1, Social Media       ,4,4.2,10.0,1
 930, Nina Humphrey             ,13, Male  , New Carlabury          , 7th         ,8.4,7.7,100,1,1.9,8,3,10,1,1.6,47,14,3.4,1.5,2.2, Gaming             ,1,4.0,10.0,1
 931, Alicia Ayala              ,16, Other , Conradland             , 11th        ,2.8,6.9,77,2,1.9,8,7,4,1,1.8,93,5,1.8,3.5,0.5, Other              ,2,7.8,7.5,0
-932, Kevin Page                ,19, Female, Brownport              , 10th        ,6.8,8.6,73,6,0.0,6,5,6,1,0.9,66,20,2.3,1.4,1.0, Education          ,2,5.5,10.0,1
+932, Kevin Page                ,19, Female, Brownport              , 10th        ,6.8,8.6,73,6,0.0,6,5,6,1,0.9,66,20,2.3,1.4,1.0, Education          ,2,5.5,10.0,2
 933, Edward Palmer             ,14, Other , Port Stephen           , 11th        ,5.1,3.4,96,3,0.9,2,3,3,0,1.3,104,13,2.9,0.3,1.3, Browsing           ,10,3.3,10.0,2
-934, Walter Howell             ,16, Male  , Shannonport            , 7th         ,5.8,5.3,99,6,0.8,2,4,5,0,0.4,41,18,2.3,1.6,1.5, Gaming             ,10,4.1,10.0,2
+934, Walter Howell             ,16, Male  , Shannonport            , 7th         ,5.8,5.3,99,6,0.8,2,4,5,0,0.4,41,18,2.3,1.6,1.5, Gaming             ,10,4.1,10.0,1
 935, Timothy Adams             ,13, Other , New Larry              , 9th         ,6.1,7.2,72,8,0.3,6,2,9,0,0.9,140,8,1.4,1.8,0.3, Browsing           ,3,4.7,10.0,2
 936, Devon Coffey              ,15, Other , Mcculloughville        , 7th         ,2.7,4.5,100,10,1.2,2,10,1,1,1.1,116,12,3.2,0.2,0.2, Social Media       ,4,1.9,8.6,2
 937, Richard Smith             ,18, Female, Michaelchester         , 7th         ,7.4,5.4,83,7,1.0,8,8,7,1,1.4,75,17,1.6,1.2,2.1, Social Media       ,4,6.5,10.0,1
@@ -1003,7 +1003,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1002, Kevin Peters              ,19, Male  , Kelleychester          , 10th        ,6.3,4.7,52,7,0.7,4,8,6,1,1.4,112,7,3.9,2.7,2.7, Other              ,3,4.4,10.0,1
 1003, Patricia Robertson        ,15, Male  , Port Robertville       , 8th         ,4.4,9.7,71,0,3.0,9,5,6,1,0.0,73,9,2.9,1.6,1.2, Browsing           ,5,5.2,7.3,0
 1004, John Thomas               ,19, Other , New Luisfort           , 12th        ,4.0,5.8,84,1,0.7,1,6,10,1,2.4,149,20,2.9,1.8,2.2, Education          ,9,5.5,10.0,1
-1005, Thomas Ayers              ,19, Female, Port Robert            , 9th         ,1.5,6.8,60,9,0.3,5,1,7,0,0.5,114,14,1.5,3.4,0.1, Gaming             ,3,5.7,8.1,0
+1005, Thomas Ayers              ,19, Female, Port Robert            , 9th         ,1.5,6.8,60,9,0.3,5,1,7,0,0.5,114,14,1.5,3.4,0.1, Gaming             ,3,5.7,8.1,2
 1006, James Sanchez             ,14, Female, North Matthewberg      , 10th        ,3.6,4.4,91,7,0.5,4,4,8,1,0.8,77,10,2.1,2.3,0.8, Gaming             ,2,2.6,9.3,2
 1007, Robert Conley             ,19, Other , Brandonmouth           , 7th         ,6.0,5.3,98,5,0.0,10,8,5,1,1.0,34,8,0.6,1.8,0.8, Gaming             ,8,7.8,8.0,0
 1008, Amy Hunt                  ,15, Other , Dannyside              , 12th        ,2.6,7.0,82,10,0.6,4,1,6,0,1.4,129,7,3.4,2.7,0.0, Education          ,6,6.3,9.2,2
@@ -1025,7 +1025,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1024, Diana Armstrong           ,17, Female, East Tiffanychester    , 10th        ,3.0,6.2,73,8,0.0,1,9,9,1,0.7,142,5,1.8,1.5,0.9, Social Media       ,10,7.9,7.0,0
 1025, Alicia Robles             ,13, Male  , Cardenasborough        , 12th        ,8.1,5.1,68,5,1.1,6,8,3,1,0.0,101,14,4.5,0.0,0.0, Education          ,4,6.0,10.0,1
 1026, Chad Brown                ,19, Other , Lake Carolynfort       , 8th         ,8.6,6.6,63,7,1.7,3,6,9,1,1.0,91,20,3.3,0.0,0.8, Education          ,3,6.3,10.0,1
-1027, Michael Davidson          ,19, Female, Evanshaven             , 9th         ,5.0,6.8,54,6,1.5,6,1,7,1,1.2,50,5,3.5,1.8,1.4, Browsing           ,10,8.7,8.9,2
+1027, Michael Davidson          ,19, Female, Evanshaven             , 9th         ,5.0,6.8,54,6,1.5,6,1,7,1,1.2,50,5,3.5,1.8,1.4, Browsing           ,10,8.7,8.9,0
 1028, Alicia Curtis             ,16, Other , Butlerville            , 12th        ,5.3,9.1,96,6,2.0,8,1,8,1,0.8,64,12,1.7,1.3,0.2, Gaming             ,6,7.0,7.4,0
 1029, Diane Cole                ,18, Male  , Kyleshire              , 8th         ,4.3,9.2,68,9,0.4,8,9,6,1,1.0,96,16,1.5,1.8,1.7, Social Media       ,4,4.3,8.1,0
 1030, Jasmin Moran              ,17, Female, Lake Lori              , 7th         ,5.5,3.0,66,6,0.7,3,5,1,1,0.9,29,13,2.9,0.5,1.5, Social Media       ,9,4.6,10.0,2
@@ -1037,7 +1037,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1036, Mary Jones                ,13, Female, Rachelshire            , 9th         ,2.7,3.8,96,2,1.6,2,4,6,0,1.9,57,14,3.0,2.7,1.4, Education          ,10,6.9,10.0,2
 1037, Kyle Miller               ,17, Other , North Rachelburgh      , 12th        ,1.7,7.7,96,4,2.4,5,1,7,1,0.6,28,12,2.6,1.7,0.2, Education          ,8,6.4,5.1,0
 1038, Cesar Torres              ,13, Male  , Bobbybury              , 9th         ,1.8,5.5,94,10,1.7,6,8,8,1,1.4,108,16,1.8,0.7,1.0, Education          ,2,7.5,6.9,0
-1039, Brandon Taylor            ,19, Other , West Alison            , 8th         ,5.5,7.0,57,5,1.5,10,9,1,0,0.0,27,17,2.4,0.0,1.4, Social Media       ,1,7.2,8.3,2
+1039, Brandon Taylor            ,19, Other , West Alison            , 8th         ,5.5,7.0,57,5,1.5,10,9,1,0,0.0,27,17,2.4,0.0,1.4, Social Media       ,1,7.2,8.3,0
 1040, Connie Lynch              ,14, Other , North Michelleburgh    , 9th         ,7.8,8.6,54,4,1.3,7,3,4,0,1.8,46,18,1.0,2.5,0.5, Browsing           ,8,7.5,10.0,2
 1041, Lisa Brewer               ,19, Male  , Lake Lindaberg         , 9th         ,4.8,3.7,97,5,0.4,7,8,4,1,1.5,23,7,1.1,1.4,0.9, Browsing           ,6,5.3,7.3,0
 1042, John Diaz                 ,15, Male  , New Georgeburgh        , 8th         ,4.7,7.5,58,8,1.6,10,10,1,0,1.2,138,11,4.0,2.3,1.0, Education          ,6,10.9,10.0,1
@@ -1049,7 +1049,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1048, Matthew Jackson           ,18, Male  , South Aaronborough     , 8th         ,4.4,7.9,94,2,1.4,7,6,3,1,0.5,125,19,1.8,2.1,0.0, Browsing           ,10,7.5,10.0,2
 1049, Alice Giles               ,16, Other , Martinhaven            , 8th         ,4.4,10.0,78,9,2.3,8,3,4,1,0.2,114,12,3.2,2.1,0.3, Browsing           ,9,6.0,9.4,2
 1050, Malik Pitts               ,14, Female, East Mark              , 7th         ,5.3,9.1,58,10,0.9,5,5,9,1,1.2,83,16,2.0,1.5,0.9, Gaming             ,5,3.1,9.1,2
-1051, Mark Weber                ,15, Other , Millerfort             , 10th        ,4.8,5.4,64,4,2.5,2,3,6,1,0.7,146,9,1.8,0.1,0.8, Other              ,9,7.8,8.7,2
+1051, Mark Weber                ,15, Other , Millerfort             , 10th        ,4.8,5.4,64,4,2.5,2,3,6,1,0.7,146,9,1.8,0.1,0.8, Other              ,9,7.8,8.7,0
 1052, Mason Liu                 ,15, Female, New Douglas            , 10th        ,6.9,6.4,81,9,2.6,3,6,8,0,1.3,33,9,2.7,2.0,0.0, Social Media       ,1,7.1,10.0,2
 1053, Deborah Bradley           ,19, Male  , Mcculloughmouth        , 8th         ,9.1,8.5,53,1,1.1,10,9,10,1,1.7,78,13,1.5,2.0,1.2, Education          ,8,6.3,10.0,1
 1054, Patricia Sheppard         ,16, Other , West Alicia            , 9th         ,2.6,5.7,95,5,0.1,8,7,3,1,1.8,75,9,3.3,0.2,0.9, Browsing           ,7,5.1,6.5,0
@@ -1058,8 +1058,8 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1057, Darryl Wise               ,16, Other , East Dawn              , 10th        ,6.3,7.3,72,0,2.2,5,6,3,0,1.1,49,20,2.3,1.6,0.2, Other              ,9,6.1,10.0,2
 1058, Angela Duncan             ,13, Other , North Bruce            , 12th        ,3.1,7.7,68,4,1.2,5,7,10,0,1.1,124,7,3.0,0.9,0.8, Education          ,6,7.3,7.0,0
 1059, Michael Mason             ,16, Female, Salazarbury            , 7th         ,8.9,6.3,95,8,1.8,1,7,1,1,0.6,148,7,2.3,0.0,1.0, Gaming             ,10,9.6,10.0,1
-1060, Alyssa Murphy             ,15, Other , Obrienburgh            , 12th        ,2.7,4.3,71,10,0.3,5,1,10,1,1.1,92,19,2.8,2.7,0.0, Gaming             ,5,0.0,10.0,2
-1061, Sean Hogan                ,16, Other , South Brianside        , 10th        ,4.6,5.8,57,5,1.3,1,1,8,1,1.3,96,12,2.5,0.0,1.0, Other              ,4,5.4,8.5,2
+1060, Alyssa Murphy             ,15, Other , Obrienburgh            , 12th        ,2.7,4.3,71,10,0.3,5,1,10,1,1.1,92,19,2.8,2.7,0.0, Gaming             ,5,0.0,10.0,1
+1061, Sean Hogan                ,16, Other , South Brianside        , 10th        ,4.6,5.8,57,5,1.3,1,1,8,1,1.3,96,12,2.5,0.0,1.0, Other              ,4,5.4,8.5,0
 1062, Joel Molina               ,15, Male  , Wileyside              , 7th         ,5.2,8.0,80,2,1.6,3,4,8,0,1.2,55,7,1.2,2.5,0.6, Education          ,10,6.9,7.4,0
 1063, Clinton Morgan            ,16, Male  , Loritown               , 11th        ,3.7,10.0,92,10,0.1,5,10,7,1,1.2,38,5,3.2,1.0,1.8, Gaming             ,3,0.9,4.7,0
 1064, Tara Smith                ,17, Other , Moranmouth             , 10th        ,6.6,5.0,99,3,0.3,6,6,1,1,1.5,66,15,1.9,2.4,0.1, Gaming             ,5,10.0,10.0,1
@@ -1079,10 +1079,10 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1078, Laura Nelson              ,14, Female, Sweeneyland            , 8th         ,8.1,8.8,58,2,1.4,5,9,7,0,0.4,122,6,2.0,0.8,1.2, Browsing           ,1,5.9,10.0,2
 1079, Marcus Ortiz Jr.          ,19, Male  , Sanderstown            , 12th        ,4.3,7.0,86,10,0.8,9,1,1,0,1.4,89,20,3.3,1.8,0.0, Gaming             ,8,4.1,10.0,1
 1080, Debra Gilbert MD          ,17, Other , Port Tiffanymouth      , 9th         ,1.3,6.1,72,6,0.9,5,4,1,1,0.8,48,13,4.5,1.6,1.3, Gaming             ,10,0.7,7.9,0
-1081, John Torres               ,13, Other , North Brian            , 7th         ,2.8,5.1,95,9,0.0,7,10,7,1,0.1,119,9,2.4,1.2,1.4, Education          ,3,3.6,8.0,0
+1081, John Torres               ,13, Other , North Brian            , 7th         ,2.8,5.1,95,9,0.0,7,10,7,1,0.1,119,9,2.4,1.2,1.4, Education          ,3,3.6,8.0,2
 1082, John Kim                  ,18, Other , Lake Cassandratown     , 10th        ,9.8,5.1,54,4,1.2,1,6,5,0,0.6,91,20,2.6,1.6,0.6, Gaming             ,5,5.4,10.0,1
 1083, Amanda Roman              ,17, Other , Mezastad               , 10th        ,7.5,5.0,75,8,2.1,8,5,9,1,1.5,97,20,4.6,0.2,0.4, Other              ,8,4.9,10.0,1
-1084, Crystal Harris            ,14, Female, Susanchester           , 8th         ,4.6,7.1,63,5,2.3,6,7,5,1,0.6,85,14,2.3,0.6,0.7, Gaming             ,2,4.9,8.4,2
+1084, Crystal Harris            ,14, Female, Susanchester           , 8th         ,4.6,7.1,63,5,2.3,6,7,5,1,0.6,85,14,2.3,0.6,0.7, Gaming             ,2,4.9,8.4,0
 1085, Robert Bryant             ,15, Male  , South Alexiston        , 12th        ,5.1,5.4,63,0,0.9,1,2,3,0,1.7,87,12,1.5,1.5,1.4, Social Media       ,6,6.1,9.5,2
 1086, Jonathan Rodriguez        ,14, Male  , Lake Melissaport       , 7th         ,4.8,6.9,90,3,0.0,5,3,9,1,0.6,64,11,1.2,3.1,1.1, Social Media       ,3,7.3,9.1,2
 1087, John Pineda               ,14, Female, East Lindatown         , 9th         ,3.5,5.1,82,0,1.6,5,2,5,0,1.4,64,11,1.1,2.2,0.5, Browsing           ,5,8.1,7.7,0
@@ -1090,7 +1090,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1089, Bradley Anthony           ,17, Other , Baileyside             , 7th         ,7.1,7.9,54,7,1.3,5,1,8,0,0.8,26,12,3.0,2.5,1.9, Other              ,8,8.5,10.0,2
 1090, Katherine Pruitt          ,14, Male  , South Catherinemouth   , 10th        ,5.3,7.6,77,6,0.5,9,10,10,1,2.4,120,15,3.1,2.3,0.1, Education          ,10,5.5,10.0,1
 1091, Robert Quinn              ,16, Female, Michaelfurt            , 8th         ,0.0,8.1,82,3,1.5,9,7,6,1,1.1,40,16,3.3,2.5,1.0, Education          ,5,6.5,5.8,0
-1092, Anna White                ,18, Other , Kimfort                , 8th         ,7.3,5.7,95,8,0.0,9,2,6,0,0.5,91,16,2.1,0.0,0.9, Education          ,9,7.7,10.0,1
+1092, Anna White                ,18, Other , Kimfort                , 8th         ,7.3,5.7,95,8,0.0,9,2,6,0,0.5,91,16,2.1,0.0,0.9, Education          ,9,7.7,10.0,2
 1093, Megan Butler              ,17, Other , Port Christine         , 7th         ,1.2,7.2,66,6,2.2,9,10,9,0,1.6,138,18,3.2,0.0,1.1, Social Media       ,3,6.4,7.2,0
 1094, Cassandra Rojas           ,15, Other , Patriciastad           , 10th        ,3.6,6.9,60,6,0.7,9,8,10,0,2.0,128,6,3.5,1.0,2.0, Other              ,6,6.0,8.4,0
 1095, Sergio Evans              ,13, Female, Port Andrew            , 12th        ,2.9,6.0,69,10,2.6,7,10,4,1,1.2,58,5,3.7,0.7,0.3, Gaming             ,8,8.5,6.5,0
@@ -1104,10 +1104,10 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1103, Dakota Daugherty          ,17, Female, Kathleenstad           , 9th         ,6.3,8.2,77,10,1.9,5,10,6,0,0.9,95,5,2.8,1.2,1.3, Other              ,9,4.7,9.1,2
 1104, Richard Lamb              ,18, Male  , Clarkton               , 9th         ,6.0,7.6,61,3,1.1,6,6,3,1,1.5,95,20,2.9,0.0,0.6, Other              ,7,5.0,10.0,2
 1105, Christine Jones           ,15, Other , East Stacey            , 8th         ,3.9,5.0,88,0,2.0,7,9,9,0,1.6,63,14,2.5,2.5,2.3, Gaming             ,3,7.6,10.0,2
-1106, Tommy Stevens             ,13, Female, Rodgersmouth           , 8th         ,6.1,7.0,96,5,1.1,3,5,8,0,0.8,87,8,0.9,1.9,2.2, Gaming             ,10,6.8,8.7,0
+1106, Tommy Stevens             ,13, Female, Rodgersmouth           , 8th         ,6.1,7.0,96,5,1.1,3,5,8,0,0.8,87,8,0.9,1.9,2.2, Gaming             ,10,6.8,8.7,2
 1107, John Henry                ,15, Female, North Kerrychester     , 12th        ,4.5,7.2,56,5,2.2,8,6,3,0,0.8,21,9,1.4,1.9,2.4, Gaming             ,10,9.4,6.4,0
 1108, James Lane                ,14, Female, Johnstad               , 11th        ,2.2,6.3,62,2,0.0,6,2,7,0,0.7,98,18,2.9,1.1,1.1, Social Media       ,1,5.1,8.6,2
-1109, Amy Hall                  ,17, Male  , South Donna            , 11th        ,4.6,5.8,97,3,2.3,7,8,2,0,2.1,40,20,3.9,1.5,1.2, Browsing           ,6,8.4,10.0,1
+1109, Amy Hall                  ,17, Male  , South Donna            , 11th        ,4.6,5.8,97,3,2.3,7,8,2,0,2.1,40,20,3.9,1.5,1.2, Browsing           ,6,8.4,10.0,2
 1110, Tammy Rodriguez           ,15, Male  , Heatherton             , 7th         ,5.3,6.6,85,9,2.3,6,1,9,1,1.0,50,6,1.2,0.5,0.6, Gaming             ,6,6.7,5.9,0
 1111, Jon Johnson               ,13, Male  , Watkinsland            , 8th         ,5.7,6.7,100,4,2.5,6,7,10,1,0.0,51,9,0.8,1.3,1.3, Education          ,7,2.9,7.3,0
 1112, Ricky Martin              ,19, Female, South Ethan            , 10th        ,7.0,9.7,86,10,1.8,8,8,7,0,1.0,132,18,0.6,1.6,0.7, Other              ,1,5.8,10.0,2
@@ -1118,7 +1118,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1117, Juan Villanueva           ,19, Male  , South Andreaview       , 8th         ,6.2,6.5,90,2,0.2,2,9,8,1,0.9,93,13,3.3,4.0,0.0, Social Media       ,5,7.6,10.0,1
 1118, Karen Fritz               ,16, Other , Mortonshire            , 12th        ,3.3,5.8,83,0,0.0,1,6,3,0,1.0,147,16,1.9,0.3,1.9, Social Media       ,8,5.4,8.7,2
 1119, Patricia Vega             ,14, Male  , Jenningsborough        , 12th        ,5.0,7.4,79,8,0.7,7,7,9,1,0.6,29,9,0.8,0.0,0.6, Social Media       ,7,6.6,4.5,0
-1120, Benjamin Holmes           ,19, Female, Dayside                , 8th         ,7.6,6.5,62,6,0.4,8,1,1,0,1.2,52,13,2.2,1.2,0.7, Social Media       ,1,6.6,10.0,1
+1120, Benjamin Holmes           ,19, Female, Dayside                , 8th         ,7.6,6.5,62,6,0.4,8,1,1,0,1.2,52,13,2.2,1.2,0.7, Social Media       ,1,6.6,10.0,2
 1121, Jeffery Johnson           ,16, Male  , North Shawntown        , 8th         ,7.7,7.5,58,8,0.3,4,2,9,0,0.7,32,8,1.3,1.4,0.7, Gaming             ,9,5.3,8.9,2
 1122, Erin Lee                  ,17, Female, Ruthbury               , 10th        ,3.4,7.5,72,3,1.8,9,8,4,1,1.0,101,14,3.6,1.4,1.5, Other              ,2,4.0,9.5,2
 1123, Alexis Martin             ,15, Other , Rioshaven              , 12th        ,5.6,7.0,79,4,0.6,1,6,5,0,0.8,34,10,3.6,1.8,0.0, Browsing           ,3,6.2,10.0,2
@@ -1138,7 +1138,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1137, Joshua Martin             ,16, Female, South Kristinamouth    , 10th        ,4.4,6.4,53,6,0.7,10,1,10,0,1.1,124,14,3.4,0.4,0.9, Education          ,8,5.7,10.0,2
 1138, Daniel Wallace            ,19, Male  , Jasonmouth             , 9th         ,6.4,6.1,97,8,2.0,5,7,1,1,0.2,31,8,3.4,1.7,0.2, Browsing           ,7,5.2,10.0,2
 1139, Patricia Baker            ,14, Female, Port Sethberg          , 10th        ,2.0,4.7,96,1,0.8,10,9,2,0,0.3,135,9,3.9,1.1,1.5, Browsing           ,8,4.8,9.2,2
-1140, Christopher Buckley       ,19, Other , North Antonio          , 12th        ,8.2,7.2,72,1,0.5,7,4,9,1,0.9,32,5,2.3,3.3,0.0, Gaming             ,3,3.1,10.0,1
+1140, Christopher Buckley       ,19, Other , North Antonio          , 12th        ,8.2,7.2,72,1,0.5,7,4,9,1,0.9,32,5,2.3,3.3,0.0, Gaming             ,3,3.1,10.0,2
 1141, Lisa Boyd                 ,16, Male  , East Williamview       , 12th        ,5.2,6.6,100,7,0.6,4,2,10,1,1.0,123,16,4.1,1.0,0.7, Social Media       ,1,6.0,10.0,1
 1142, Alicia Dickson            ,16, Male  , West Christine         , 10th        ,3.6,7.3,61,2,1.0,5,4,7,0,1.2,30,11,3.6,1.8,1.3, Education          ,9,2.7,8.2,0
 1143, Jennifer Hernandez        ,14, Other , Simmonsfurt            , 12th        ,6.2,8.1,55,4,2.6,7,8,10,0,1.7,103,14,1.4,3.6,1.6, Education          ,7,7.3,10.0,2
@@ -1148,7 +1148,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1147, John Hawkins              ,17, Other , Port Tinamouth         , 10th        ,3.7,8.1,67,9,0.4,5,8,9,0,0.9,117,17,2.8,1.7,0.6, Browsing           ,3,4.2,9.9,2
 1148, Samuel Reed               ,16, Male  , Port Shannonside       , 11th        ,6.8,5.9,53,1,2.0,9,4,8,0,1.0,91,6,4.6,1.9,0.8, Browsing           ,8,3.1,10.0,1
 1149, Sabrina Davis             ,14, Other , East Lisastad          , 12th        ,5.0,5.7,98,4,2.0,6,1,2,0,0.3,61,5,0.2,3.1,1.4, Other              ,10,2.4,7.7,0
-1150, Brenda Christensen        ,15, Female, Port Tannerchester     , 10th        ,4.6,6.1,64,1,0.8,2,10,6,0,1.5,123,11,2.3,0.0,1.0, Browsing           ,3,5.8,8.5,2
+1150, Brenda Christensen        ,15, Female, Port Tannerchester     , 10th        ,4.6,6.1,64,1,0.8,2,10,6,0,1.5,123,11,2.3,0.0,1.0, Browsing           ,3,5.8,8.5,0
 1151, Mr. Matthew Rodriguez     ,15, Other , North Jordantown       , 7th         ,1.9,7.7,58,4,1.5,7,9,7,0,1.7,103,11,2.3,0.8,0.2, Gaming             ,8,2.8,5.4,0
 1152, Oscar Williams            ,17, Male  , West Chloebury         , 12th        ,4.9,7.4,55,4,2.6,8,7,8,0,0.1,139,16,3.5,0.6,1.0, Gaming             ,9,4.9,10.0,2
 1153, Trevor Brown              ,19, Male  , New Christopher        , 11th        ,6.8,3.4,60,4,0.7,2,8,4,1,1.4,96,18,1.7,3.6,0.3, Social Media       ,6,4.7,10.0,1
@@ -1159,7 +1159,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1158, Stephen Mcdonald          ,17, Female, Port Jasminetown       , 11th        ,5.8,8.5,99,3,2.1,6,6,10,1,0.3,76,20,1.9,0.1,0.3, Social Media       ,1,4.5,9.1,2
 1159, Michael Ramirez           ,19, Female, Angelahaven            , 7th         ,8.3,6.7,67,7,1.3,9,6,1,1,1.2,43,8,2.5,2.3,1.8, Social Media       ,2,3.5,10.0,1
 1160, Aaron Ortiz               ,19, Male  , West Juliehaven        , 10th        ,4.8,6.3,61,6,1.6,8,7,2,1,0.6,67,11,3.6,1.3,1.4, Gaming             ,5,8.4,10.0,2
-1161, Megan Hughes              ,16, Female, Joshuaborough          , 9th         ,4.8,5.3,71,10,2.5,7,10,2,1,1.6,30,16,3.5,2.5,0.6, Other              ,9,7.1,10.0,1
+1161, Megan Hughes              ,16, Female, Joshuaborough          , 9th         ,4.8,5.3,71,10,2.5,7,10,2,1,1.6,30,16,3.5,2.5,0.6, Other              ,9,7.1,10.0,2
 1162, Mary Solomon              ,19, Female, West Felicia           , 12th        ,6.1,7.2,62,4,1.7,9,5,9,1,1.9,72,12,2.7,1.3,0.7, Gaming             ,8,7.8,10.0,2
 1163, Shane Bond                ,18, Male  , South Austin           , 9th         ,2.9,7.9,81,9,1.3,6,1,1,0,0.1,106,7,3.7,0.0,1.1, Education          ,2,7.1,6.2,0
 1164, Melinda Harris            ,19, Other , South Antonio          , 12th        ,3.5,5.1,86,5,2.4,3,8,10,0,1.4,148,19,0.9,3.7,0.7, Education          ,9,8.4,10.0,1
@@ -1199,11 +1199,11 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1198, William Cole              ,19, Other , Angelicamouth          , 12th        ,3.7,5.7,65,9,0.4,1,6,8,0,0.3,143,6,3.4,1.3,0.0, Social Media       ,10,7.3,9.6,2
 1199, Megan Sullivan            ,13, Male  , Martinmouth            , 11th        ,7.0,6.3,66,6,0.0,8,6,9,0,0.2,136,12,1.0,1.5,1.2, Social Media       ,1,3.8,10.0,2
 1200, Michelle Faulkner         ,13, Male  , South Cassandraville   , 11th        ,6.4,7.7,51,7,0.5,9,2,6,0,0.1,146,20,2.0,3.6,0.7, Gaming             ,8,9.7,10.0,1
-1201, Tracy Novak               ,17, Female, West Thomas            , 7th         ,4.4,4.6,56,7,2.4,3,1,8,1,0.0,133,7,2.7,0.0,0.7, Education          ,7,10.4,8.9,2
+1201, Tracy Novak               ,17, Female, West Thomas            , 7th         ,4.4,4.6,56,7,2.4,3,1,8,1,0.0,133,7,2.7,0.0,0.7, Education          ,7,10.4,8.9,0
 1202, Leonard Moore             ,15, Male  , North Justinside       , 7th         ,1.9,6.2,92,8,0.7,6,5,8,0,0.6,99,14,1.1,1.3,1.2, Other              ,2,6.1,6.0,0
 1203, Ashley Hamilton           ,15, Female, Maryfort               , 7th         ,6.4,8.9,75,1,0.5,8,5,10,0,0.6,45,15,3.3,2.0,0.4, Other              ,10,8.1,10.0,2
 1204, Angela Butler             ,14, Other , North Paulhaven        , 12th        ,3.6,6.7,52,3,1.7,6,3,2,1,0.6,129,12,2.5,1.3,0.8, Browsing           ,6,8.9,9.0,2
-1205, Molly Colon               ,19, Male  , Rogersmouth            , 11th        ,6.9,6.4,62,4,1.4,9,1,1,1,1.6,146,9,3.2,0.0,0.0, Browsing           ,8,5.8,10.0,1
+1205, Molly Colon               ,19, Male  , Rogersmouth            , 11th        ,6.9,6.4,62,4,1.4,9,1,1,1,1.6,146,9,3.2,0.0,0.0, Browsing           ,8,5.8,10.0,2
 1206, Jonathan Smith            ,15, Male  , North Russell          , 9th         ,6.3,8.0,92,10,0.0,3,9,6,0,1.4,74,19,1.7,2.8,1.3, Education          ,3,7.2,10.0,1
 1207, Patrick Lopez             ,19, Other , Perezstad              , 7th         ,6.0,6.2,60,3,0.5,10,7,7,0,2.1,75,5,2.3,0.0,1.3, Browsing           ,7,4.2,7.7,0
 1208, Meghan Jackson            ,17, Male  , Walkertown             , 9th         ,3.9,5.8,55,5,0.9,5,8,10,0,0.0,132,11,1.8,0.4,1.2, Browsing           ,7,4.5,8.0,0
@@ -1232,12 +1232,12 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1231, Rebecca Rose              ,15, Female, North Ashley           , 8th         ,5.2,5.7,77,8,2.5,1,8,4,1,1.4,85,15,3.1,2.5,0.3, Social Media       ,3,7.1,10.0,1
 1232, Todd Munoz                ,19, Female, Sandraland             , 11th        ,5.6,6.5,77,4,0.5,10,9,1,1,1.8,70,11,2.5,0.7,0.0, Social Media       ,4,6.9,9.1,2
 1233, Jacob Serrano             ,14, Other , New Baileyshire        , 11th        ,3.0,4.7,85,2,1.7,8,10,7,1,0.4,125,18,2.5,0.7,0.7, Social Media       ,4,2.9,10.0,2
-1234, Brian Wagner              ,18, Other , Andrewsside            , 12th        ,8.0,7.2,72,0,1.7,4,6,9,1,1.3,23,18,2.4,0.9,0.9, Browsing           ,9,5.0,10.0,1
-1235, John Santos               ,13, Female, East Theresaport       , 11th        ,4.4,5.1,72,10,1.0,9,9,2,1,1.8,41,18,1.2,0.9,0.4, Education          ,7,5.5,8.4,0
+1234, Brian Wagner              ,18, Other , Andrewsside            , 12th        ,8.0,7.2,72,0,1.7,4,6,9,1,1.3,23,18,2.4,0.9,0.9, Browsing           ,9,5.0,10.0,2
+1235, John Santos               ,13, Female, East Theresaport       , 11th        ,4.4,5.1,72,10,1.0,9,9,2,1,1.8,41,18,1.2,0.9,0.4, Education          ,7,5.5,8.4,2
 1236, Tamara Huynh              ,14, Male  , North Edwardberg       , 11th        ,3.6,8.7,51,4,1.6,10,10,4,1,1.1,119,7,1.7,0.0,1.9, Education          ,3,2.5,4.7,0
 1237, Sara Adams                ,13, Other , Allenborough           , 7th         ,3.0,7.1,72,6,2.2,5,2,9,1,1.9,106,10,1.1,1.4,0.0, Education          ,1,5.0,6.1,0
 1238, Dalton Clark              ,18, Male  , Jefferyshire           , 9th         ,3.2,6.9,53,0,0.8,6,4,3,1,0.8,144,19,1.9,2.0,0.4, Other              ,2,6.5,10.0,2
-1239, Dennis Wyatt              ,19, Male  , Bowerschester          , 9th         ,6.8,5.9,69,4,0.1,6,8,1,0,0.7,141,8,2.8,0.6,0.5, Browsing           ,4,7.7,10.0,1
+1239, Dennis Wyatt              ,19, Male  , Bowerschester          , 9th         ,6.8,5.9,69,4,0.1,6,8,1,0,0.7,141,8,2.8,0.6,0.5, Browsing           ,4,7.7,10.0,2
 1240, Vincent Logan             ,15, Male  , Gilbertshire           , 9th         ,3.2,6.8,85,3,0.2,10,9,8,0,0.6,119,20,1.1,2.3,0.9, Gaming             ,4,4.5,9.6,2
 1241, Michael Graves            ,13, Other , Lindaton               , 9th         ,8.8,9.5,56,1,0.0,1,9,9,0,2.2,84,9,3.5,0.7,1.7, Gaming             ,10,6.6,10.0,2
 1242, Margaret Lewis            ,14, Other , North Colleen          , 9th         ,4.9,8.7,85,9,0.7,2,8,7,0,1.7,41,18,3.2,0.9,1.4, Education          ,3,5.2,9.1,2
@@ -1273,7 +1273,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1272, Christopher Gonzalez      ,18, Female, Jonathanshire          , 12th        ,0.9,7.1,76,0,1.3,2,8,2,1,0.3,37,19,2.9,3.0,0.3, Education          ,3,8.3,7.8,0
 1273, Alison Wilkerson          ,14, Other , Devinton               , 8th         ,3.8,5.8,86,8,1.4,3,1,1,1,0.1,103,20,0.5,2.1,0.2, Gaming             ,4,3.0,9.6,2
 1274, Scott Robinson            ,18, Other , Port Kennethtown       , 9th         ,9.5,7.5,90,4,0.0,1,3,10,0,0.6,136,18,2.6,0.4,0.8, Browsing           ,9,6.0,10.0,1
-1275, Brandon Holden            ,15, Other , North Jermainestad     , 7th         ,3.5,6.5,82,2,2.4,1,2,3,0,0.3,53,17,1.3,2.1,0.6, Social Media       ,4,1.6,8.1,0
+1275, Brandon Holden            ,15, Other , North Jermainestad     , 7th         ,3.5,6.5,82,2,2.4,1,2,3,0,0.3,53,17,1.3,2.1,0.6, Social Media       ,4,1.6,8.1,2
 1276, Carla Hall DDS            ,15, Male  , Stantontown            , 12th        ,5.1,6.6,98,7,1.0,9,7,1,0,0.9,92,11,2.9,1.3,1.2, Education          ,7,5.4,10.0,2
 1277, Denise Hull               ,14, Male  , Port Kellyburgh        , 10th        ,0.0,4.0,84,5,1.5,10,4,3,0,0.7,20,5,2.9,1.4,0.5, Other              ,5,4.2,3.7,0
 1278, Lisa Garza                ,18, Male  , Port Brian             , 9th         ,4.0,9.5,90,4,1.8,7,1,8,1,1.9,99,5,2.8,2.1,0.6, Browsing           ,1,4.2,7.1,0
@@ -1294,7 +1294,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1293, Shannon Lane              ,14, Other , Lake Davidborough      , 7th         ,2.4,7.9,69,6,1.2,7,7,8,1,0.4,68,8,1.6,0.1,1.3, Social Media       ,5,4.0,3.1,0
 1294, Chloe Stone               ,16, Female, Atkinsonshire          , 10th        ,3.3,6.8,95,10,1.3,2,9,4,1,0.8,129,9,4.3,2.5,0.2, Education          ,10,5.4,10.0,2
 1295, Monica Nguyen             ,14, Male  , Markshire              , 8th         ,8.1,9.3,54,3,0.3,7,1,9,1,1.6,118,20,2.9,1.4,1.4, Other              ,1,6.5,10.0,1
-1296, Christy Nelson            ,13, Female, South Heather          , 7th         ,5.9,7.3,68,0,0.2,1,3,6,0,1.8,64,15,4.3,1.2,2.0, Education          ,4,10.5,10.0,1
+1296, Christy Nelson            ,13, Female, South Heather          , 7th         ,5.9,7.3,68,0,0.2,1,3,6,0,1.8,64,15,4.3,1.2,2.0, Education          ,4,10.5,10.0,2
 1297, Stephanie Martinez        ,17, Other , Kathrynmouth           , 9th         ,4.1,7.3,93,7,0.7,9,5,3,0,2.0,118,9,3.5,0.7,0.5, Browsing           ,10,5.1,8.8,2
 1298, Chad Johnston             ,17, Female, Port Zacharyside       , 12th        ,5.8,4.0,67,3,1.8,3,2,5,1,0.0,141,12,2.7,0.6,0.7, Social Media       ,1,6.4,10.0,1
 1299, Danielle Adams            ,16, Male  , Jaclynborough          , 9th         ,3.8,5.7,58,10,0.7,1,6,5,0,1.3,70,19,1.3,2.5,1.2, Browsing           ,6,6.5,10.0,2
@@ -1309,7 +1309,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1308, Julie Thornton            ,18, Female, North Angela           , 10th        ,4.3,9.0,58,0,0.8,7,3,3,1,1.1,70,20,1.7,0.3,1.1, Browsing           ,3,7.1,7.2,0
 1309, Janet Miller              ,17, Female, Christianshire         , 9th         ,8.3,6.8,83,8,0.5,5,8,1,0,0.8,35,15,1.1,1.7,1.1, Gaming             ,3,4.9,10.0,2
 1310, Amy Peterson              ,18, Male  , Sheilaborough          , 12th        ,4.5,3.0,67,2,3.6,2,5,10,0,0.5,129,8,2.5,1.5,0.4, Other              ,2,7.2,10.0,2
-1311, Angel Hale                ,16, Female, Hugheschester          , 10th        ,5.4,9.8,85,1,0.2,8,7,6,1,0.9,20,18,3.2,0.6,1.0, Gaming             ,7,5.2,8.3,2
+1311, Angel Hale                ,16, Female, Hugheschester          , 10th        ,5.4,9.8,85,1,0.2,8,7,6,1,0.9,20,18,3.2,0.6,1.0, Gaming             ,7,5.2,8.3,0
 1312, Kimberly Miller           ,13, Male  , Bakerview              , 8th         ,3.6,6.8,50,1,0.1,9,1,6,1,0.0,40,20,2.4,4.0,1.4, Other              ,2,5.3,10.0,2
 1313, Janet Smith               ,13, Other , Bradleybury            , 7th         ,3.0,10.0,84,3,1.9,8,2,3,1,1.4,119,19,2.6,0.5,1.1, Education          ,8,9.5,7.3,0
 1314, Emily Daniels             ,17, Male  , Marcusside             , 9th         ,5.8,6.0,53,0,1.7,9,5,6,1,1.0,125,14,5.0,2.5,0.5, Browsing           ,2,5.3,10.0,1
@@ -1332,7 +1332,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1331, Derek Cox                 ,16, Other , Lauratown              , 8th         ,3.9,5.9,95,0,0.0,7,3,9,1,1.4,69,6,1.5,2.3,2.6, Social Media       ,7,5.5,7.3,0
 1332, Miss Mary Smith MD        ,15, Male  , Lake Emily             , 9th         ,4.0,9.5,58,10,1.0,7,4,9,1,0.7,31,12,2.1,2.9,1.0, Gaming             ,9,10.3,7.3,0
 1333, Lisa Hernandez            ,17, Other , Tinaburgh              , 10th        ,4.5,5.1,95,6,0.2,9,5,10,0,1.0,20,19,2.7,0.9,1.2, Gaming             ,4,4.0,9.8,2
-1334, Crystal Grant             ,14, Female, Port John              , 9th         ,6.6,6.2,92,6,0.8,7,2,2,0,0.9,106,13,3.2,0.1,0.0, Education          ,4,3.8,10.0,1
+1334, Crystal Grant             ,14, Female, Port John              , 9th         ,6.6,6.2,92,6,0.8,7,2,2,0,0.9,106,13,3.2,0.1,0.0, Education          ,4,3.8,10.0,2
 1335, Shawn Kelly               ,14, Other , Bridgetfurt            , 12th        ,7.5,5.3,86,1,0.5,9,3,3,0,1.5,135,6,2.5,0.0,0.2, Other              ,7,5.4,10.0,2
 1336, Christina Combs           ,18, Male  , South Mary             , 12th        ,3.9,8.2,97,8,0.3,2,4,7,1,0.5,35,19,2.1,0.0,1.0, Browsing           ,4,7.1,6.4,0
 1337, Richard Thomas            ,15, Other , Youngmouth             , 12th        ,5.1,5.8,100,10,1.8,2,10,6,1,0.0,123,20,1.8,2.5,0.6, Social Media       ,10,6.5,10.0,1
@@ -1346,9 +1346,9 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1345, William Morrow            ,17, Male  , Bellmouth              , 8th         ,7.0,5.7,52,4,2.0,10,1,7,1,1.2,30,19,1.8,2.4,1.3, Browsing           ,3,9.1,10.0,1
 1346, Mike Morgan               ,15, Other , Jessicamouth           , 7th         ,5.8,4.8,62,9,0.0,5,1,9,1,0.9,28,13,4.4,1.8,1.5, Other              ,1,11.1,10.0,1
 1347, Cassandra Smith           ,13, Other , Thomasport             , 11th        ,6.0,4.3,97,10,0.8,5,9,7,0,0.1,33,17,4.2,1.0,0.5, Education          ,3,7.4,10.0,1
-1348, Jennifer Sims MD          ,14, Male  , New Justinside         , 10th        ,3.0,6.1,74,4,1.2,2,9,7,1,0.0,63,17,0.7,3.2,1.9, Gaming             ,6,5.4,8.5,0
+1348, Jennifer Sims MD          ,14, Male  , New Justinside         , 10th        ,3.0,6.1,74,4,1.2,2,9,7,1,0.0,63,17,0.7,3.2,1.9, Gaming             ,6,5.4,8.5,2
 1349, Ricardo Myers             ,16, Male  , New Joshuaport         , 12th        ,6.5,6.3,99,9,1.1,1,2,6,0,1.2,110,17,2.2,0.8,0.5, Education          ,2,2.9,10.0,1
-1350, Mikayla Martinez          ,13, Other , New Justinton          , 10th        ,5.2,5.8,97,4,0.8,9,8,5,1,1.6,149,7,3.0,2.2,0.2, Gaming             ,4,7.6,10.0,2
+1350, Mikayla Martinez          ,13, Other , New Justinton          , 10th        ,5.2,5.8,97,4,0.8,9,8,5,1,1.6,149,7,3.0,2.2,0.2, Gaming             ,4,7.6,10.0,1
 1351, Richard Rodriguez         ,16, Female, Port Joseview          , 8th         ,3.2,6.5,89,8,1.1,10,10,2,1,0.6,61,20,1.9,0.8,1.4, Social Media       ,4,6.4,7.9,0
 1352, Kathryn Meyers            ,17, Other , Lake Jessicastad       , 8th         ,6.6,5.4,91,6,1.4,6,6,7,1,1.3,137,17,0.2,2.0,1.8, Other              ,8,10.0,10.0,1
 1353, Jason Ford                ,19, Other , Codyshire              , 8th         ,5.4,7.6,51,0,0.8,1,9,1,1,1.5,21,5,1.9,3.6,0.7, Browsing           ,7,6.3,8.5,0
@@ -1372,7 +1372,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1371, Jeffrey Parker            ,15, Male  , Charlesbury            , 10th        ,7.5,10.0,71,3,0.6,4,4,8,1,0.4,109,12,0.8,1.3,2.8, Other              ,1,10.0,9.2,2
 1372, Nancy Allen               ,16, Male  , Wileytown              , 12th        ,5.1,6.9,83,1,1.5,3,1,8,1,1.7,110,10,3.4,1.5,0.7, Gaming             ,2,6.0,10.0,2
 1373, Nicholas Lynch            ,15, Female, Lake Jonathan          , 9th         ,4.3,6.7,78,3,1.7,6,1,9,1,1.1,43,15,3.7,0.4,1.2, Education          ,3,7.0,8.9,2
-1374, Jennifer Hunt             ,13, Male  , New Hunter             , 9th         ,3.3,7.4,93,10,0.8,6,1,7,1,0.1,97,19,1.9,0.8,0.0, Other              ,10,2.4,8.0,0
+1374, Jennifer Hunt             ,13, Male  , New Hunter             , 9th         ,3.3,7.4,93,10,0.8,6,1,7,1,0.1,97,19,1.9,0.8,0.0, Other              ,10,2.4,8.0,2
 1375, Maria Sullivan            ,19, Female, Garciabury             , 12th        ,2.9,7.0,75,5,0.4,2,1,5,1,1.3,34,20,0.7,2.1,0.5, Browsing           ,6,5.7,6.9,0
 1376, Linda Soto                ,19, Other , West Charlesbury       , 7th         ,5.4,5.4,88,0,1.1,10,9,9,1,1.5,61,17,1.0,2.1,1.8, Gaming             ,5,4.9,10.0,2
 1377, Raymond Flowers           ,17, Male  , Lake Kristybury        , 11th        ,1.4,4.9,94,10,0.2,7,10,3,1,1.0,61,11,4.0,0.1,1.6, Social Media       ,5,3.2,6.5,0
@@ -1380,7 +1380,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1379, Joseph Orr                ,19, Male  , Joshuaberg             , 10th        ,3.0,4.8,98,3,1.4,4,10,9,0,0.0,20,5,2.6,0.4,0.4, Gaming             ,10,9.3,5.0,0
 1380, Nicholas Powell           ,14, Male  , Lake Ashleyville       , 8th         ,4.8,6.5,51,1,0.7,9,2,3,0,1.4,146,16,2.0,3.0,1.5, Other              ,7,6.6,10.0,1
 1381, Omar Cohen                ,19, Male  , Lake Jesus             , 10th        ,3.3,6.8,90,4,1.0,6,5,2,0,1.1,36,9,0.9,0.8,0.4, Browsing           ,7,8.0,4.1,0
-1382, Tammy Wood                ,15, Male  , Barbaraberg            , 8th         ,4.8,4.9,91,0,3.0,4,10,10,0,1.3,71,8,3.9,2.9,0.8, Social Media       ,6,9.9,10.0,1
+1382, Tammy Wood                ,15, Male  , Barbaraberg            , 8th         ,4.8,4.9,91,0,3.0,4,10,10,0,1.3,71,8,3.9,2.9,0.8, Social Media       ,6,9.9,10.0,2
 1383, David Hill                ,16, Female, East Amy               , 10th        ,2.1,7.8,66,7,0.0,5,4,3,0,0.3,48,14,0.7,2.4,1.6, Social Media       ,2,8.2,5.1,0
 1384, Belinda Wilkerson         ,16, Female, Evanshaven             , 10th        ,6.0,7.1,55,2,0.0,9,9,10,0,0.5,134,20,1.5,2.2,0.0, Education          ,10,4.3,10.0,1
 1385, Michelle Jacobson         ,18, Male  , Lake Hannah            , 9th         ,6.9,6.9,91,7,0.0,3,10,6,0,0.7,130,18,3.5,0.5,0.3, Social Media       ,1,6.3,10.0,1
@@ -1416,7 +1416,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1415, Vanessa Bennett           ,17, Female, Washingtonside         , 9th         ,3.5,5.7,59,9,0.9,5,2,1,0,1.2,105,10,2.1,1.7,0.7, Gaming             ,9,6.6,8.5,2
 1416, Melanie Morgan            ,16, Female, Catherineshire         , 8th         ,4.4,4.1,96,5,1.6,10,7,1,0,1.8,90,12,2.0,1.0,1.2, Education          ,4,4.8,9.6,2
 1417, Samantha Brown            ,13, Other , East Sara              , 7th         ,5.1,6.2,84,3,1.0,7,5,2,1,0.2,22,18,2.2,2.3,0.9, Other              ,9,6.6,10.0,2
-1418, David Brown               ,16, Male  , Oconnorstad            , 11th        ,6.7,5.8,52,0,1.0,9,10,6,1,1.0,43,16,2.5,1.6,0.8, Other              ,9,5.5,10.0,1
+1418, David Brown               ,16, Male  , Oconnorstad            , 11th        ,6.7,5.8,52,0,1.0,9,10,6,1,1.0,43,16,2.5,1.6,0.8, Other              ,9,5.5,10.0,2
 1419, Whitney Sanchez           ,17, Female, West Danieltown        , 9th         ,8.9,7.2,87,9,1.4,3,2,5,1,1.4,21,7,2.6,1.3,0.8, Education          ,4,5.9,10.0,2
 1420, Ashley Wagner             ,14, Other , New Steven             , 8th         ,3.9,8.8,80,3,0.1,10,3,1,1,0.8,81,20,3.2,1.5,1.7, Social Media       ,2,5.0,9.8,2
 1421, Aaron Leon                ,19, Female, Bethton                , 9th         ,6.3,7.9,76,3,2.0,9,2,9,1,0.7,140,20,2.8,2.6,0.0, Gaming             ,9,8.4,10.0,1
@@ -1444,7 +1444,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1443, Joseph Stevenson          ,15, Other , New John               , 8th         ,5.4,7.5,94,7,0.5,3,10,2,1,0.3,57,13,1.7,1.0,1.2, Gaming             ,2,4.6,8.1,0
 1444, Jessica Jackson           ,15, Male  , Ericaborough           , 10th        ,7.0,5.7,90,10,0.4,8,10,7,0,1.2,117,7,5.0,0.1,2.2, Social Media       ,6,2.8,10.0,1
 1445, Alicia Williams           ,16, Other , Lake Frank             , 11th        ,7.3,4.9,58,2,0.7,10,4,7,0,0.6,42,17,3.4,2.1,0.6, Gaming             ,1,4.7,10.0,1
-1446, Christian Klein           ,14, Other , Mitchellshire          , 11th        ,7.4,6.2,69,8,0.7,9,6,3,0,1.6,75,14,3.1,0.3,0.8, Education          ,2,9.4,10.0,1
+1446, Christian Klein           ,14, Other , Mitchellshire          , 11th        ,7.4,6.2,69,8,0.7,9,6,3,0,1.6,75,14,3.1,0.3,0.8, Education          ,2,9.4,10.0,2
 1447, Tara Martinez             ,18, Male  , Guzmanshire            , 12th        ,4.5,8.6,57,4,0.0,2,9,7,1,0.9,109,12,4.3,1.9,0.8, Other              ,6,5.5,10.0,2
 1448, Mary Jones                ,14, Female, Josephhaven            , 9th         ,2.6,6.5,51,3,0.9,4,8,2,1,1.4,28,15,2.8,1.7,1.8, Browsing           ,3,9.7,7.4,0
 1449, Jesse Burch               ,13, Female, South Lorichester      , 10th        ,5.9,4.4,73,5,0.2,10,1,6,0,1.0,94,10,3.4,1.1,0.9, Browsing           ,4,8.9,10.0,1
@@ -1479,7 +1479,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1478, Yvette Holland            ,13, Other , Whitefort              , 9th         ,4.9,6.6,56,9,1.8,2,7,5,0,1.0,53,7,2.0,0.0,0.5, Education          ,2,7.3,6.1,0
 1479, Rhonda Roberts            ,13, Male  , Lake Lisastad          , 8th         ,3.0,6.8,62,9,1.3,2,1,1,0,1.6,44,18,5.0,1.5,1.1, Education          ,4,6.3,10.0,2
 1480, Michael Burch             ,17, Female, East Christopherville  , 9th         ,0.0,8.5,74,1,1.2,9,10,5,1,1.4,146,11,3.2,1.8,0.7, Education          ,3,7.9,5.9,0
-1481, Michelle Reed             ,16, Female, Thomasside             , 12th        ,2.7,5.6,58,9,1.4,4,5,9,1,1.0,144,6,2.8,1.9,0.8, Education          ,10,4.9,8.7,0
+1481, Michelle Reed             ,16, Female, Thomasside             , 12th        ,2.7,5.6,58,9,1.4,4,5,9,1,1.0,144,6,2.8,1.9,0.8, Education          ,10,4.9,8.7,2
 1482, Kimberly Rubio            ,15, Other , West Kimberlyview      , 10th        ,7.0,7.5,77,8,1.8,2,6,5,1,1.4,129,11,2.9,1.4,0.5, Education          ,7,7.3,10.0,1
 1483, Keith Pena                ,14, Other , West Joanna            , 11th        ,5.5,8.4,89,8,2.0,6,6,2,0,1.6,89,19,2.9,2.6,1.4, Browsing           ,7,5.7,10.0,1
 1484, Michael Johnson           ,14, Female, Lopezville             , 9th         ,7.3,3.7,52,0,0.5,2,9,5,0,1.3,66,6,3.0,3.1,0.0, Browsing           ,2,5.5,10.0,1
@@ -1490,17 +1490,17 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1489, Amanda Harris             ,19, Other , Port Josephchester     , 11th        ,6.9,7.2,98,4,0.9,4,5,3,1,0.9,63,10,2.1,1.4,0.9, Browsing           ,4,3.3,10.0,2
 1490, Kristen Mitchell          ,17, Other , Lake Williamfort       , 11th        ,4.5,8.2,98,0,0.4,4,7,7,1,1.2,91,19,3.5,2.0,1.2, Education          ,1,5.0,10.0,2
 1491, Debra Moore               ,16, Other , New Jefferybury        , 9th         ,3.9,7.1,52,7,0.9,3,4,7,1,0.7,65,8,2.0,2.5,0.9, Gaming             ,2,8.1,7.8,0
-1492, Rhonda Edwards            ,15, Female, Jasonland              , 10th        ,7.0,4.2,58,10,1.2,9,5,10,1,2.0,60,5,3.1,2.0,1.4, Other              ,7,7.1,10.0,1
+1492, Rhonda Edwards            ,15, Female, Jasonland              , 10th        ,7.0,4.2,58,10,1.2,9,5,10,1,2.0,60,5,3.1,2.0,1.4, Other              ,7,7.1,10.0,2
 1493, Edward Barker             ,15, Other , Paynefort              , 10th        ,2.7,8.7,64,2,1.5,7,1,6,0,1.1,146,17,2.8,2.7,0.0, Education          ,4,8.1,10.0,2
 1494, Brian Lawrence            ,15, Other , South Jasonmouth       , 10th        ,4.1,6.7,61,6,0.3,1,6,9,1,1.1,99,8,2.7,1.7,0.3, Education          ,1,2.1,8.7,2
 1495, Paul Hernandez            ,13, Other , Richardsville          , 11th        ,5.7,8.8,85,1,1.6,8,3,7,1,0.8,26,5,0.3,0.6,0.9, Other              ,5,9.1,3.7,0
 1496, Misty Wilson              ,14, Other , North Leslie           , 8th         ,3.6,8.0,65,0,1.3,10,10,5,1,1.2,105,17,1.7,2.0,2.2, Education          ,9,6.5,8.8,2
 1497, Beth Price                ,16, Female, Shawnfurt              , 8th         ,2.5,8.1,75,8,0.0,4,2,2,1,0.8,34,7,4.3,4.0,0.0, Education          ,4,8.4,8.8,2
-1498, Kristie Williams          ,17, Other , East Brandon           , 11th        ,3.2,8.6,89,3,2.1,9,7,9,1,0.9,99,14,3.6,1.1,1.3, Other              ,1,6.5,8.4,2
+1498, Kristie Williams          ,17, Other , East Brandon           , 11th        ,3.2,8.6,89,3,2.1,9,7,9,1,0.9,99,14,3.6,1.1,1.3, Other              ,1,6.5,8.4,0
 1499, William Cervantes         ,15, Female, Hillfort               , 12th        ,5.2,8.2,56,0,1.9,9,10,6,1,0.0,144,15,1.7,1.0,1.2, Gaming             ,7,9.0,9.7,2
 1500, Debra Owen                ,19, Male  , Nicoletown             , 10th        ,2.6,7.5,83,10,1.4,10,9,7,1,0.5,24,5,2.5,1.1,0.5, Education          ,2,6.5,3.9,0
 1501, Billy Baker               ,15, Other , Deleonberg             , 8th         ,5.4,7.0,73,2,0.5,3,3,10,0,0.8,113,13,3.3,0.5,2.4, Social Media       ,1,9.9,10.0,2
-1502, Susan Mcintosh            ,18, Other , Bakerland              , 8th         ,1.9,7.3,97,8,1.0,4,5,8,1,0.8,139,17,1.7,1.9,1.5, Gaming             ,3,4.1,8.0,0
+1502, Susan Mcintosh            ,18, Other , Bakerland              , 8th         ,1.9,7.3,97,8,1.0,4,5,8,1,0.8,139,17,1.7,1.9,1.5, Gaming             ,3,4.1,8.0,2
 1503, Kevin Perkins             ,15, Female, West Angela            , 7th         ,2.4,6.1,98,10,0.0,8,7,10,1,0.9,128,8,3.4,0.3,1.4, Browsing           ,4,3.0,7.2,0
 1504, Jill Maxwell              ,19, Male  , East Traceyville       , 11th        ,5.4,6.0,98,2,0.4,9,8,6,1,1.2,25,9,3.8,1.8,1.1, Browsing           ,2,4.3,10.0,2
 1505, Jennifer Rosales          ,17, Other , Allenside              , 11th        ,6.6,5.9,91,4,1.2,8,10,3,1,1.9,110,18,2.3,0.9,1.4, Social Media       ,9,5.2,10.0,1
@@ -1523,9 +1523,9 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1522, Stanley Fry               ,19, Female, West Jeffery           , 10th        ,5.5,3.1,90,6,0.9,8,3,4,1,1.7,57,12,2.0,0.5,1.1, Social Media       ,6,2.5,10.0,2
 1523, Angel Flores              ,19, Male  , Daniellehaven          , 11th        ,3.5,5.5,62,3,1.2,10,10,2,1,0.5,47,17,1.9,0.5,0.4, Education          ,2,7.1,7.5,0
 1524, Christine Ramsey DVM      ,16, Female, East Robert            , 7th         ,6.1,7.5,88,9,1.6,9,8,3,0,0.0,66,20,3.5,1.6,1.7, Browsing           ,10,7.6,10.0,1
-1525, Jessica Lewis             ,18, Female, East John              , 12th        ,7.1,6.4,64,9,0.1,5,5,10,0,1.3,54,15,1.9,1.8,0.8, Gaming             ,2,4.8,10.0,1
+1525, Jessica Lewis             ,18, Female, East John              , 12th        ,7.1,6.4,64,9,0.1,5,5,10,0,1.3,54,15,1.9,1.8,0.8, Gaming             ,2,4.8,10.0,2
 1526, Ricardo Hayden            ,15, Other , Sarahshire             , 8th         ,7.7,6.5,64,7,0.1,3,10,7,0,0.2,76,5,2.4,0.3,1.3, Social Media       ,5,4.5,9.7,2
-1527, Olivia Contreras          ,18, Female, Jacksonfort            , 8th         ,4.7,8.3,91,3,2.2,7,6,6,1,1.3,134,18,0.8,0.7,0.8, Gaming             ,3,7.3,8.3,2
+1527, Olivia Contreras          ,18, Female, Jacksonfort            , 8th         ,4.7,8.3,91,3,2.2,7,6,6,1,1.3,134,18,0.8,0.7,0.8, Gaming             ,3,7.3,8.3,0
 1528, Kimberly Young            ,14, Female, North Mary             , 10th        ,3.7,6.2,77,2,2.2,8,8,8,1,1.1,94,14,1.4,0.5,1.3, Other              ,7,4.7,7.2,0
 1529, Brian Whitaker            ,19, Female, New Josephberg         , 10th        ,2.5,5.6,67,0,2.0,1,8,1,0,0.5,113,11,3.0,2.2,2.6, Browsing           ,3,7.8,9.4,2
 1530, Brenda Brown              ,17, Female, Port Elizabeth         , 7th         ,1.6,6.4,55,10,0.5,8,9,10,1,0.3,92,16,3.4,1.7,1.5, Education          ,2,3.5,8.5,2
@@ -1537,7 +1537,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1536, Denise Maldonado MD       ,16, Female, Lake Francesview       , 12th        ,0.9,5.5,63,3,0.9,4,9,6,1,0.8,134,10,1.5,1.8,0.4, Browsing           ,5,6.5,6.1,0
 1537, Tommy Marshall            ,17, Male  , Wendytown              , 11th        ,0.0,7.1,85,3,0.0,8,4,10,0,0.7,99,15,1.9,1.7,0.8, Browsing           ,4,5.3,5.0,0
 1538, Angela Stewart            ,14, Male  , North Troy             , 10th        ,2.4,5.2,86,4,0.8,4,6,3,0,0.8,96,13,2.1,3.7,0.5, Education          ,5,11.2,10.0,2
-1539, Melissa Ortega            ,13, Male  , Marissaburgh           , 8th         ,3.1,7.7,80,8,0.6,3,4,5,1,1.7,127,5,5.0,0.9,1.3, Browsing           ,5,5.3,8.7,0
+1539, Melissa Ortega            ,13, Male  , Marissaburgh           , 8th         ,3.1,7.7,80,8,0.6,3,4,5,1,1.7,127,5,5.0,0.9,1.3, Browsing           ,5,5.3,8.7,2
 1540, Jasmine Adams             ,17, Other , Elizabethburgh         , 8th         ,3.3,4.7,68,5,1.3,3,7,9,1,1.8,90,5,2.7,2.0,0.4, Social Media       ,6,8.5,8.5,0
 1541, Deborah Meza              ,15, Male  , Johnmouth              , 12th        ,6.0,6.5,85,3,1.1,5,4,2,0,2.0,61,6,3.8,1.7,1.6, Other              ,7,2.3,10.0,2
 1542, Ashley Daniels DDS        ,18, Male  , Port Benjamin          , 11th        ,5.2,8.6,87,0,1.1,6,10,1,1,0.2,80,12,1.2,1.4,1.7, Social Media       ,10,4.6,7.5,0
@@ -1546,7 +1546,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1545, Joseph Montgomery         ,13, Female, Lesterfort             , 8th         ,7.4,4.3,77,0,0.0,1,1,1,0,1.0,133,20,1.8,0.1,0.1, Gaming             ,10,9.3,10.0,1
 1546, Melanie Foster            ,19, Male  , Michaelmouth           , 11th        ,5.6,7.0,55,3,0.4,7,1,8,1,1.1,24,8,1.3,0.9,0.8, Other              ,7,3.5,6.4,0
 1547, Kimberly Sanders          ,17, Other , North Pedro            , 7th         ,3.8,4.7,84,1,3.3,8,5,7,1,0.7,56,11,2.5,1.0,0.4, Other              ,4,7.2,8.3,0
-1548, Samantha Adams            ,13, Female, Alvarezmouth           , 9th         ,2.4,3.9,84,1,0.0,10,5,6,1,0.8,106,5,2.5,2.6,1.8, Browsing           ,7,8.8,8.7,0
+1548, Samantha Adams            ,13, Female, Alvarezmouth           , 9th         ,2.4,3.9,84,1,0.0,10,5,6,1,0.8,106,5,2.5,2.6,1.8, Browsing           ,7,8.8,8.7,2
 1549, Stacy Jones               ,19, Female, Heatherbury            , 12th        ,9.1,6.4,71,3,0.0,4,4,3,0,0.1,22,14,2.8,1.8,1.7, Gaming             ,6,4.4,10.0,1
 1550, Thomas Mckinney           ,13, Other , North Patrick          , 10th        ,10.3,7.1,98,1,0.0,1,10,1,1,0.2,70,16,1.6,2.9,1.1, Gaming             ,3,7.4,10.0,1
 1551, Melissa Williams          ,13, Male  , East Nataliemouth      , 10th        ,7.5,4.5,90,1,1.8,8,7,3,1,1.4,66,19,1.1,0.0,0.6, Education          ,8,7.3,10.0,2
@@ -1562,14 +1562,14 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1561, Erica Lucero              ,18, Male  , Wellsfort              , 7th         ,4.3,5.1,81,7,0.0,9,2,10,0,1.2,80,11,3.1,1.4,0.0, Gaming             ,2,6.3,10.0,2
 1562, David Martinez            ,19, Female, Michaelburgh           , 10th        ,7.7,4.3,53,5,0.6,10,10,5,1,0.4,85,9,2.9,2.1,1.4, Social Media       ,4,5.1,10.0,1
 1563, Zachary Ramos             ,17, Male  , Patriciamouth          , 12th        ,1.7,5.8,94,7,1.8,4,2,9,1,1.4,97,14,2.6,0.6,1.1, Browsing           ,7,8.1,6.7,0
-1564, Robert Adkins             ,19, Male  , Smithland              , 11th        ,5.5,6.2,50,9,1.7,7,8,3,0,1.1,49,12,1.0,1.6,0.0, Social Media       ,2,11.2,8.4,2
+1564, Robert Adkins             ,19, Male  , Smithland              , 11th        ,5.5,6.2,50,9,1.7,7,8,3,0,1.1,49,12,1.0,1.6,0.0, Social Media       ,2,11.2,8.4,0
 1565, Michael Duarte            ,13, Other , Josephville            , 7th         ,5.5,9.0,73,9,0.0,10,7,5,1,1.1,148,13,1.9,2.1,1.5, Education          ,8,7.1,10.0,2
 1566, Robert Brown              ,15, Male  , Fosterburgh            , 9th         ,6.6,8.5,89,3,1.5,5,7,2,1,0.2,128,9,1.7,4.0,1.1, Other              ,9,7.3,10.0,1
 1567, Alexa Mcdonald            ,16, Female, Harrisbury             , 8th         ,5.3,3.0,79,4,2.1,1,3,7,1,0.9,74,14,3.8,2.1,1.1, Other              ,3,3.4,10.0,1
-1568, Raymond Lewis             ,19, Male  , Jenniferbury           , 8th         ,2.5,4.4,51,7,1.1,9,10,6,0,1.3,78,11,2.5,1.9,1.9, Browsing           ,9,4.3,8.5,0
+1568, Raymond Lewis             ,19, Male  , Jenniferbury           , 8th         ,2.5,4.4,51,7,1.1,9,10,6,0,1.3,78,11,2.5,1.9,1.9, Browsing           ,9,4.3,8.5,2
 1569, Dakota Bradford           ,14, Female, East Sara              , 8th         ,5.4,7.1,100,7,1.9,2,4,9,1,1.3,139,20,3.4,1.9,0.9, Other              ,5,8.9,10.0,1
 1570, Allison Lopez             ,19, Male  , Port Elizabethshire    , 12th        ,4.4,3.6,92,7,1.5,9,9,1,0,1.1,41,13,2.7,3.0,0.7, Social Media       ,4,10.4,10.0,1
-1571, Robert Hanson             ,19, Female, Stephenfort            , 10th        ,2.8,3.0,58,9,0.0,10,7,6,1,0.5,35,12,1.8,2.1,0.3, Gaming             ,9,6.6,8.3,0
+1571, Robert Hanson             ,19, Female, Stephenfort            , 10th        ,2.8,3.0,58,9,0.0,10,7,6,1,0.5,35,12,1.8,2.1,0.3, Gaming             ,9,6.6,8.3,2
 1572, Shawn Mills               ,14, Other , East Sandramouth       , 9th         ,3.6,6.2,72,7,2.1,4,10,1,1,0.2,64,8,2.4,0.0,0.4, Other              ,4,5.8,5.8,0
 1573, Heather Bartlett          ,17, Female, North Mario            , 11th        ,7.0,5.9,52,5,1.6,1,4,2,0,0.5,66,18,2.7,2.0,0.6, Social Media       ,3,4.1,10.0,1
 1574, Alex Moore                ,19, Female, Haysfurt               , 10th        ,4.4,6.4,53,7,0.4,2,5,2,1,0.8,92,8,3.6,2.4,1.8, Gaming             ,4,6.3,10.0,2
@@ -1593,7 +1593,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1592, Cassandra Lin             ,17, Female, Port Joe               , 11th        ,5.1,6.4,55,4,2.1,8,3,10,1,0.7,75,17,2.5,2.8,0.0, Gaming             ,9,8.2,10.0,1
 1593, Manuel Williams           ,19, Female, Smithburgh             , 10th        ,5.3,5.9,53,5,0.4,6,9,6,0,0.4,35,17,1.0,2.0,0.2, Other              ,5,5.8,9.4,2
 1594, Amanda Bolton             ,16, Male  , South Candice          , 11th        ,5.4,4.9,72,3,1.7,6,4,6,0,1.4,45,13,2.6,1.2,0.5, Gaming             ,10,4.1,10.0,2
-1595, Nicholas Richmond         ,15, Other , Michaelberg            , 11th        ,8.5,5.7,62,7,0.5,10,4,6,0,1.7,33,5,4.4,0.4,1.5, Other              ,6,3.7,10.0,1
+1595, Nicholas Richmond         ,15, Other , Michaelberg            , 11th        ,8.5,5.7,62,7,0.5,10,4,6,0,1.7,33,5,4.4,0.4,1.5, Other              ,6,3.7,10.0,2
 1596, Stacey Green              ,16, Female, Sullivanberg           , 7th         ,5.4,7.1,87,0,0.1,3,10,5,0,0.6,63,10,2.8,0.9,1.2, Gaming             ,2,5.2,8.8,2
 1597, Rachel Allen              ,13, Female, Port Tracey            , 7th         ,3.3,7.4,62,4,0.7,9,5,1,1,0.6,46,8,2.6,2.4,0.1, Browsing           ,6,1.9,7.1,0
 1598, Kevin Jones               ,13, Female, Lake Michael           , 7th         ,3.0,6.2,72,7,1.4,6,3,8,0,0.0,69,15,3.3,1.2,1.8, Browsing           ,7,3.6,8.8,2
@@ -1603,10 +1603,10 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1602, Mrs. Cynthia Schultz      ,15, Male  , Jamesburgh             , 12th        ,1.8,6.6,56,10,0.7,2,7,7,1,0.7,100,18,4.9,1.4,0.3, Education          ,7,2.4,10.0,2
 1603, Allen Dunlap              ,18, Male  , Melissaborough         , 7th         ,8.2,5.4,94,5,2.1,9,7,10,0,0.4,143,17,2.2,1.6,0.0, Social Media       ,8,9.4,10.0,1
 1604, Robert King               ,13, Other , Snyderbury             , 9th         ,5.5,7.0,73,1,1.1,2,1,5,1,0.2,147,16,1.8,1.2,0.8, Social Media       ,5,5.7,10.0,2
-1605, Haley Goodman             ,19, Male  , Frazierborough         , 8th         ,5.7,8.9,66,7,2.5,6,1,5,0,1.4,34,17,3.3,3.1,0.4, Browsing           ,7,4.4,10.0,1
-1606, Vanessa Taylor            ,15, Female, East Aliciaborough     , 7th         ,5.4,8.0,70,4,1.1,10,5,6,1,0.7,135,18,2.3,1.7,1.1, Other              ,2,6.4,10.0,1
+1605, Haley Goodman             ,19, Male  , Frazierborough         , 8th         ,5.7,8.9,66,7,2.5,6,1,5,0,1.4,34,17,3.3,3.1,0.4, Browsing           ,7,4.4,10.0,2
+1606, Vanessa Taylor            ,15, Female, East Aliciaborough     , 7th         ,5.4,8.0,70,4,1.1,10,5,6,1,0.7,135,18,2.3,1.7,1.1, Other              ,2,6.4,10.0,2
 1607, James Francis             ,14, Other , Hamiltontown           , 7th         ,6.6,8.0,82,4,2.7,5,2,2,1,0.9,25,7,2.5,2.9,0.5, Gaming             ,9,8.7,9.9,2
-1608, Melinda Flores            ,16, Male  , Campbellfort           , 9th         ,7.0,7.4,58,0,0.3,4,9,6,0,1.0,56,9,1.7,0.8,1.5, Other              ,3,9.5,8.7,2
+1608, Melinda Flores            ,16, Male  , Campbellfort           , 9th         ,7.0,7.4,58,0,0.3,4,9,6,0,1.0,56,9,1.7,0.8,1.5, Other              ,3,9.5,8.7,0
 1609, Maureen Chapman           ,14, Other , Emilyton               , 12th        ,3.7,8.3,93,7,0.8,9,5,1,0,1.5,28,9,4.1,0.2,2.6, Gaming             ,5,3.7,6.2,0
 1610, Christina Tate            ,13, Other , Sheilaburgh            , 8th         ,4.3,6.7,88,5,0.9,5,3,4,1,1.3,96,11,1.9,0.0,1.1, Social Media       ,5,5.6,7.0,0
 1611, Aaron Jackson             ,13, Other , New Meganchester       , 9th         ,6.9,7.6,53,8,2.1,4,7,8,1,0.1,85,13,1.5,2.6,0.8, Gaming             ,10,5.5,10.0,2
@@ -1631,14 +1631,14 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1630, Jeffrey Austin            ,16, Male  , Noahton                , 8th         ,4.3,7.0,60,10,2.4,7,2,5,1,0.8,144,15,2.9,0.7,1.4, Social Media       ,3,3.1,10.0,2
 1631, Spencer Ingram            ,17, Male  , New Victoriaville      , 12th        ,4.4,5.4,59,10,0.3,10,4,10,0,0.7,40,6,0.8,1.4,0.8, Gaming             ,9,2.6,5.9,0
 1632, Samantha Mora             ,19, Female, North Veronicamouth    , 9th         ,4.5,8.2,64,8,0.7,8,7,3,0,0.1,106,7,3.5,1.5,0.4, Social Media       ,3,6.9,8.9,2
-1633, Kenneth Bell              ,16, Female, Janicefurt             , 7th         ,6.9,6.7,50,0,3.0,2,1,1,1,1.0,68,10,2.4,3.0,1.4, Gaming             ,4,9.5,10.0,1
+1633, Kenneth Bell              ,16, Female, Janicefurt             , 7th         ,6.9,6.7,50,0,3.0,2,1,1,1,1.0,68,10,2.4,3.0,1.4, Gaming             ,4,9.5,10.0,2
 1634, Meredith Garcia           ,18, Other , Port Erica             , 9th         ,2.8,8.0,57,10,1.3,5,5,8,0,1.5,62,15,5.0,1.2,0.5, Gaming             ,10,5.6,9.2,2
-1635, Cynthia Crawford          ,16, Female, Adamsstad              , 11th        ,6.8,8.3,59,3,0.9,10,6,5,0,1.4,105,17,2.8,0.7,2.1, Gaming             ,7,6.0,10.0,1
+1635, Cynthia Crawford          ,16, Female, Adamsstad              , 11th        ,6.8,8.3,59,3,0.9,10,6,5,0,1.4,105,17,2.8,0.7,2.1, Gaming             ,7,6.0,10.0,2
 1636, Amanda Coleman            ,15, Female, Port Kayla             , 12th        ,4.9,5.3,64,10,0.7,2,9,4,0,1.4,109,8,1.1,3.5,1.2, Gaming             ,1,2.9,10.0,2
 1637, Mark Adams                ,15, Female, Dayfort                , 11th        ,4.6,3.0,61,5,0.5,2,9,9,0,1.7,108,17,2.6,0.7,1.8, Gaming             ,4,6.0,10.0,1
 1638, Brett Walker              ,14, Female, Feliciaburgh           , 9th         ,5.2,7.7,100,0,0.3,10,2,4,0,1.2,118,20,3.3,1.5,1.4, Other              ,3,7.9,10.0,1
 1639, Kristine Fleming          ,18, Other , New Danny              , 9th         ,2.1,6.7,90,2,1.0,10,6,5,1,1.9,28,18,4.0,0.6,1.7, Education          ,10,7.3,7.5,0
-1640, Deborah Dean              ,17, Other , Port Kellyshire        , 10th        ,5.0,5.5,65,3,0.0,10,1,7,1,2.1,98,8,3.0,0.0,1.0, Gaming             ,1,12.3,8.8,2
+1640, Deborah Dean              ,17, Other , Port Kellyshire        , 10th        ,5.0,5.5,65,3,0.0,10,1,7,1,2.1,98,8,3.0,0.0,1.0, Gaming             ,1,12.3,8.8,0
 1641, Denise Ortiz              ,13, Female, Ochoamouth             , 10th        ,4.9,5.5,92,10,0.3,9,6,6,0,1.7,139,9,3.8,1.8,1.4, Browsing           ,4,5.8,10.0,1
 1642, Colleen White             ,14, Female, South Christy          , 7th         ,6.6,9.3,88,3,0.0,6,9,2,1,1.2,102,10,1.6,2.9,1.0, Other              ,4,6.8,10.0,2
 1643, Daniel Johnson            ,15, Female, Campbellborough        , 7th         ,1.5,8.3,52,0,0.5,9,6,8,1,1.5,107,12,1.5,2.2,0.3, Browsing           ,10,4.6,5.6,0
@@ -1675,7 +1675,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1674, Beth Hayes                ,16, Female, Oconnellhaven          , 7th         ,1.2,7.2,51,6,0.2,10,10,10,1,1.2,93,7,2.1,1.8,0.0, Other              ,1,3.4,4.8,0
 1675, Katherine Gonzales        ,14, Other , Lake Jennifer          , 7th         ,4.6,8.5,89,7,1.7,8,10,6,1,0.6,61,16,2.7,0.4,0.3, Other              ,4,9.3,7.9,0
 1676, Gregory Johnson           ,14, Other , East Michael           , 9th         ,4.1,4.0,86,10,0.5,3,5,10,0,1.1,79,6,4.0,0.7,0.5, Gaming             ,7,4.3,9.6,2
-1677, Mr. George Durham         ,17, Male  , Moranland              , 9th         ,3.1,5.3,97,5,1.5,8,1,6,1,1.2,139,7,4.1,2.8,1.3, Social Media       ,2,3.7,10.0,2
+1677, Mr. George Durham         ,17, Male  , Moranland              , 9th         ,3.1,5.3,97,5,1.5,8,1,6,1,1.2,139,7,4.1,2.8,1.3, Social Media       ,2,3.7,10.0,1
 1678, Jennifer Anderson         ,18, Male  , Duanebury              , 9th         ,5.2,7.8,52,6,0.0,10,9,9,1,0.6,84,20,3.5,0.5,0.3, Other              ,6,4.3,10.0,2
 1679, Cody Larson               ,18, Other , Kristinbury            , 12th        ,3.5,6.8,57,1,0.2,7,2,8,0,1.8,83,8,1.4,0.0,1.7, Social Media       ,10,8.6,4.8,0
 1680, Jared Hoffman             ,17, Male  , East Ronald            , 9th         ,1.2,7.6,62,2,2.0,3,5,8,1,0.8,97,14,2.6,0.2,0.9, Browsing           ,9,6.2,4.9,0
@@ -1726,7 +1726,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1725, Lawrence Ritter           ,16, Other , South Megan            , 12th        ,1.5,5.7,55,8,0.7,8,4,4,0,1.2,48,19,2.0,1.4,0.6, Other              ,3,5.5,6.8,0
 1726, Brandon Tucker            ,18, Male  , Lake Krista            , 7th         ,1.6,7.2,67,4,1.2,6,8,3,0,1.2,75,17,2.8,1.5,1.0, Social Media       ,1,3.8,7.2,0
 1727, Ashley Peterson           ,16, Female, South Gabrielland      , 12th        ,8.1,3.8,85,3,0.9,4,4,4,1,1.1,98,18,3.3,1.9,2.5, Browsing           ,2,3.9,10.0,1
-1728, Nicholas Perry            ,18, Other , West Chris             , 10th        ,4.7,5.9,80,10,0.1,2,3,6,0,0.7,141,9,2.7,2.7,1.7, Social Media       ,3,6.8,10.0,2
+1728, Nicholas Perry            ,18, Other , West Chris             , 10th        ,4.7,5.9,80,10,0.1,2,3,6,0,0.7,141,9,2.7,2.7,1.7, Social Media       ,3,6.8,10.0,1
 1729, Deanna Watkins MD         ,19, Other , Joneschester           , 12th        ,6.3,8.0,90,9,1.3,4,5,3,0,0.9,134,20,3.1,1.7,0.0, Education          ,1,4.5,10.0,1
 1730, Morgan Wilson             ,16, Female, Johnland               , 7th         ,3.3,6.7,79,3,0.9,4,3,6,0,1.2,82,7,1.1,0.7,0.9, Gaming             ,8,7.0,4.8,0
 1731, Richard Mccarthy          ,14, Male  , Nelsonland             , 9th         ,4.4,6.3,66,6,0.5,2,3,8,0,0.6,64,8,2.2,1.5,1.2, Other              ,10,5.9,7.8,0
@@ -1740,14 +1740,14 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1739, Angela Glenn              ,16, Female, Langfurt               , 7th         ,8.2,5.6,55,6,0.0,5,5,6,1,0.9,116,14,1.4,2.2,1.6, Social Media       ,10,8.8,10.0,1
 1740, Manuel Cobb               ,16, Female, Powellview             , 12th        ,6.1,5.4,55,5,0.0,10,1,7,1,0.7,90,9,2.5,3.1,1.4, Other              ,10,7.0,10.0,1
 1741, Jackie Mathews            ,15, Other , Youngborough           , 8th         ,4.6,5.8,73,1,1.1,3,7,4,1,0.6,127,11,2.2,2.1,1.3, Social Media       ,8,2.2,10.0,2
-1742, Mary Johnson              ,14, Male  , Lawrencechester        , 12th        ,3.8,6.4,70,5,1.1,7,4,5,0,0.9,74,19,2.3,0.0,0.4, Browsing           ,1,4.2,8.2,2
+1742, Mary Johnson              ,14, Male  , Lawrencechester        , 12th        ,3.8,6.4,70,5,1.1,7,4,5,0,0.9,74,19,2.3,0.0,0.4, Browsing           ,1,4.2,8.2,0
 1743, Amanda Lindsey            ,13, Female, North Frank            , 11th        ,6.0,6.4,91,4,2.0,9,4,3,0,1.6,38,17,1.0,1.1,0.0, Browsing           ,10,6.2,9.1,2
 1744, Michael Gomez             ,16, Male  , Tristanborough         , 7th         ,7.0,8.1,99,8,0.9,6,5,8,1,1.1,51,5,4.4,1.7,2.9, Social Media       ,7,9.0,10.0,2
 1745, Carrie Stuart             ,15, Other , Englishmouth           , 7th         ,3.3,6.5,79,10,0.1,5,4,6,0,1.4,31,7,2.6,2.7,0.3, Browsing           ,4,4.2,7.4,0
-1746, Anita Todd                ,14, Female, Shawnchester           , 7th         ,4.5,6.8,67,0,1.0,9,3,9,1,1.8,95,16,3.8,1.9,0.2, Education          ,2,5.6,10.0,1
+1746, Anita Todd                ,14, Female, Shawnchester           , 7th         ,4.5,6.8,67,0,1.0,9,3,9,1,1.8,95,16,3.8,1.9,0.2, Education          ,2,5.6,10.0,2
 1747, Maria Rodriguez           ,16, Male  , East Randall           , 12th        ,6.1,7.1,55,3,1.0,3,5,4,0,0.7,51,14,1.4,1.2,1.0, Browsing           ,7,8.3,9.0,2
 1748, Jenna Johnson             ,14, Female, Janechester            , 10th        ,3.1,5.3,97,9,1.3,2,4,7,0,0.1,21,7,2.7,0.1,0.5, Education          ,8,6.0,5.1,0
-1749, Patricia Marquez          ,19, Male  , Donaldton              , 11th        ,6.4,7.6,61,9,2.1,10,7,4,1,1.5,125,5,2.2,0.3,0.3, Browsing           ,5,5.6,8.6,2
+1749, Patricia Marquez          ,19, Male  , Donaldton              , 11th        ,6.4,7.6,61,9,2.1,10,7,4,1,1.5,125,5,2.2,0.3,0.3, Browsing           ,5,5.6,8.6,0
 1750, Darryl White              ,19, Male  , Phillipsshire          , 12th        ,7.1,5.9,66,3,0.9,10,10,10,1,0.8,48,6,2.9,0.8,1.6, Browsing           ,1,6.3,10.0,2
 1751, Jessica Andrade           ,16, Other , Port Steventon         , 7th         ,6.8,6.8,66,8,1.4,2,9,9,0,1.0,77,8,3.5,0.5,0.4, Social Media       ,4,7.1,10.0,2
 1752, Gavin Kerr                ,17, Other , Hopkinsmouth           , 12th        ,5.3,6.9,84,3,1.5,5,7,7,1,0.2,56,6,1.0,1.6,0.8, Browsing           ,10,2.8,6.8,0
@@ -1756,7 +1756,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1755, Johnny Spencer            ,16, Female, Salasside              , 12th        ,5.4,7.2,76,10,2.5,1,6,6,0,1.5,81,19,3.6,0.4,0.9, Education          ,1,8.0,10.0,2
 1756, Ethan Hopkins             ,15, Other , North Kayla            , 9th         ,3.9,4.9,64,3,1.3,9,10,8,1,0.9,136,20,2.2,0.9,0.6, Education          ,2,5.0,10.0,2
 1757, Kelly Carroll             ,14, Male  , Elizabethton           , 12th        ,7.2,6.1,77,9,0.0,1,3,2,0,1.1,26,7,0.8,1.9,1.2, Social Media       ,1,3.7,8.8,2
-1758, Linda Henderson           ,15, Other , Blankenshipchester     , 12th        ,4.9,6.3,94,0,1.4,3,1,9,1,0.5,142,13,4.8,0.0,1.2, Browsing           ,10,6.8,10.0,1
+1758, Linda Henderson           ,15, Other , Blankenshipchester     , 12th        ,4.9,6.3,94,0,1.4,3,1,9,1,0.5,142,13,4.8,0.0,1.2, Browsing           ,10,6.8,10.0,2
 1759, Kathleen Tran             ,15, Female, West Johnathanborough  , 7th         ,8.0,4.7,71,3,0.9,6,8,4,1,0.5,84,9,4.4,1.6,0.0, Browsing           ,7,7.1,10.0,1
 1760, Christine Avery           ,13, Male  , Lake Stephenfort       , 10th        ,7.8,5.8,82,8,1.6,1,6,4,1,0.6,65,5,3.4,1.7,0.8, Other              ,4,5.9,10.0,1
 1761, Karen Vargas              ,13, Female, Lake Wandaberg         , 11th        ,6.0,7.7,88,1,1.2,3,1,9,1,1.2,100,18,1.8,2.1,2.2, Browsing           ,4,5.6,10.0,2
@@ -1765,7 +1765,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1764, Michael Collins           ,19, Female, North Amy              , 7th         ,7.6,6.4,93,0,1.4,1,6,7,0,0.3,27,7,2.4,2.2,0.5, Social Media       ,5,8.5,10.0,2
 1765, Kenneth Matthews          ,13, Male  , Port Christopherfort   , 12th        ,5.5,6.3,97,5,1.1,6,2,9,0,2.0,126,19,2.5,1.2,1.3, Social Media       ,4,8.7,10.0,1
 1766, Jordan Wilson DVM         ,17, Female, Marieland              , 12th        ,7.0,6.7,91,3,0.4,4,10,7,0,0.0,45,5,2.7,2.2,0.8, Browsing           ,3,6.1,10.0,2
-1767, Kerri Perez               ,14, Female, New Ryanchester        , 11th        ,5.0,7.0,64,3,1.4,9,7,2,1,1.3,107,9,3.0,0.4,0.5, Education          ,10,8.1,8.8,2
+1767, Kerri Perez               ,14, Female, New Ryanchester        , 11th        ,5.0,7.0,64,3,1.4,9,7,2,1,1.3,107,9,3.0,0.4,0.5, Education          ,10,8.1,8.8,0
 1768, Taylor Pacheco            ,16, Male  , Kimberlyfort           , 8th         ,3.6,7.2,66,8,1.4,5,8,7,1,1.2,36,9,2.0,1.5,1.0, Gaming             ,5,4.7,6.0,0
 1769, Robert Ward               ,13, Male  , South Ryan             , 10th        ,4.8,6.2,76,4,1.3,6,4,3,1,0.8,43,8,3.0,0.0,0.0, Other              ,5,5.1,7.2,0
 1770, Cheryl Powell             ,15, Male  , West Brittanyberg      , 10th        ,5.1,8.2,54,5,2.1,5,2,5,1,1.5,97,17,2.3,1.9,1.2, Gaming             ,8,4.0,10.0,2
@@ -1776,7 +1776,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1775, Mark Hartman              ,13, Other , Tracyborough           , 7th         ,6.6,7.3,50,6,1.4,6,9,1,0,0.6,57,8,1.4,0.2,1.2, Social Media       ,8,7.4,7.3,0
 1776, Katherine Williams        ,18, Male  , New Joseph             , 7th         ,4.9,7.7,85,8,0.6,4,6,5,1,2.5,55,10,2.9,0.9,1.8, Browsing           ,1,6.1,8.0,0
 1777, James Wilson              ,19, Female, South Jasonborough     , 10th        ,7.6,3.8,52,9,0.1,1,10,10,1,0.8,25,20,2.0,1.4,1.7, Education          ,4,2.7,10.0,1
-1778, Holly Arellano            ,15, Male  , Port Dawnton           , 12th        ,5.7,6.8,55,2,0.0,5,1,10,0,1.4,35,18,5.0,0.5,0.0, Browsing           ,9,4.9,10.0,1
+1778, Holly Arellano            ,15, Male  , Port Dawnton           , 12th        ,5.7,6.8,55,2,0.0,5,1,10,0,1.4,35,18,5.0,0.5,0.0, Browsing           ,9,4.9,10.0,2
 1779, Jeremy Evans              ,19, Other , Pageview               , 12th        ,1.9,5.8,69,5,0.6,2,3,2,1,0.8,51,13,3.7,2.4,1.6, Browsing           ,2,5.4,8.7,2
 1780, Elizabeth Moon            ,16, Male  , North Susan            , 12th        ,6.1,7.9,51,10,0.3,10,5,10,0,1.2,127,5,0.9,2.7,1.6, Education          ,3,3.9,9.3,2
 1781, James Mcclure             ,18, Female, West Gregory           , 8th         ,2.5,7.9,88,9,0.2,10,1,5,1,0.0,90,9,3.5,1.7,1.4, Social Media       ,9,4.3,7.3,0
@@ -1854,14 +1854,14 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1853, Joshua Cox                ,16, Female, Freyhaven              , 8th         ,4.1,6.0,80,6,1.3,9,2,9,1,1.0,149,14,1.8,1.9,1.2, Browsing           ,1,5.8,10.0,2
 1854, James Williams            ,16, Female, Mariaport              , 9th         ,6.1,7.3,70,7,0.7,7,4,6,1,1.0,123,9,2.9,1.0,1.0, Other              ,4,5.1,10.0,2
 1855, David Dixon               ,19, Male  , Cynthiabury            , 8th         ,3.5,4.5,73,0,2.0,7,3,5,0,0.2,60,9,1.7,1.9,0.5, Education          ,9,6.1,7.8,0
-1856, Jessica Schroeder         ,19, Other , Port Richardtown       , 7th         ,2.3,4.5,61,2,0.3,2,9,3,0,0.2,78,9,1.9,3.1,0.5, Education          ,9,6.2,8.4,0
+1856, Jessica Schroeder         ,19, Other , Port Richardtown       , 7th         ,2.3,4.5,61,2,0.3,2,9,3,0,0.2,78,9,1.9,3.1,0.5, Education          ,9,6.2,8.4,2
 1857, Kimberly Odom             ,13, Female, Lake Sarah             , 7th         ,5.3,5.9,83,5,1.4,2,2,8,0,0.4,97,5,2.7,0.9,2.3, Browsing           ,5,4.7,8.9,2
 1858, Katherine Mcgee           ,17, Female, Lake Lindaview         , 10th        ,4.5,6.3,72,9,2.0,6,9,10,1,1.1,93,14,3.1,0.8,0.7, Browsing           ,9,4.1,9.9,2
 1859, Erica Delgado MD          ,15, Female, South David            , 11th        ,6.6,4.2,61,3,1.0,6,3,6,1,1.3,86,13,2.2,3.2,0.7, Gaming             ,5,5.4,10.0,1
 1860, Heather Owens             ,14, Other , Diazside               , 8th         ,2.5,9.8,59,4,1.7,3,6,6,0,0.9,46,9,1.6,0.9,0.8, Education          ,6,3.3,2.8,0
 1861, Anna Collins              ,16, Other , East Matthewfort       , 7th         ,4.1,6.9,99,8,0.0,10,2,6,0,2.2,31,13,1.8,2.2,1.7, Other              ,10,6.3,7.9,0
 1862, Joshua Charles            ,16, Male  , East Hannah            , 9th         ,1.7,7.3,92,7,1.9,6,8,5,1,1.7,39,12,3.8,1.1,1.3, Education          ,8,6.6,6.1,0
-1863, Julie Hogan               ,15, Other , East Staceyton         , 11th        ,7.6,5.7,56,1,0.0,7,1,7,0,1.0,75,14,1.6,1.1,1.4, Browsing           ,6,4.1,10.0,1
+1863, Julie Hogan               ,15, Other , East Staceyton         , 11th        ,7.6,5.7,56,1,0.0,7,1,7,0,1.0,75,14,1.6,1.1,1.4, Browsing           ,6,4.1,10.0,2
 1864, Juan Johnson              ,18, Female, Mikaylaton             , 9th         ,3.9,7.2,80,3,2.7,10,4,4,1,0.7,92,16,1.1,2.5,0.3, Gaming             ,3,6.3,8.9,2
 1865, Tiffany Brown             ,18, Other , West James             , 9th         ,6.2,7.2,58,10,0.7,3,6,4,1,1.0,31,12,2.3,0.5,2.4, Social Media       ,7,7.5,8.4,0
 1866, Kenneth Meadows           ,14, Male  , Lake Kayla             , 11th        ,7.3,6.6,99,2,1.8,1,2,9,0,0.7,30,9,3.8,1.1,0.6, Browsing           ,7,6.4,10.0,2
@@ -1872,7 +1872,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1871, John Ramos                ,14, Male  , Gomezport              , 9th         ,1.3,7.6,66,5,1.7,1,3,1,1,1.7,69,16,2.8,2.1,0.6, Gaming             ,10,3.3,7.0,0
 1872, Jonathan Martinez         ,18, Female, Oliverview             , 9th         ,5.6,6.5,87,3,1.0,7,5,3,0,0.6,118,13,2.4,0.6,1.1, Education          ,7,2.9,10.0,2
 1873, Kelly Jones               ,15, Male  , Lake Daltonhaven       , 12th        ,3.4,6.1,99,8,0.2,10,5,10,0,1.3,85,19,2.0,1.6,0.3, Other              ,4,4.2,9.4,2
-1874, Cindy Mason               ,17, Female, Lake Benjamin          , 7th         ,3.5,7.6,55,5,0.0,10,9,3,1,1.4,133,7,1.8,3.0,2.1, Other              ,4,4.0,8.6,0
+1874, Cindy Mason               ,17, Female, Lake Benjamin          , 7th         ,3.5,7.6,55,5,0.0,10,9,3,1,1.4,133,7,1.8,3.0,2.1, Other              ,4,4.0,8.6,2
 1875, Melanie Walsh             ,15, Male  , Aprilmouth             , 8th         ,4.3,4.0,57,5,1.9,8,9,5,0,0.5,116,14,3.2,1.2,0.0, Browsing           ,4,5.4,10.0,1
 1876, Jay Davis                 ,14, Male  , Michaelfort            , 10th        ,5.1,7.6,88,4,2.2,5,5,5,1,0.6,105,11,2.9,1.9,1.4, Education          ,6,8.2,10.0,2
 1877, Elizabeth Ayala           ,15, Male  , Edwardton              , 11th        ,2.5,6.2,75,7,0.0,10,5,7,0,0.9,112,12,3.5,2.6,1.5, Other              ,9,5.6,10.0,2
@@ -1902,7 +1902,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1901, Logan Perry               ,19, Other , East Erika             , 11th        ,6.4,6.6,72,9,0.4,8,1,8,1,1.4,105,19,2.1,1.4,1.6, Education          ,10,5.3,10.0,1
 1902, Amber Macias              ,18, Male  , Mayostad               , 11th        ,3.4,8.4,81,7,0.3,2,7,3,1,1.0,98,17,2.2,2.2,1.2, Education          ,9,8.1,9.0,2
 1903, David Wilson              ,15, Female, New Williamside        , 11th        ,5.5,6.6,100,8,0.7,10,9,8,1,0.7,58,19,2.7,0.5,0.8, Other              ,9,4.8,10.0,2
-1904, Tyler Thomas              ,19, Female, East Steven            , 12th        ,3.1,4.2,69,1,0.8,8,6,8,1,1.5,71,16,2.1,0.9,2.6, Social Media       ,7,12.0,8.6,2
+1904, Tyler Thomas              ,19, Female, East Steven            , 12th        ,3.1,4.2,69,1,0.8,8,6,8,1,1.5,71,16,2.1,0.9,2.6, Social Media       ,7,12.0,8.6,0
 1905, Jeremy Nelson             ,17, Female, Marcusmouth            , 7th         ,6.3,8.4,84,8,1.6,9,8,5,1,1.4,58,5,3.2,1.7,0.5, Other              ,8,8.1,9.2,2
 1906, Joshua Bryant             ,17, Male  , South Joshuastad       , 12th        ,5.4,7.9,83,5,1.8,4,2,2,1,0.6,91,14,1.5,2.7,0.7, Education          ,10,5.0,10.0,2
 1907, Michael Jordan            ,18, Female, Rileyville             , 7th         ,5.1,5.7,98,5,0.3,6,2,3,0,0.6,45,6,2.8,0.3,1.2, Social Media       ,8,9.3,7.5,0
@@ -1914,7 +1914,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1913, Tyler Villanueva          ,15, Male  , Whitneychester         , 9th         ,3.9,5.5,70,10,1.1,2,6,4,0,0.8,51,10,1.3,1.8,0.2, Other              ,1,4.0,7.3,0
 1914, Garrett Walker            ,14, Other , Port Dustinburgh       , 8th         ,5.2,6.8,70,9,1.1,4,7,3,0,1.0,84,15,1.3,0.8,0.9, Browsing           ,7,6.8,8.6,2
 1915, Mrs. Kayla Morris         ,18, Male  , Ambertown              , 9th         ,2.5,7.6,82,4,0.9,9,3,1,0,1.6,43,18,1.8,2.7,2.3, Education          ,4,6.7,7.7,0
-1916, Denise Green              ,18, Female, Baileyville            , 10th        ,6.9,7.0,79,4,0.9,6,4,7,0,0.9,73,12,2.9,1.6,0.7, Other              ,4,4.1,10.0,1
+1916, Denise Green              ,18, Female, Baileyville            , 10th        ,6.9,7.0,79,4,0.9,6,4,7,0,0.9,73,12,2.9,1.6,0.7, Other              ,4,4.1,10.0,2
 1917, Adam Young                ,14, Male  , Port Michaelton        , 11th        ,1.3,8.7,62,0,1.1,1,1,7,1,1.6,135,11,2.3,1.7,1.7, Social Media       ,9,7.8,5.8,0
 1918, Dawn Green                ,17, Female, New Johnberg           , 11th        ,7.5,6.6,58,5,0.1,6,2,7,1,1.0,77,16,0.9,0.9,1.7, Social Media       ,6,7.6,10.0,2
 1919, Marcus George             ,14, Female, Johnberg               , 9th         ,3.0,6.1,81,1,0.5,4,8,6,1,1.6,103,6,2.4,1.0,0.7, Other              ,4,5.1,6.6,0
@@ -1925,10 +1925,10 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1924, Phyllis Miller            ,14, Other , North Joshua           , 9th         ,5.3,6.3,82,7,1.7,10,6,4,0,1.2,59,17,3.1,1.3,0.6, Other              ,8,10.0,10.0,2
 1925, Kylie Tucker              ,18, Female, West Jessica           , 10th        ,0.8,8.9,59,8,0.9,4,6,7,0,1.0,138,9,3.3,2.9,1.0, Other              ,7,10.0,7.1,0
 1926, Gregory Hudson            ,15, Other , Glennmouth             , 12th        ,5.6,6.3,53,5,1.5,5,7,8,0,0.8,82,10,1.5,0.6,1.7, Gaming             ,9,6.0,8.2,0
-1927, Courtney Rice             ,16, Other , Lake Jacobbury         , 11th        ,7.7,5.4,62,6,0.5,8,6,5,0,1.5,46,5,2.5,2.5,0.5, Education          ,10,3.8,10.0,1
+1927, Courtney Rice             ,16, Other , Lake Jacobbury         , 11th        ,7.7,5.4,62,6,0.5,8,6,5,0,1.5,46,5,2.5,2.5,0.5, Education          ,10,3.8,10.0,2
 1928, Rita Wilson               ,17, Other , New Anita              , 7th         ,3.6,4.8,95,3,0.1,9,9,3,1,1.3,89,10,3.9,2.1,2.4, Other              ,10,5.8,10.0,2
 1929, David Howell              ,14, Other , New William            , 7th         ,6.1,4.8,68,0,2.4,6,8,5,0,0.8,87,19,4.2,0.0,1.7, Other              ,8,5.1,10.0,1
-1930, Bobby Anderson            ,13, Other , East Mary              , 9th         ,4.2,3.8,93,4,1.2,2,2,7,0,1.1,96,14,3.2,1.7,0.9, Social Media       ,7,8.1,10.0,2
+1930, Bobby Anderson            ,13, Other , East Mary              , 9th         ,4.2,3.8,93,4,1.2,2,2,7,0,1.1,96,14,3.2,1.7,0.9, Social Media       ,7,8.1,10.0,1
 1931, James Woodward            ,13, Female, North Micheleton       , 8th         ,4.8,7.2,68,6,1.3,4,9,2,1,1.4,53,16,3.6,0.8,1.0, Education          ,9,7.2,9.9,2
 1932, Edward Krueger            ,18, Other , New Rachelfurt         , 11th        ,7.8,7.8,57,2,0.2,6,1,6,0,1.3,147,19,0.0,2.0,0.0, Other              ,7,8.3,10.0,1
 1933, Joseph Gallegos           ,17, Female, East Sarahmouth        , 11th        ,5.0,7.0,67,10,1.3,9,3,2,0,1.1,65,12,1.7,0.8,0.6, Other              ,10,5.9,7.7,0
@@ -1939,7 +1939,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1938, Barbara Diaz              ,19, Other , Lake Raymondfurt       , 7th         ,4.4,7.5,87,6,0.1,10,10,8,1,1.0,102,17,1.1,1.5,1.8, Other              ,10,3.7,8.7,2
 1939, Darren Johnson            ,17, Other , Port Dan               , 9th         ,5.2,7.2,86,2,0.9,10,4,6,1,1.5,50,19,2.6,1.0,2.4, Education          ,6,5.2,10.0,2
 1940, Jeremy Trevino            ,17, Other , Port Dawn              , 7th         ,4.0,7.2,79,2,1.6,7,4,1,0,1.9,112,14,4.0,2.1,1.0, Social Media       ,10,5.5,10.0,2
-1941, Taylor Jones              ,13, Female, Palmerton              , 11th        ,2.9,4.7,63,0,0.0,3,8,4,0,1.0,90,19,1.6,0.6,0.4, Other              ,8,6.9,8.4,0
+1941, Taylor Jones              ,13, Female, Palmerton              , 11th        ,2.9,4.7,63,0,0.0,3,8,4,0,1.0,90,19,1.6,0.6,0.4, Other              ,8,6.9,8.4,2
 1942, Brenda Smith              ,14, Male  , Charlesburgh           , 9th         ,5.5,8.3,84,7,0.9,10,7,2,0,1.1,133,20,2.8,2.4,0.0, Other              ,4,7.5,10.0,1
 1943, Joshua Cox                ,19, Male  , Davidsonland           , 12th        ,6.3,6.1,98,0,0.7,2,6,10,1,0.5,113,14,3.2,0.4,1.3, Other              ,2,2.0,10.0,1
 1944, Bryan Scott               ,19, Female, Port Jennifer          , 12th        ,6.1,4.2,92,7,1.3,4,6,8,0,1.2,30,12,2.1,2.4,1.7, Social Media       ,4,6.7,10.0,2
@@ -1978,7 +1978,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 1977, Jorge Miller              ,17, Male  , New Kellystad          , 8th         ,3.1,7.1,100,2,2.1,8,3,5,0,0.5,80,7,1.8,0.0,1.8, Gaming             ,9,6.1,4.4,0
 1978, Johnathan Benitez         ,15, Male  , Cantuport              , 10th        ,4.6,4.8,67,6,0.2,5,5,1,0,1.6,141,18,2.7,0.3,1.1, Education          ,6,5.1,10.0,1
 1979, Gregory Foster            ,13, Other , New Samantha           , 12th        ,5.1,8.8,99,1,2.6,5,8,10,1,1.2,140,16,1.7,2.5,1.0, Other              ,5,7.3,10.0,2
-1980, Amber Juarez              ,16, Other , Jonathanton            , 8th         ,1.7,6.1,93,6,0.0,7,1,4,0,0.9,54,8,4.3,2.6,0.9, Gaming             ,6,3.1,8.2,0
+1980, Amber Juarez              ,16, Other , Jonathanton            , 8th         ,1.7,6.1,93,6,0.0,7,1,4,0,0.9,54,8,4.3,2.6,0.9, Gaming             ,6,3.1,8.2,2
 1981, Michelle Green            ,19, Male  , Michelemouth           , 10th        ,1.5,10.0,69,5,1.4,1,1,7,0,1.5,24,16,2.9,1.3,0.8, Other              ,2,4.3,4.4,0
 1982, Christopher Smith         ,17, Other , Lake Jessicamouth      , 11th        ,4.9,6.9,69,6,1.9,9,5,2,1,1.6,139,19,3.5,0.6,0.9, Social Media       ,8,5.7,10.0,1
 1983, Amanda Castro             ,15, Female, East Larry             , 7th         ,7.9,6.8,53,1,0.8,6,8,3,1,0.6,29,14,2.7,1.0,1.7, Education          ,4,8.0,10.0,2
@@ -2001,8 +2001,8 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2000, Kenneth Rivas             ,16, Female, New Davidborough       , 9th         ,6.3,6.3,61,8,1.6,8,1,5,1,1.6,76,17,1.7,2.1,0.3, Education          ,2,5.8,10.0,1
 2001, Ryan Williams             ,13, Male  , Lake Jasonchester      , 12th        ,4.4,5.3,66,1,0.0,4,4,10,1,0.7,111,10,4.1,1.7,0.0, Other              ,8,4.7,10.0,2
 2002, Scott Zimmerman           ,18, Other , Delgadoport            , 8th         ,3.5,4.0,54,6,1.1,1,6,8,0,0.7,69,13,2.6,1.2,2.1, Education          ,7,6.8,9.3,2
-2003, Anthony Sanchez           ,15, Other , Keithland              , 7th         ,1.0,5.9,83,9,1.2,4,7,7,0,0.8,84,17,2.1,2.9,1.0, Social Media       ,9,6.6,8.1,0
-2004, Andrew Velazquez          ,13, Other , East Michael           , 7th         ,4.9,6.7,87,2,1.2,6,5,9,0,1.3,44,17,3.0,2.9,1.3, Browsing           ,3,3.2,10.0,2
+2003, Anthony Sanchez           ,15, Other , Keithland              , 7th         ,1.0,5.9,83,9,1.2,4,7,7,0,0.8,84,17,2.1,2.9,1.0, Social Media       ,9,6.6,8.1,2
+2004, Andrew Velazquez          ,13, Other , East Michael           , 7th         ,4.9,6.7,87,2,1.2,6,5,9,0,1.3,44,17,3.0,2.9,1.3, Browsing           ,3,3.2,10.0,1
 2005, Michael Fleming           ,17, Male  , Daltonfort             , 11th        ,2.6,6.1,94,3,1.2,5,5,3,0,1.1,128,17,2.0,0.3,1.0, Gaming             ,4,11.2,7.8,0
 2006, Casey Santos              ,14, Female, New Virginiaport       , 7th         ,2.7,5.1,69,9,0.6,9,2,3,1,0.7,139,11,2.0,0.0,1.1, Browsing           ,7,6.3,7.1,0
 2007, Jessica Howard            ,16, Male  , Bauerside              , 10th        ,6.5,5.3,57,1,1.8,7,4,4,1,0.9,44,13,2.7,0.5,1.4, Education          ,6,8.0,10.0,2
@@ -2060,7 +2060,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2059, Mrs. Ariel Brown          ,13, Male  , New Jessicamouth       , 7th         ,5.6,9.0,61,6,0.7,3,1,6,1,0.8,41,11,1.8,1.0,1.9, Education          ,5,5.3,6.9,0
 2060, Robin Phillips            ,13, Female, Austinport             , 10th        ,3.7,7.6,51,0,2.2,9,4,6,1,0.7,143,7,4.1,1.6,1.3, Gaming             ,4,3.1,9.9,2
 2061, Miss Jennifer Howard      ,17, Other , South Jessica          , 7th         ,3.2,6.2,80,5,1.6,7,2,3,1,0.2,36,6,1.1,2.1,0.6, Social Media       ,7,5.7,5.2,0
-2062, Natasha Taylor            ,13, Other , Port Justin            , 9th         ,5.0,8.3,67,9,2.9,1,2,7,0,0.8,140,16,4.7,0.5,0.0, Other              ,1,6.5,10.0,1
+2062, Natasha Taylor            ,13, Other , Port Justin            , 9th         ,5.0,8.3,67,9,2.9,1,2,7,0,0.8,140,16,4.7,0.5,0.0, Other              ,1,6.5,10.0,2
 2063, Joseph Becker             ,17, Other , North Williamside      , 7th         ,3.6,6.1,98,7,2.6,4,5,4,1,0.9,77,12,3.7,1.7,1.6, Other              ,6,3.7,9.9,2
 2064, Jeffrey Anderson          ,14, Female, East Joseph            , 11th        ,4.3,4.6,55,4,1.3,2,2,4,0,0.8,64,5,2.5,0.6,1.3, Education          ,8,5.1,7.4,0
 2065, Larry Collins             ,17, Male  , Toddberg               , 8th         ,4.2,7.0,57,3,0.9,2,9,1,1,0.8,90,7,0.8,2.4,1.8, Education          ,10,6.0,7.1,0
@@ -2082,7 +2082,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2081, Mrs. Jennifer Pena        ,19, Other , Larrystad              , 9th         ,6.0,7.7,96,3,0.8,10,6,3,0,0.4,132,5,1.9,2.0,2.2, Education          ,1,4.8,9.7,2
 2082, Cole Boyd                 ,17, Female, East Brittanychester   , 12th        ,3.1,7.2,95,10,0.9,9,6,6,1,1.0,94,16,1.5,0.2,1.2, Browsing           ,6,5.0,6.3,0
 2083, Ashley Gibson             ,14, Other , South Jasonborough     , 11th        ,2.2,5.1,90,2,0.9,3,4,5,0,1.1,122,7,4.4,2.3,0.7, Other              ,1,6.0,10.0,2
-2084, Ms. Judy Allen            ,17, Male  , Port Danielshire       , 11th        ,4.4,5.5,57,9,0.2,9,10,5,1,0.8,136,8,1.1,1.3,0.7, Education          ,4,4.7,8.4,0
+2084, Ms. Judy Allen            ,17, Male  , Port Danielshire       , 11th        ,4.4,5.5,57,9,0.2,9,10,5,1,0.8,136,8,1.1,1.3,0.7, Education          ,4,4.7,8.4,2
 2085, Haley Perry               ,13, Other , Marcuschester          , 11th        ,4.6,6.2,78,0,0.8,2,3,2,0,1.4,73,17,4.8,1.8,1.0, Social Media       ,10,7.6,10.0,1
 2086, Richard Smith             ,14, Female, Mitchellborough        , 9th         ,2.0,6.3,77,4,1.2,4,3,10,0,0.7,123,8,1.6,1.7,0.9, Gaming             ,8,7.6,6.2,0
 2087, Brian Carey               ,16, Other , New Madisonburgh       , 11th        ,4.1,7.9,100,2,1.5,9,5,8,0,1.5,53,10,3.1,1.2,1.1, Gaming             ,8,7.1,7.5,0
@@ -2191,7 +2191,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2190, Jacqueline Keller         ,13, Other , New Thomas             , 7th         ,2.9,6.4,68,4,1.0,4,10,4,0,0.2,25,19,2.6,1.6,0.4, Education          ,3,7.3,8.2,0
 2191, Elizabeth Clark           ,19, Male  , West Laura             , 7th         ,6.7,6.1,65,4,2.5,1,9,7,1,1.0,118,10,2.7,2.6,1.0, Gaming             ,8,4.1,10.0,1
 2192, Colin Riley               ,14, Male  , Brendaville            , 10th        ,1.6,5.7,59,2,1.4,8,9,4,0,2.3,46,15,1.7,1.7,0.7, Gaming             ,10,6.3,6.1,0
-2193, Katherine Castillo        ,16, Other , North Stevenshire      , 8th         ,1.2,10.0,79,0,1.1,10,10,9,0,0.6,68,17,3.8,3.7,1.4, Education          ,2,9.7,8.5,2
+2193, Katherine Castillo        ,16, Other , North Stevenshire      , 8th         ,1.2,10.0,79,0,1.1,10,10,9,0,0.6,68,17,3.8,3.7,1.4, Education          ,2,9.7,8.5,0
 2194, Darryl Rivera             ,16, Male  , Saramouth              , 10th        ,3.1,7.3,78,4,1.1,6,8,6,0,1.6,39,16,3.1,2.4,0.1, Social Media       ,9,5.7,8.9,2
 2195, Johnny Bryant             ,15, Female, West Lisaberg          , 12th        ,10.2,7.2,95,1,0.4,2,8,4,0,1.2,53,7,3.5,0.1,0.3, Other              ,8,5.7,10.0,1
 2196, Joseph Hill               ,16, Female, Suzanneburgh           , 11th        ,6.3,6.2,52,9,2.6,3,3,6,0,1.5,43,14,2.4,1.4,1.5, Gaming             ,5,5.4,10.0,2
@@ -2254,7 +2254,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2253, Jeffrey Taylor            ,15, Other , Karenstad              , 11th        ,8.2,6.3,62,3,0.4,10,10,10,0,1.2,21,15,1.5,1.3,0.8, Gaming             ,10,4.9,10.0,2
 2254, Joyce Kennedy             ,18, Female, Andersontown           , 7th         ,4.1,7.2,66,4,0.6,9,6,10,0,0.0,125,11,1.0,3.7,0.0, Social Media       ,8,5.0,9.9,2
 2255, Brett Adams               ,17, Female, North Jessica          , 7th         ,3.2,7.5,98,3,0.5,2,2,10,1,0.5,49,19,3.2,0.5,0.9, Browsing           ,5,5.2,7.9,0
-2256, Michael Roberts           ,19, Male  , Port Rachelbury        , 7th         ,6.2,5.2,72,3,0.3,8,5,8,0,1.3,61,12,2.7,1.8,1.0, Education          ,4,6.9,10.0,1
+2256, Michael Roberts           ,19, Male  , Port Rachelbury        , 7th         ,6.2,5.2,72,3,0.3,8,5,8,0,1.3,61,12,2.7,1.8,1.0, Education          ,4,6.9,10.0,2
 2257, Donald Adams              ,19, Other , South Samanthaburgh    , 8th         ,5.9,4.9,68,1,1.6,2,2,8,0,1.7,82,5,4.3,0.6,0.6, Social Media       ,9,5.8,10.0,2
 2258, Stacey Brown              ,15, Female, Mejiastad              , 8th         ,8.9,3.9,55,6,1.3,3,9,9,0,1.2,21,12,2.3,2.0,0.0, Gaming             ,10,2.8,10.0,1
 2259, Jennifer Mclaughlin       ,17, Other , Lorimouth              , 9th         ,6.8,6.3,89,1,0.0,9,5,4,1,1.1,67,6,4.0,0.0,2.1, Social Media       ,3,5.6,10.0,2
@@ -2274,7 +2274,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2273, Tracy Parker              ,16, Other , Nelsonborough          , 11th        ,3.0,4.2,96,2,0.9,10,3,8,1,0.7,96,7,2.3,2.0,0.5, Gaming             ,9,2.9,8.5,2
 2274, Desiree Thompson          ,18, Female, Galvanville            , 11th        ,5.3,7.5,97,9,2.3,10,1,10,0,0.6,109,5,1.8,1.1,1.4, Browsing           ,10,8.5,7.6,0
 2275, Andrew West               ,18, Other , Jenniferhaven          , 12th        ,1.6,5.4,82,5,1.8,3,8,7,1,2.0,111,12,1.5,1.2,1.6, Browsing           ,1,7.3,6.2,0
-2276, Diana Hoffman DDS         ,14, Male  , Kellyview              , 9th         ,4.9,8.3,96,3,2.2,9,8,6,0,0.5,74,14,2.9,0.4,2.3, Other              ,1,7.9,8.3,2
+2276, Diana Hoffman DDS         ,14, Male  , Kellyview              , 9th         ,4.9,8.3,96,3,2.2,9,8,6,0,0.5,74,14,2.9,0.4,2.3, Other              ,1,7.9,8.3,0
 2277, Jeremy Martin             ,14, Male  , Port Carrie            , 9th         ,6.6,4.8,81,8,0.1,10,2,10,0,1.3,65,8,2.7,2.7,0.6, Browsing           ,10,3.4,10.0,1
 2278, Stephanie Marshall        ,17, Male  , Howardstad             , 9th         ,6.6,5.8,84,9,0.3,2,4,6,1,1.6,37,17,3.9,2.6,1.3, Social Media       ,8,6.4,10.0,1
 2279, Jennifer Thompson         ,13, Male  , New Albertborough      , 12th        ,0.3,4.8,59,2,0.6,4,3,7,1,0.7,103,9,1.1,1.2,1.8, Other              ,3,9.3,4.1,0
@@ -2330,24 +2330,24 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2329, Misty Davis               ,18, Female, Wilkinsonville         , 11th        ,4.8,6.5,56,7,1.0,3,8,9,0,1.9,118,12,2.6,2.1,0.5, Other              ,7,6.0,10.0,2
 2330, Jason Marks               ,17, Other , Brownburgh             , 7th         ,5.1,4.6,58,8,0.4,2,6,7,0,0.2,137,12,1.3,2.7,1.8, Gaming             ,1,4.8,10.0,1
 2331, Kimberly Caldwell         ,15, Female, North Jennifer         , 12th        ,1.9,8.0,88,3,0.6,7,2,5,1,0.7,46,14,2.4,1.7,0.6, Social Media       ,3,5.0,5.7,0
-2332, Jill Douglas              ,15, Female, Simmonsport            , 12th        ,4.1,7.7,78,1,2.1,9,2,2,0,1.3,95,14,2.1,1.3,1.1, Browsing           ,7,7.4,8.4,2
+2332, Jill Douglas              ,15, Female, Simmonsport            , 12th        ,4.1,7.7,78,1,2.1,9,2,2,0,1.3,95,14,2.1,1.3,1.1, Browsing           ,7,7.4,8.4,0
 2333, Kelsey Nash               ,14, Male  , Tammyview              , 8th         ,6.0,5.1,95,10,1.9,7,6,3,0,1.9,147,10,1.0,2.8,1.1, Browsing           ,3,4.4,10.0,1
 2334, Charlene Myers            ,16, Other , Lake Michael           , 7th         ,5.5,5.6,79,10,2.4,8,8,2,1,0.8,45,12,2.1,2.3,0.0, Education          ,2,6.4,10.0,2
 2335, Teresa Crawford           ,14, Female, Smithbury              , 11th        ,4.2,6.6,99,5,0.4,3,1,10,0,2.1,68,11,2.0,4.0,1.2, Other              ,2,5.8,10.0,2
-2336, Cheyenne Valdez           ,19, Female, West Louisshire        , 8th         ,8.2,6.9,70,1,0.8,8,5,9,0,0.9,62,7,2.9,1.7,1.5, Education          ,5,4.4,10.0,1
+2336, Cheyenne Valdez           ,19, Female, West Louisshire        , 8th         ,8.2,6.9,70,1,0.8,8,5,9,0,0.9,62,7,2.9,1.7,1.5, Education          ,5,4.4,10.0,2
 2337, Brandi Abbott             ,16, Male  , Gomezton               , 7th         ,6.2,6.1,65,0,1.5,5,3,1,1,1.6,79,16,4.6,1.2,0.7, Browsing           ,2,6.2,10.0,1
 2338, Cynthia Bailey            ,15, Other , New Shannon            , 8th         ,5.2,5.7,93,10,2.0,2,1,4,1,0.5,102,13,4.2,0.3,0.8, Browsing           ,10,4.7,10.0,2
 2339, James Henderson           ,15, Female, Aliciamouth            , 12th        ,1.2,8.0,98,3,1.5,6,8,3,0,0.9,82,19,4.5,0.0,0.7, Other              ,4,6.4,7.1,0
 2340, Jordan Richard            ,13, Female, North Vincentstad      , 10th        ,3.3,7.9,74,2,1.1,10,4,3,0,1.8,22,11,2.4,1.0,0.9, Gaming             ,10,5.5,5.4,0
 2341, Richard Li                ,19, Male  , Yatesshire             , 7th         ,1.2,8.1,89,9,0.7,2,9,5,0,1.5,148,15,1.7,3.3,0.9, Gaming             ,9,10.9,8.1,0
 2342, Nicole Irwin              ,19, Other , New Ryan               , 12th        ,5.8,6.9,74,3,0.0,10,8,9,0,1.4,106,6,2.5,0.0,0.5, Social Media       ,4,1.7,8.2,0
-2343, Peter Nelson              ,14, Female, Rosalesfort            , 9th         ,3.9,5.2,80,8,0.5,10,9,6,1,1.8,132,16,1.3,0.0,1.5, Browsing           ,9,8.0,8.4,0
+2343, Peter Nelson              ,14, Female, Rosalesfort            , 9th         ,3.9,5.2,80,8,0.5,10,9,6,1,1.8,132,16,1.3,0.0,1.5, Browsing           ,9,8.0,8.4,2
 2344, Margaret Vazquez          ,18, Male  , Dominiquebury          , 11th        ,1.8,4.0,52,1,2.2,8,7,9,1,2.2,144,8,1.9,2.6,2.1, Social Media       ,7,5.3,8.8,2
 2345, Bryan Mcdonald            ,19, Female, South Zachary          , 11th        ,4.5,5.5,61,9,1.4,7,3,4,0,1.4,125,14,2.8,1.4,0.0, Other              ,10,7.2,10.0,2
 2346, Steven Rivas              ,14, Other , Lake Barbara           , 11th        ,6.9,6.6,60,2,0.0,9,5,2,0,1.4,144,13,2.5,1.9,1.1, Social Media       ,9,8.0,10.0,1
 2347, Joanna Jones              ,15, Other , Lake Dianechester      , 9th         ,7.8,9.9,70,0,1.0,10,6,10,0,0.5,95,12,2.0,2.1,0.4, Other              ,7,7.9,10.0,2
-2348, Laura Giles               ,15, Female, Thomasview             , 7th         ,3.3,5.3,65,7,1.1,6,5,1,0,1.6,142,9,3.3,0.0,0.9, Social Media       ,9,7.9,8.6,2
-2349, Kelsey Humphrey           ,13, Female, Stevensshire           , 8th         ,5.9,3.8,81,4,2.0,10,7,9,1,0.6,129,10,1.4,1.9,1.1, Education          ,9,6.4,10.0,2
+2348, Laura Giles               ,15, Female, Thomasview             , 7th         ,3.3,5.3,65,7,1.1,6,5,1,0,1.6,142,9,3.3,0.0,0.9, Social Media       ,9,7.9,8.6,0
+2349, Kelsey Humphrey           ,13, Female, Stevensshire           , 8th         ,5.9,3.8,81,4,2.0,10,7,9,1,0.6,129,10,1.4,1.9,1.1, Education          ,9,6.4,10.0,1
 2350, Thomas Martin             ,15, Other , New Suzanne            , 7th         ,4.3,4.3,54,6,1.3,4,6,5,1,0.6,144,12,3.4,1.8,1.6, Gaming             ,3,6.1,10.0,1
 2351, Tonya Knight              ,15, Female, Port Sean              , 7th         ,1.9,7.4,64,4,1.4,3,8,5,1,0.8,35,19,4.0,2.8,0.9, Social Media       ,6,5.4,9.5,2
 2352, Holly King                ,13, Other , Jonathanchester        , 8th         ,3.6,5.3,79,9,1.1,4,5,7,0,1.1,113,10,3.5,0.4,0.7, Education          ,4,7.0,9.1,2
@@ -2396,7 +2396,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2395, Michael Williamson        ,14, Male  , North Nathanstad       , 10th        ,9.5,7.4,65,6,0.9,7,8,4,1,0.7,36,18,1.4,2.6,1.5, Browsing           ,4,7.8,10.0,1
 2396, Mary Leblanc              ,15, Other , Millermouth            , 11th        ,2.7,4.1,73,5,1.6,10,7,8,1,0.8,56,13,1.9,1.5,0.1, Browsing           ,4,5.9,7.8,0
 2397, Ronald Davis              ,19, Female, Patrickborough         , 10th        ,6.4,5.3,55,9,1.9,8,3,6,0,2.2,121,13,3.8,0.2,0.9, Education          ,2,6.6,10.0,1
-2398, John Giles                ,15, Female, East Elizabeth         , 10th        ,3.8,6.8,51,5,1.0,10,2,4,0,0.6,31,13,3.5,1.2,1.0, Other              ,8,4.9,8.3,2
+2398, John Giles                ,15, Female, East Elizabeth         , 10th        ,3.8,6.8,51,5,1.0,10,2,4,0,0.6,31,13,3.5,1.2,1.0, Other              ,8,4.9,8.3,0
 2399, Judith Johnson            ,17, Male  , Maxwellfort            , 9th         ,6.3,8.0,85,3,1.0,1,3,2,0,1.3,103,11,3.0,1.8,0.6, Social Media       ,6,5.4,10.0,2
 2400, Michael Smith             ,14, Male  , Lake Jeffery           , 12th        ,6.8,3.6,86,0,0.3,3,1,4,0,0.9,145,13,3.3,1.5,0.5, Gaming             ,9,4.5,10.0,1
 2401, Lisa Gonzalez             ,13, Male  , Deborahmouth           , 11th        ,11.2,8.1,55,1,1.5,4,6,3,1,0.9,34,17,3.6,2.4,0.9, Browsing           ,5,8.2,10.0,1
@@ -2432,9 +2432,9 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2431, Daniel Davis              ,16, Female, Johnsonberg            , 7th         ,4.7,7.8,63,4,2.2,3,7,2,0,1.1,62,13,2.6,0.4,0.5, Social Media       ,1,5.1,7.6,0
 2432, James Cole                ,16, Female, West Donaldfurt        , 8th         ,9.1,6.2,85,4,2.4,8,3,3,0,1.5,33,17,3.3,0.1,1.6, Browsing           ,4,7.5,10.0,1
 2433, Joseph Thomas             ,17, Male  , Parkerland             , 7th         ,0.0,7.8,73,3,0.6,7,3,1,0,1.5,27,11,2.6,1.8,0.7, Social Media       ,9,6.9,3.2,0
-2434, Melissa Wang              ,18, Female, East Kaylaberg         , 7th         ,4.3,9.5,52,6,0.0,6,5,9,1,1.0,41,17,3.5,1.4,1.8, Education          ,6,6.5,8.7,2
+2434, Melissa Wang              ,18, Female, East Kaylaberg         , 7th         ,4.3,9.5,52,6,0.0,6,5,9,1,1.0,41,17,3.5,1.4,1.8, Education          ,6,6.5,8.7,0
 2435, Richard Jordan            ,16, Other , Evelynborough          , 10th        ,2.2,8.8,92,6,0.5,10,9,2,1,0.3,80,19,2.2,1.8,1.2, Other              ,4,5.8,7.2,0
-2436, Sara Johnson              ,17, Female, Michaelfort            , 11th        ,2.6,6.3,98,2,0.0,7,10,7,1,0.8,65,14,2.4,2.5,0.0, Gaming             ,6,6.8,8.4,0
+2436, Sara Johnson              ,17, Female, Michaelfort            , 11th        ,2.6,6.3,98,2,0.0,7,10,7,1,0.8,65,14,2.4,2.5,0.0, Gaming             ,6,6.8,8.4,2
 2437, Bryan Barnes              ,18, Female, New Dawnshire          , 7th         ,4.8,7.4,93,1,0.9,4,9,2,1,1.5,125,6,1.9,2.5,1.4, Education          ,10,6.2,9.2,2
 2438, Pamela Bailey             ,17, Male  , New Thomasbury         , 8th         ,5.3,7.9,80,4,1.3,7,3,5,1,2.1,142,14,2.7,0.1,1.1, Gaming             ,2,7.2,9.8,2
 2439, Paula Roy                 ,13, Female, Lindaland              , 7th         ,5.6,7.0,67,3,0.5,8,5,9,0,1.3,59,17,0.0,2.3,0.6, Education          ,3,4.4,9.0,2
@@ -2452,7 +2452,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2451, Jeffrey Gallagher         ,15, Female, North Heather          , 12th        ,6.3,6.9,62,3,2.0,2,3,1,1,0.4,91,7,3.8,2.5,1.2, Browsing           ,4,7.4,10.0,1
 2452, Thomas Matthews           ,15, Female, New Stephanie          , 10th        ,3.4,6.5,80,7,0.8,5,2,6,0,0.6,66,14,2.7,1.0,1.6, Other              ,6,4.0,8.0,0
 2453, Gregory Smith             ,14, Female, Sandrahaven            , 12th        ,7.7,10.0,82,2,1.7,7,7,10,1,1.3,105,7,2.7,1.4,0.8, Browsing           ,9,6.4,10.0,2
-2454, Kevin Ryan                ,19, Female, Bowerstown             , 12th        ,0.0,4.6,66,5,0.5,6,10,1,1,1.3,69,12,3.8,2.9,0.6, Education          ,7,2.8,8.2,0
+2454, Kevin Ryan                ,19, Female, Bowerstown             , 12th        ,0.0,4.6,66,5,0.5,6,10,1,1,1.3,69,12,3.8,2.9,0.6, Education          ,7,2.8,8.2,2
 2455, Steven Roberts            ,18, Other , Hernandezville         , 12th        ,3.6,5.3,93,8,0.0,5,5,8,0,1.3,119,15,1.1,1.0,0.0, Education          ,3,7.5,8.4,2
 2456, Adam Boone                ,18, Male  , Justinfort             , 7th         ,7.5,7.4,95,5,0.5,5,10,9,1,1.1,34,14,2.6,1.6,1.5, Other              ,3,3.3,10.0,2
 2457, Amanda Webb               ,16, Male  , New Marcshire          , 7th         ,8.3,7.2,63,3,2.3,9,1,10,1,0.7,79,18,3.8,2.6,0.7, Browsing           ,8,7.2,10.0,1
@@ -2464,7 +2464,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2463, Jeremy Martin             ,14, Other , Dillonport             , 7th         ,7.0,6.9,93,8,0.4,4,7,6,0,0.4,67,19,3.4,1.7,0.9, Social Media       ,7,4.7,10.0,1
 2464, John Scott                ,13, Other , Rebeccaburgh           , 7th         ,4.1,6.5,92,9,1.2,2,5,8,1,1.8,144,8,3.0,2.9,1.4, Other              ,1,4.2,10.0,2
 2465, Andrew Dorsey             ,16, Female, Pittmanberg            , 8th         ,5.4,4.9,93,6,1.8,5,2,3,1,0.8,132,6,3.8,0.0,1.1, Education          ,2,7.0,10.0,2
-2466, Paula Hernandez           ,15, Other , West Makayla           , 11th        ,7.7,6.6,69,6,1.4,7,10,5,1,1.7,23,16,3.2,0.7,0.7, Browsing           ,7,8.3,10.0,1
+2466, Paula Hernandez           ,15, Other , West Makayla           , 11th        ,7.7,6.6,69,6,1.4,7,10,5,1,1.7,23,16,3.2,0.7,0.7, Browsing           ,7,8.3,10.0,2
 2467, Joseph Garcia             ,19, Female, Ricardoport            , 10th        ,7.9,7.3,95,0,1.8,5,3,1,1,1.1,101,13,1.8,0.2,0.6, Social Media       ,8,5.3,10.0,2
 2468, William Ramos             ,18, Other , North Tracy            , 12th        ,2.9,5.8,78,6,1.0,9,3,5,1,1.0,61,12,0.6,0.0,0.6, Social Media       ,4,5.6,4.2,0
 2469, Spencer Edwards           ,15, Male  , Phillipville           , 12th        ,2.9,6.1,79,7,2.9,3,4,2,0,1.3,128,8,1.9,1.6,1.3, Browsing           ,2,4.1,7.5,0
@@ -2526,7 +2526,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2525, Denise Cummings           ,19, Male  , Pattonbury             , 8th         ,7.0,9.1,53,1,1.5,3,3,3,0,2.4,120,17,2.3,3.0,0.8, Gaming             ,1,5.2,10.0,1
 2526, Tanya Smith               ,19, Other , South Rachel           , 8th         ,3.3,9.0,57,9,2.5,8,8,3,0,1.2,36,19,2.3,1.1,0.3, Education          ,5,7.2,6.7,0
 2527, Jackie Rowe               ,18, Male  , Walkerchester          , 7th         ,4.6,5.3,51,10,0.5,9,8,7,0,0.8,124,17,2.0,2.0,0.0, Browsing           ,1,6.9,10.0,1
-2528, Brian Blackburn           ,17, Male  , West Angela            , 8th         ,5.9,9.2,100,6,0.0,4,5,8,0,0.6,44,14,2.8,0.4,0.9, Social Media       ,1,4.0,8.2,2
+2528, Brian Blackburn           ,17, Male  , West Angela            , 8th         ,5.9,9.2,100,6,0.0,4,5,8,0,0.6,44,14,2.8,0.4,0.9, Social Media       ,1,4.0,8.2,0
 2529, Robert Li                 ,17, Female, Carrieshire            , 8th         ,4.5,6.6,53,3,0.0,4,7,4,1,1.6,149,7,3.2,2.0,0.2, Other              ,9,5.2,10.0,2
 2530, Maria Anderson            ,19, Other , Hernandezside          , 7th         ,6.2,6.3,97,3,0.9,1,2,7,0,1.4,63,6,3.5,0.7,0.6, Education          ,1,6.2,9.7,2
 2531, Russell Hernandez         ,14, Female, New Katherine          , 10th        ,6.0,5.6,67,7,0.8,8,4,3,0,0.8,150,16,2.0,1.4,0.5, Education          ,9,3.7,10.0,1
@@ -2585,7 +2585,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2584, Antonio Brown             ,15, Female, West Susan             , 10th        ,4.5,5.9,62,1,1.5,9,9,3,0,0.9,79,17,3.2,1.2,0.1, Gaming             ,6,5.9,10.0,2
 2585, Thomas Horton             ,15, Female, East Heathershire      , 12th        ,1.7,7.5,69,6,0.0,2,8,7,1,1.2,79,19,2.3,0.9,0.6, Social Media       ,1,3.7,6.5,0
 2586, Benjamin Cruz             ,18, Male  , New Christophermouth   , 9th         ,3.2,6.8,60,2,1.6,3,5,10,1,0.8,109,20,2.2,1.9,1.5, Social Media       ,8,0.4,10.0,2
-2587, Tara Rice                 ,19, Female, South Michelle         , 12th        ,2.0,7.1,51,3,0.6,4,5,6,1,0.0,65,18,3.6,1.5,2.4, Other              ,1,7.5,8.4,2
+2587, Tara Rice                 ,19, Female, South Michelle         , 12th        ,2.0,7.1,51,3,0.6,4,5,6,1,0.0,65,18,3.6,1.5,2.4, Other              ,1,7.5,8.4,0
 2588, Donna Hampton             ,16, Other , Lake Jesseshire        , 10th        ,2.7,3.6,80,1,2.0,5,2,4,0,2.1,109,19,3.5,1.3,1.8, Education          ,6,9.6,10.0,2
 2589, Jessica Riddle            ,14, Male  , Ashleemouth            , 12th        ,2.1,6.7,59,6,0.7,7,1,6,0,1.3,70,18,3.1,3.4,0.2, Social Media       ,6,4.2,10.0,2
 2590, Douglas Armstrong         ,16, Female, North Christopherburgh , 12th        ,6.5,8.1,81,4,1.6,7,5,1,1,1.7,150,14,2.8,1.0,0.7, Education          ,8,5.2,10.0,1
@@ -2595,9 +2595,9 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2594, Logan Hill                ,18, Other , New Stacy              , 9th         ,8.2,7.3,62,6,2.5,1,4,10,0,1.4,84,13,0.6,0.2,1.4, Gaming             ,6,7.5,9.6,2
 2595, Michael Brown             ,14, Female, New Donald             , 8th         ,2.2,8.4,77,2,0.1,7,6,5,1,0.0,81,13,1.2,0.4,0.7, Browsing           ,4,6.8,3.8,0
 2596, Michelle Thompson         ,13, Other , Johnview               , 10th        ,2.5,6.1,80,8,0.2,7,5,10,0,1.0,50,7,2.2,0.4,0.7, Social Media       ,8,3.5,4.5,0
-2597, Maria Maddox              ,18, Male  , North Terri            , 9th         ,4.4,6.6,63,7,0.0,10,10,5,1,0.3,136,6,3.1,3.5,0.0, Browsing           ,4,5.4,10.0,2
+2597, Maria Maddox              ,18, Male  , North Terri            , 9th         ,4.4,6.6,63,7,0.0,10,10,5,1,0.3,136,6,3.1,3.5,0.0, Browsing           ,4,5.4,10.0,1
 2598, Joshua Alvarez            ,16, Other , West Adammouth         , 12th        ,6.8,10.0,79,3,0.9,7,2,9,0,0.3,117,18,1.4,0.7,0.9, Social Media       ,8,3.7,9.8,2
-2599, Caitlin Stanley           ,15, Female, East Adrian            , 12th        ,6.2,4.6,72,5,1.7,6,9,4,0,1.4,32,7,1.5,1.0,0.0, Other              ,6,6.8,8.4,2
+2599, Caitlin Stanley           ,15, Female, East Adrian            , 12th        ,6.2,4.6,72,5,1.7,6,9,4,0,1.4,32,7,1.5,1.0,0.0, Other              ,6,6.8,8.4,0
 2600, Jonathan Olson            ,14, Other , Port Elizabethmouth    , 10th        ,3.9,6.6,50,6,0.0,6,8,2,0,0.6,34,18,1.9,1.3,0.5, Education          ,3,6.4,8.1,0
 2601, Lee Gaines                ,19, Other , North Michaelhaven     , 7th         ,9.5,6.7,59,2,0.6,8,8,7,0,1.0,79,17,2.6,0.0,2.1, Gaming             ,1,8.7,10.0,1
 2602, Johnny Peterson           ,14, Female, North Melissaborough   , 7th         ,3.6,7.2,85,5,0.0,1,5,6,1,1.0,109,15,2.9,1.2,2.3, Gaming             ,3,7.5,9.3,2
@@ -2646,7 +2646,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2645, Aaron Blake               ,15, Other , East Scott             , 11th        ,3.7,7.2,66,3,0.0,7,7,7,0,1.4,141,12,4.4,2.9,2.0, Browsing           ,5,4.1,10.0,1
 2646, Shirley Ortiz             ,17, Male  , Herreraville           , 10th        ,4.4,7.3,98,3,2.4,6,2,3,1,1.5,85,20,2.6,3.1,0.4, Education          ,9,7.2,10.0,1
 2647, Raymond Lewis             ,13, Other , Brooksland             , 8th         ,5.3,5.3,72,8,2.2,3,2,5,0,1.6,110,14,5.0,2.0,0.7, Other              ,8,4.7,10.0,1
-2648, Jennifer Vang             ,19, Male  , Robertland             , 7th         ,7.0,7.5,79,6,1.6,2,9,5,0,1.5,45,17,2.9,1.3,1.3, Education          ,10,1.5,10.0,1
+2648, Jennifer Vang             ,19, Male  , Robertland             , 7th         ,7.0,7.5,79,6,1.6,2,9,5,0,1.5,45,17,2.9,1.3,1.3, Education          ,10,1.5,10.0,2
 2649, Kyle Escobar              ,14, Other , New Kimshire           , 12th        ,6.2,4.4,99,10,1.0,2,10,9,0,1.1,131,8,0.8,1.9,1.3, Other              ,3,9.5,10.0,2
 2650, Peter Bautista            ,15, Male  , Whiteside              , 10th        ,4.8,5.3,68,7,0.0,7,9,2,1,1.5,97,7,2.0,1.7,0.0, Social Media       ,3,3.8,9.2,2
 2651, Kelly Glover              ,19, Other , North Mikaylaton       , 9th         ,5.3,7.1,82,7,0.0,2,9,1,0,1.0,89,14,1.8,2.1,1.6, Other              ,8,3.4,10.0,2
@@ -2668,7 +2668,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2667, Kevin Sanchez             ,16, Female, Ryanland               , 12th        ,4.7,8.1,89,1,0.6,10,9,4,1,0.4,86,15,0.8,0.9,0.6, Browsing           ,7,4.9,7.1,0
 2668, Jo Graham                 ,14, Male  , West Shirleyside       , 12th        ,4.0,8.4,69,5,1.5,8,9,9,0,1.4,131,10,0.0,1.5,1.3, Gaming             ,4,6.2,5.9,0
 2669, Angel Walker              ,13, Female, Sethfurt               , 7th         ,2.2,8.4,96,10,0.0,10,4,9,0,1.2,49,11,2.1,1.4,1.9, Education          ,6,6.8,4.7,0
-2670, Daniel Glover             ,13, Female, New Randystad          , 9th         ,4.8,5.8,92,1,2.5,6,1,9,1,0.8,91,15,3.4,1.7,0.5, Social Media       ,1,9.4,10.0,1
+2670, Daniel Glover             ,13, Female, New Randystad          , 9th         ,4.8,5.8,92,1,2.5,6,1,9,1,0.8,91,15,3.4,1.7,0.5, Social Media       ,1,9.4,10.0,2
 2671, Deborah Gonzalez          ,16, Other , North Julieland        , 8th         ,11.5,8.6,96,0,1.3,3,1,10,0,0.2,58,12,3.0,0.0,1.4, Browsing           ,5,4.8,10.0,1
 2672, Karen Arnold              ,15, Male  , South Darryl           , 9th         ,5.8,8.2,62,2,0.0,8,7,7,1,1.1,138,16,3.8,2.6,1.5, Browsing           ,1,4.1,10.0,1
 2673, Parker Brown              ,15, Male  , West Anthonyview       , 9th         ,7.6,4.5,78,8,1.7,6,10,9,1,0.0,33,17,1.1,2.6,0.0, Social Media       ,8,6.6,10.0,1
@@ -2680,7 +2680,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2679, Yolanda Diaz              ,14, Female, South Michael          , 12th        ,3.8,4.9,93,8,2.8,5,5,3,0,0.2,47,10,3.6,2.0,1.1, Other              ,1,6.9,9.9,2
 2680, Ruth Goodwin              ,17, Female, Port Jackmouth         , 11th        ,5.0,8.1,65,9,1.1,6,10,7,1,0.7,84,18,2.2,1.7,0.6, Social Media       ,7,4.7,10.0,2
 2681, Carol White               ,17, Male  , Hallland               , 12th        ,2.6,8.3,100,8,0.5,10,3,9,1,1.6,123,19,0.5,0.0,0.7, Gaming             ,7,6.7,5.2,0
-2682, Frank Williamson          ,19, Male  , West Ralphhaven        , 12th        ,6.2,8.2,59,0,1.8,9,6,5,1,1.4,104,14,2.9,2.1,1.2, Other              ,2,4.7,10.0,1
+2682, Frank Williamson          ,19, Male  , West Ralphhaven        , 12th        ,6.2,8.2,59,0,1.8,9,6,5,1,1.4,104,14,2.9,2.1,1.2, Other              ,2,4.7,10.0,2
 2683, Jonathan Jimenez          ,17, Male  , East Danielmouth       , 11th        ,4.6,4.7,88,6,1.9,8,1,6,1,1.6,66,19,1.9,0.5,0.7, Browsing           ,6,7.1,9.8,2
 2684, Tom Hall                  ,16, Male  , Kathyland              , 12th        ,3.2,6.7,81,8,0.8,1,8,8,1,0.5,75,6,3.8,0.8,1.5, Browsing           ,10,4.8,7.2,0
 2685, Jane Carpenter            ,16, Male  , Snyderhaven            , 8th         ,5.9,7.7,93,3,1.5,7,1,10,1,0.9,99,11,3.2,1.7,1.0, Other              ,3,8.4,10.0,2
@@ -2691,7 +2691,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2690, Gabriela Mason            ,14, Male  , Frostfurt              , 12th        ,8.3,7.9,59,10,0.5,9,5,4,1,0.3,117,19,1.6,2.0,2.0, Education          ,9,3.7,10.0,1
 2691, Kimberly Gonzalez         ,17, Other , Johnsonbury            , 11th        ,7.7,9.3,68,7,0.0,6,3,3,1,0.1,73,13,3.3,0.0,0.0, Education          ,10,6.5,10.0,2
 2692, Cory Wade                 ,19, Male  , Aliciaburgh            , 11th        ,3.6,7.4,97,4,0.8,6,5,7,1,0.8,32,8,3.0,0.4,2.3, Education          ,8,8.3,5.5,0
-2693, Margaret Ortega           ,16, Female, South Joshuaton        , 12th        ,4.6,6.3,74,0,1.4,8,9,9,0,0.5,58,12,3.3,0.3,0.8, Social Media       ,4,10.1,8.6,2
+2693, Margaret Ortega           ,16, Female, South Joshuaton        , 12th        ,4.6,6.3,74,0,1.4,8,9,9,0,0.5,58,12,3.3,0.3,0.8, Social Media       ,4,10.1,8.6,0
 2694, Sandra Ellis              ,18, Other , North Elizabethfort    , 7th         ,4.5,7.3,50,9,0.0,7,8,10,0,1.7,28,6,1.3,2.2,1.7, Browsing           ,7,3.6,6.1,0
 2695, Gary Hayes                ,15, Other , Rhodeschester          , 8th         ,6.2,6.2,56,1,0.3,9,2,8,0,1.4,89,15,2.4,1.7,0.9, Gaming             ,8,6.3,10.0,1
 2696, Angela Williams           ,14, Other , Claytonberg            , 12th        ,4.1,6.8,78,3,1.0,3,7,10,1,1.9,103,20,3.0,0.2,2.0, Other              ,1,8.1,10.0,2
@@ -2733,7 +2733,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2732, Sheila Wright             ,16, Male  , Sandraburgh            , 12th        ,4.6,5.9,81,7,1.5,6,1,7,0,1.2,53,5,0.4,2.0,1.7, Browsing           ,6,9.5,6.1,0
 2733, Rodney Sparks             ,14, Male  , New Rebeccastad        , 11th        ,2.1,6.7,71,10,2.1,4,1,8,0,1.2,22,7,3.2,1.4,1.5, Browsing           ,7,7.4,5.2,0
 2734, Robert Silva              ,17, Male  , East Rachelborough     , 10th        ,6.2,6.7,96,8,0.0,5,2,6,0,2.1,35,19,3.9,0.7,2.0, Education          ,3,6.6,10.0,1
-2735, April Chen                ,19, Female, Morristown             , 11th        ,5.6,4.5,51,2,1.4,9,4,4,0,1.1,143,11,1.7,1.6,0.5, Social Media       ,3,8.5,10.0,1
+2735, April Chen                ,19, Female, Morristown             , 11th        ,5.6,4.5,51,2,1.4,9,4,4,0,1.1,143,11,1.7,1.6,0.5, Social Media       ,3,8.5,10.0,2
 2736, Michael Gibson            ,16, Male  , Carolport              , 12th        ,7.8,3.9,82,4,0.4,10,1,2,1,1.1,96,5,2.2,2.4,1.5, Social Media       ,7,4.4,10.0,1
 2737, Shelley Kim               ,14, Female, Gabrielleside          , 12th        ,6.2,6.6,74,8,0.0,8,1,8,0,1.4,84,13,1.2,1.0,0.0, Other              ,3,7.4,9.4,2
 2738, Paul Church               ,17, Female, Katelynborough         , 12th        ,8.0,5.8,95,5,0.1,6,4,9,0,0.3,136,6,3.2,1.7,0.5, Other              ,5,8.4,10.0,1
@@ -2774,7 +2774,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2773, Andrew Huber              ,13, Male  , East Michelleland      , 11th        ,4.2,4.2,70,2,0.0,10,2,10,0,1.5,80,14,2.4,0.0,1.1, Other              ,4,4.6,8.9,2
 2774, Samantha Johnson          ,18, Other , North Caitlin          , 11th        ,5.4,9.1,98,2,0.0,6,7,1,0,1.4,29,19,3.1,2.4,1.4, Education          ,3,3.9,10.0,2
 2775, Leah Collins              ,14, Other , East Amandastad        , 9th         ,3.5,8.0,88,4,1.1,8,2,7,1,1.3,38,15,2.8,1.9,1.6, Browsing           ,5,6.4,8.0,0
-2776, David Maxwell             ,14, Male  , North Nicoleside       , 7th         ,3.8,3.9,100,8,1.2,5,2,5,0,0.5,135,5,0.0,2.5,2.3, Education          ,3,3.9,8.0,0
+2776, David Maxwell             ,14, Male  , North Nicoleside       , 7th         ,3.8,3.9,100,8,1.2,5,2,5,0,0.5,135,5,0.0,2.5,2.3, Education          ,3,3.9,8.0,2
 2777, Richard Holder            ,18, Male  , East Paul              , 11th        ,6.6,7.5,79,7,0.0,10,7,9,1,0.4,26,16,2.3,2.3,0.6, Other              ,3,3.8,10.0,2
 2778, Andrew Lambert            ,13, Male  , New Kevin              , 11th        ,5.4,6.1,82,5,0.8,8,6,8,1,1.6,79,5,2.1,1.6,0.0, Gaming             ,3,7.9,8.6,0
 2779, Edward Melton             ,13, Other , North William          , 9th         ,4.4,5.7,75,9,1.8,5,5,9,0,0.7,76,13,2.9,0.6,1.6, Other              ,7,9.9,9.2,2
@@ -2870,7 +2870,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2869, Linda Andersen            ,14, Male  , Dannyport              , 12th        ,6.8,6.8,87,2,0.6,7,9,2,0,1.3,73,9,3.8,1.1,2.0, Education          ,10,7.2,10.0,2
 2870, Juan Travis               ,19, Female, Scottside              , 11th        ,7.9,7.9,91,6,0.6,4,7,6,0,1.2,79,9,2.3,3.3,0.3, Gaming             ,2,9.4,10.0,1
 2871, Melissa Rivera            ,14, Female, North Jaredberg        , 9th         ,5.1,7.4,98,4,1.4,4,9,10,0,1.8,105,8,1.5,1.3,1.9, Education          ,7,5.0,7.9,0
-2872, Natalie Phillips          ,18, Female, Williamtown            , 11th        ,5.7,9.0,61,4,1.3,9,7,6,0,0.1,133,9,4.4,1.8,0.1, Social Media       ,1,6.0,10.0,1
+2872, Natalie Phillips          ,18, Female, Williamtown            , 11th        ,5.7,9.0,61,4,1.3,9,7,6,0,0.1,133,9,4.4,1.8,0.1, Social Media       ,1,6.0,10.0,2
 2873, Paul Dunn                 ,16, Other , New Deniseville        , 7th         ,3.1,4.2,61,9,1.1,10,3,7,1,1.1,112,11,2.2,0.4,1.7, Gaming             ,6,4.2,8.0,0
 2874, Jessica Berg              ,18, Male  , Carsonshire            , 7th         ,0.6,7.8,74,0,1.1,9,3,2,0,0.2,142,17,3.7,1.7,1.1, Browsing           ,10,6.2,8.3,2
 2875, Joseph Adams              ,13, Female, Deniseville            , 10th        ,3.7,4.3,67,9,1.0,4,9,1,0,1.0,22,17,2.8,1.2,0.8, Browsing           ,5,10.4,9.4,2
@@ -2895,7 +2895,7 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2894, Scott Whitaker            ,16, Male  , Port Cherylland        , 7th         ,2.6,5.5,52,2,1.8,10,7,9,0,1.2,29,19,2.9,2.5,0.7, Browsing           ,2,2.9,9.6,2
 2895, Laura Carter              ,17, Other , Port Tracytown         , 9th         ,6.7,5.2,89,2,0.2,8,9,6,1,1.4,76,5,3.7,1.2,0.8, Browsing           ,8,5.4,10.0,2
 2896, Ronald Jones              ,15, Other , Ramirezstad            , 8th         ,5.0,4.1,54,7,0.0,1,8,5,1,1.6,136,18,2.8,2.5,0.1, Browsing           ,6,6.4,10.0,1
-2897, Kathleen Fischer          ,14, Female, Westburgh              , 9th         ,4.9,4.1,54,8,1.6,5,10,9,1,0.7,82,8,1.8,1.0,1.9, Gaming             ,4,10.3,8.9,2
+2897, Kathleen Fischer          ,14, Female, Westburgh              , 9th         ,4.9,4.1,54,8,1.6,5,10,9,1,0.7,82,8,1.8,1.0,1.9, Gaming             ,4,10.3,8.9,0
 2898, Anthony Ewing             ,15, Female, Lake Melissahaven      , 7th         ,5.5,6.5,54,2,0.7,10,10,7,1,1.5,36,15,1.8,1.8,0.8, Education          ,2,8.2,9.6,2
 2899, Paula Walters             ,14, Female, Hannahside             , 8th         ,7.0,4.4,56,10,2.4,7,6,8,0,1.1,25,6,2.5,3.4,1.0, Browsing           ,7,7.0,10.0,1
 2900, Tyler Wilson              ,15, Female, Fryehaven              , 11th        ,5.7,5.4,51,1,0.0,3,10,2,1,0.7,67,10,4.0,1.2,1.6, Other              ,8,8.3,10.0,2
@@ -2987,11 +2987,11 @@ ID,Name,Age,Gender,Location,School_Grade,Daily_Usage_Hours,Sleep_Hours,Academic_
 2986, Karen Webb                ,18, Other , New David              , 10th        ,2.2,4.2,65,8,0.6,2,5,10,0,2.0,42,11,2.9,0.2,2.2, Browsing           ,1,8.6,6.2,0
 2987, Jesus Miller              ,16, Female, Ambermouth             , 12th        ,6.4,5.9,81,9,1.4,3,6,6,0,0.4,27,12,2.0,1.7,1.5, Gaming             ,3,5.9,10.0,2
 2988, Miss Emily Jenkins DDS    ,13, Other , South Theresa          , 12th        ,6.0,7.0,55,7,0.2,3,6,7,0,1.1,134,14,2.1,1.1,2.0, Other              ,7,5.0,10.0,2
-2989, Angela Lyons              ,14, Male  , Howebury               , 7th         ,6.4,5.1,50,8,0.5,2,4,9,0,1.0,82,15,3.3,0.2,0.8, Education          ,10,7.5,10.0,1
-2990, Christine Davenport       ,18, Other , East Jeffreyburgh      , 10th        ,5.1,7.1,93,9,2.3,2,2,8,0,0.4,25,6,3.8,1.4,1.1, Browsing           ,6,6.8,8.4,2
+2989, Angela Lyons              ,14, Male  , Howebury               , 7th         ,6.4,5.1,50,8,0.5,2,4,9,0,1.0,82,15,3.3,0.2,0.8, Education          ,10,7.5,10.0,2
+2990, Christine Davenport       ,18, Other , East Jeffreyburgh      , 10th        ,5.1,7.1,93,9,2.3,2,2,8,0,0.4,25,6,3.8,1.4,1.1, Browsing           ,6,6.8,8.4,0
 2991, Lauren Ballard            ,13, Female, East John              , 10th        ,2.8,5.6,92,4,1.1,7,10,7,1,1.1,77,10,3.7,3.4,0.7, Social Media       ,5,7.1,10.0,2
 2992, Christina Davila          ,16, Male  , Heatherfurt            , 11th        ,6.3,5.7,87,8,2.9,6,1,8,1,0.2,36,5,2.1,2.3,2.0, Social Media       ,8,6.6,9.6,2
-2993, Joseph Watkins            ,15, Other , Emilystad              , 10th        ,3.2,4.3,71,8,2.1,6,6,8,1,1.3,28,10,4.9,0.0,0.5, Browsing           ,1,10.0,8.5,2
+2993, Joseph Watkins            ,15, Other , Emilystad              , 10th        ,3.2,4.3,71,8,2.1,6,6,8,1,1.3,28,10,4.9,0.0,0.5, Browsing           ,1,10.0,8.5,0
 2994, Sandra Acevedo            ,17, Other , Robertsville           , 12th        ,9.0,6.9,84,0,0.6,1,2,7,1,0.6,26,6,1.9,1.1,2.1, Social Media       ,2,7.4,10.0,2
 2995, Calvin Larsen             ,17, Female, Marieland              , 12th        ,3.7,9.6,67,2,0.3,10,6,9,0,1.0,95,7,1.3,0.0,1.1, Social Media       ,8,6.1,3.5,0
 2996, Jesus Yates               ,16, Female, New Jennifer           , 12th        ,3.9,6.4,53,4,0.9,7,10,2,1,0.3,80,15,2.7,1.8,1.0, Other              ,8,9.4,9.8,2
