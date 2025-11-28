@@ -1,0 +1,6 @@
+Age,Gender,Daily_Usage_Hours,Weekend_Usage_Hours,Sleep_Hours,Academic_Performance,Social_Interactions,Anxiety_Level,Depression_Level,Self_Esteem,Parental_Control,Phone_Checks_Per_Day,Time_on_Social_Media,Time_on_Gaming,Time_on_Education,Exercise_Hours,Apps_Used_Daily,Screen_Time_Before_Bed,Family_Communication,Addiction_Level,Cluster_Predito,Perfil_Risco,Confianca
+15,Male,2.5,3.0,8,85,8,3,2,8,7,30,2,1.0,2.0,1.5,8,0.5,8,25,6,,0.09
+17,Female,8.0,10.0,5,60,3,8,7,4,2,120,7,5.0,1.0,0.5,25,3.0,3,85,6,,0.02
+16,Male,5.5,6.0,6,70,5,6,5,6,5,80,5,3.0,1.5,1.0,15,2.0,5,60,6,,0.03
+14,Female,1.5,2.0,9,90,9,2,1,9,8,20,1,0.5,3.0,2.0,5,0.2,9,15,6,,0.18
+18,Male,9.5,12.0,4,55,2,9,8,3,1,150,8,6.0,0.5,0.0,30,4.0,2,95,6,,0.02

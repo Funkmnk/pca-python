@@ -1,0 +1,4 @@
+Cluster,Age,Daily_Usage_Hours,Sleep_Hours,Academic_Performance,Social_Interactions,Anxiety_Level,Depression_Level,Self_Esteem,Parental_Control,Phone_Checks_Per_Day,Time_on_Social_Media
+0,15.82,3.4,6.9,74.65,5.17,5.44,5.41,5.65,0.52,71.02,2.08
+1,16.05,6.75,6.03,75.02,4.95,5.63,5.47,5.46,0.5,95.99,2.95
+2,16.02,5.07,6.49,75.11,5.14,5.66,5.49,5.53,0.5,83.43,2.51
