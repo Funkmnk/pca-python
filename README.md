@@ -85,8 +85,8 @@ Este projeto utiliza **uv** para gestão de dependências e ambiente virtual.
 
 ### 1. Clone o repositório:
 ```bash
-git clone 
-cd 
+git clone https://github.com/Funkmnk/teen-smartphone-impact.git
+cd teen-smartphone-impact
 ````
 
 ### 2\. Instale as dependências:
