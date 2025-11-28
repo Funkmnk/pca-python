@@ -437,7 +437,7 @@ with open('../models/scaler_kmeans.pkl', 'wb') as f:
 
 # Salvar modelo (K-Means)
 with open('../models/kmeans_model.pkl', 'wb') as f:
-    pickle.dump(kmeans, f)
+    pickle.dump(kmeans_final, f)
 
 # Salvando perfis dos clusters
 perfis_clusters = {

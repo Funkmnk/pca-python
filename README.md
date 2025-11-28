@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Segmentar adolescentes em grupos de risco de vício em smartphones e identificar os principais fatores comportamentais associados, utilizando técnicas de Machine Learning (LDA e K-Means) com validação estatística rigorosa.
+Segmentar adolescentes em grupos de risco de vício em smartphones e identificar os principais fatores comportamentais associados, utilizando técnicas de Machine Learning (LDA e K-Means) com validação estatística.
 
 ---
 
